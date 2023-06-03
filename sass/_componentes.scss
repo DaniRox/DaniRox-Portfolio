@@ -1,0 +1,236 @@
+@use "globales";
+
+@mixin proyecto {
+    width: 80%;
+    height: 320px;
+    background-color: globales.$noche;
+    border-radius: 15px;
+}
+
+@mixin textos {
+    color: globales.$marfil;
+    font-family: globales.$fira;
+    font-weight: 300px;
+    letter-spacing: 0.3px;
+    line-height: 1.2;
+}
+
+.titulo {
+    font-family: globales.$blinker;
+    font-size: 80px;
+    font-weight: bold;
+    color: globales.$bronce;
+}
+
+.subtitulo {
+    font-family: globales.$blinker;
+    font-size: 27px;
+    font-weight: bolder;
+    color: globales.$marfil;
+    margin-left: 4px;
+}
+
+.titulo-seccion {
+    font-family: globales.$blinker;
+    font-size: 33px;
+    font-weight: bold;
+    color: globales.$amarillo;
+    margin-bottom: 40px;
+    margin-top: 90px;
+}
+
+#proyecto {
+    @include proyecto();
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+
+    .div-img-proyecto {
+        width: auto;
+        height: 190px;
+        border-radius: 15px 15px 0 0;
+        overflow: hidden;
+
+        .img-proyecto {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .div-txt-proyecto {
+        padding: 10px;
+        
+        .titulo-proyecto {
+            font-family: globales.$fira-sans;
+            font-size: 20px;
+            font-weight: 500;
+            color: globales.$marfil;
+            margin-bottom: 2px;
+        }
+
+        .txt-proyecto {
+            font-family: globales.$blinker;
+            font-size: 14px;
+            font-weight: 200;
+            color: globales.$marfil;
+        }
+    }
+
+    .div-btn-proyecto {
+        @include globales.centrar();
+        justify-content: center;
+        height: 60px;
+        .btn {
+            position: absolute;
+            background-color: globales.$pidra-luna;
+            border: none;
+            border-radius: 5px;
+            width: 60px;
+            height: 30px;
+            margin: 0;
+            a {
+                color: globales.$marfil;
+                font-family: globales.$blinker;
+                font-size: 16px;
+                font-weight: 200;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.img-sobre-mi {
+    width: 200px;
+    display: none;
+}
+
+.subtitulo-sobre-mi {
+    color: globales.$icterina;
+    font-family: globales.$blinker;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 0.7;
+    margin-bottom: 6px;
+}
+
+.txt-sobre-mi {
+    @include textos();
+    font-size: 16px;
+}
+
+.textos-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .txt-contacto {
+        @include textos();
+        color: globales.$bronce;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    
+    .btn-contacto {
+        background-color: transparent;
+        border: none;
+        margin-bottom: 60px;
+    
+        a {
+            text-decoration: none;
+    
+            .icon {
+                width: 30px;
+            }
+        }
+    }
+}
+
+form {
+    width: 280px;
+    height: 330px;
+    background-color: globales.$marfil;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+
+    .div-form {
+        margin: 25px 30px 25px 30px;
+        
+        label {
+            font-family: globales.$blinker;
+            font-size: 14px;
+            font-weight: normal;
+            color: globales.$noche;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            margin-bottom: 15px;
+            background-image: linear-gradient(to right, globales.$marfil, globales.$pidra-luna);
+            border: none;
+            width: 100%;
+            height: 33px;
+            border-radius: 5px;
+            padding: 0;
+
+            &:focus-visible {
+                outline: none;
+            }
+
+        }
+
+        .div-mensaje {
+            margin-bottom: 15px;
+
+            textarea {
+                color: globales.$gris-payne;
+                font-family: globales.$blinker;
+                font-size: 14px;
+                font-weight: 100;
+                width: 100%;
+                height: 90px;
+                padding: 0;
+                margin-bottom: 0;
+                background-image: linear-gradient(to right, globales.$marfil, globales.$pidra-luna);
+                border: none;
+                border-radius: 5px;
+                resize: none;
+                overflow: hidden;
+            }
+        }
+
+        .div-btn {
+            display: flex;
+            justify-content: flex-end;
+
+            .btn {
+                background-color: globales.$pidra-luna;
+                border: none;
+                border-radius: 5px;
+                width: 80px;
+                height: 30px;
+                margin: 0 0 10px 0;
+                a {
+                    color: globales.$marfil;
+                    font-family: globales.$blinker;
+                    font-size: 16px;
+                    font-weight: 400;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        p {
+            font-family: globales.$blinker;
+            font-size: 14px;
+            font-weight: 200;
+            color: globales.$noche;
+            margin-bottom: 5px;
+        }
+
+
+    }
+
+
+}
+
