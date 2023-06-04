@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@300;600;700&family=Fira+Sans+Condensed:wght@300;400;500&family=Fira+Sans:wght@500&display=swap");
 @keyframes tracking-in-expand {
   0% {
     letter-spacing: -0.5em;
@@ -168,7 +167,7 @@ body main #contacto #div-contacto {
 .subtitulo-sobre-mi {
   color: #F0F04B;
   font-family: "Blinker", sans-serif;
-  font-size: 3rem;
+  font-size: 2.6rem;
   font-weight: bold;
   line-height: 0.7;
   margin-bottom: 6px;
