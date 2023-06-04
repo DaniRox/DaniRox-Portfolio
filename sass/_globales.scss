@@ -43,7 +43,7 @@ body {
                     a {
                         color: $icterina;
                         font-family: $fira-sans;
-                        font-size: 20px;
+                        font-size: 1.3rem;
                         font-weight: 500;
                         text-decoration: none;
                     }
@@ -89,9 +89,6 @@ body {
             @include centrar();
 
             #div-contacto {
-                background-color: $marfil;
-                border-radius: 15px;
-                width: 80%;
                 margin: 0 30px 60px 30px;
             }
         }

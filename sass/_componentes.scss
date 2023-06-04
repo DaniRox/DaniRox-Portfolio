@@ -17,14 +17,14 @@
 
 .titulo {
     font-family: globales.$blinker;
-    font-size: 80px;
+    font-size: 8rem;
     font-weight: bold;
     color: globales.$bronce;
 }
 
 .subtitulo {
     font-family: globales.$blinker;
-    font-size: 27px;
+    font-size: 2.2rem;
     font-weight: bolder;
     color: globales.$marfil;
     margin-left: 4px;
@@ -32,7 +32,7 @@
 
 .titulo-seccion {
     font-family: globales.$blinker;
-    font-size: 33px;
+    font-size: 2rem;
     font-weight: bold;
     color: globales.$amarillo;
     margin-bottom: 40px;
@@ -62,7 +62,7 @@
         
         .titulo-proyecto {
             font-family: globales.$fira-sans;
-            font-size: 20px;
+            font-size: 1.3rem;
             font-weight: 500;
             color: globales.$marfil;
             margin-bottom: 2px;
@@ -70,7 +70,7 @@
 
         .txt-proyecto {
             font-family: globales.$blinker;
-            font-size: 14px;
+            font-size: 1rem;
             font-weight: 200;
             color: globales.$marfil;
         }
@@ -91,7 +91,7 @@
             a {
                 color: globales.$marfil;
                 font-family: globales.$blinker;
-                font-size: 16px;
+                font-size: 1rem;
                 font-weight: 200;
                 text-decoration: none;
             }
@@ -107,7 +107,7 @@
 .subtitulo-sobre-mi {
     color: globales.$icterina;
     font-family: globales.$blinker;
-    font-size: 60px;
+    font-size: 3rem;
     font-weight: bold;
     line-height: 0.7;
     margin-bottom: 6px;
@@ -115,7 +115,7 @@
 
 .txt-sobre-mi {
     @include textos();
-    font-size: 16px;
+    font-size: 1.1rem;
 }
 
 .textos-contacto {
@@ -124,7 +124,7 @@
     align-items: center;
     .txt-contacto {
         @include textos();
-        color: globales.$bronce;
+        color: globales.$marfil;
         margin-bottom: 25px;
         text-align: center;
     }
@@ -157,7 +157,7 @@ form {
         
         label {
             font-family: globales.$blinker;
-            font-size: 14px;
+            font-size: 1rem;
             font-weight: normal;
             color: globales.$noche;
             display: block;
@@ -185,7 +185,7 @@ form {
             textarea {
                 color: globales.$gris-payne;
                 font-family: globales.$blinker;
-                font-size: 14px;
+                font-size: 1rem;
                 font-weight: 100;
                 width: 100%;
                 height: 90px;
@@ -213,7 +213,7 @@ form {
                 a {
                     color: globales.$marfil;
                     font-family: globales.$blinker;
-                    font-size: 16px;
+                    font-size: 1rem;
                     font-weight: 400;
                     text-decoration: none;
                 }
@@ -222,9 +222,9 @@ form {
 
         p {
             font-family: globales.$blinker;
-            font-size: 14px;
+            font-size: 1rem;
             font-weight: 200;
-            color: globales.$noche;
+            color: globales.$marfil;
             margin-bottom: 5px;
         }
 

@@ -32,7 +32,7 @@ body header #nav-bar ul li {
 body header #nav-bar ul li a {
   color: #F0F04B;
   font-family: "Fira Sans", sans-serif;
-  font-size: 20px;
+  font-size: 1.3rem;
   font-weight: 500;
   text-decoration: none;
 }
@@ -74,22 +74,19 @@ body main #contacto {
   align-items: center;
 }
 body main #contacto #div-contacto {
-  background-color: #F5FCF0;
-  border-radius: 15px;
-  width: 80%;
   margin: 0 30px 60px 30px;
 }
 
 .titulo {
   font-family: "Blinker", sans-serif;
-  font-size: 80px;
+  font-size: 8rem;
   font-weight: bold;
   color: #1E2A33;
 }
 
 .subtitulo {
   font-family: "Blinker", sans-serif;
-  font-size: 27px;
+  font-size: 2.2rem;
   font-weight: bolder;
   color: #F5FCF0;
   margin-left: 4px;
@@ -97,7 +94,7 @@ body main #contacto #div-contacto {
 
 .titulo-seccion {
   font-family: "Blinker", sans-serif;
-  font-size: 33px;
+  font-size: 2rem;
   font-weight: bold;
   color: #F5B700;
   margin-bottom: 40px;
@@ -128,14 +125,14 @@ body main #contacto #div-contacto {
 }
 #proyecto .div-txt-proyecto .titulo-proyecto {
   font-family: "Fira Sans", sans-serif;
-  font-size: 20px;
+  font-size: 1.3rem;
   font-weight: 500;
   color: #F5FCF0;
   margin-bottom: 2px;
 }
 #proyecto .div-txt-proyecto .txt-proyecto {
   font-family: "Blinker", sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 200;
   color: #F5FCF0;
 }
@@ -158,7 +155,7 @@ body main #contacto #div-contacto {
 #proyecto .div-btn-proyecto .btn a {
   color: #F5FCF0;
   font-family: "Blinker", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 200;
   text-decoration: none;
 }
@@ -171,7 +168,7 @@ body main #contacto #div-contacto {
 .subtitulo-sobre-mi {
   color: #F0F04B;
   font-family: "Blinker", sans-serif;
-  font-size: 60px;
+  font-size: 3rem;
   font-weight: bold;
   line-height: 0.7;
   margin-bottom: 6px;
@@ -183,7 +180,7 @@ body main #contacto #div-contacto {
   font-weight: 300px;
   letter-spacing: 0.3px;
   line-height: 1.2;
-  font-size: 16px;
+  font-size: 1.1rem;
 }
 
 .textos-contacto {
@@ -197,7 +194,7 @@ body main #contacto #div-contacto {
   font-weight: 300px;
   letter-spacing: 0.3px;
   line-height: 1.2;
-  color: #1E2A33;
+  color: #F5FCF0;
   margin-bottom: 25px;
   text-align: center;
 }
@@ -226,7 +223,7 @@ form .div-form {
 }
 form .div-form label {
   font-family: "Blinker", sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: normal;
   color: #0F0F0F;
   display: block;
@@ -250,7 +247,7 @@ form .div-form .div-mensaje {
 form .div-form .div-mensaje textarea {
   color: #587291;
   font-family: "Blinker", sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 100;
   width: 100%;
   height: 90px;
@@ -277,14 +274,14 @@ form .div-form .div-btn .btn {
 form .div-form .div-btn .btn a {
   color: #F5FCF0;
   font-family: "Blinker", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   text-decoration: none;
 }
 form .div-form p {
   font-family: "Blinker", sans-serif;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 200;
-  color: #0F0F0F;
+  color: #F5FCF0;
   margin-bottom: 5px;
 }/*# sourceMappingURL=styles.css.map */
