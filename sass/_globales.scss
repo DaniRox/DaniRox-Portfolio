@@ -52,6 +52,9 @@ body {
             @include centrar();
             height: 600px;
             padding-top: 250px;
+            background-image: url(../assets/img/img-fondo-m.png);
+            background-repeat: no-repeat;
+            background-position: left top;
 
             #div-inicio {
                 display: flex;
