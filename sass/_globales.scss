@@ -1,2 +1,19 @@
 @use "componentes";
 
+#navbar {
+    display: flex;
+    justify-content: center;
+
+    #nav-bar {
+        width: 260px;
+        height: 60px;
+        background: componentes.$vara-oro;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 1rem;
+    }
+}
+
