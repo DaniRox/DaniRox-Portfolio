@@ -26,9 +26,6 @@ body main #inicio {
   align-items: center;
   height: 600px;
   padding-top: 250px;
-  background-image: url(/assets/img/img-fondo-m.png);
-  background-repeat: no-repeat;
-  background-position: left top;
 }
 body main #inicio #div-inicio {
   display: flex;
