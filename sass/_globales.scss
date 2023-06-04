@@ -21,9 +21,6 @@ $marfil: #F5FCF0;
 
 body {
     background-color: $bronce;
-    background-image: url(/assets/img/img-fondo-m.png);
-    background-repeat: no-repeat;
-    background-position: left top;
 
     header {
         #nav-bar {
@@ -55,8 +52,11 @@ body {
     main {
         #inicio {
             @include centrar();
-            height: 500px;
-            margin-top: 250px;
+            height: 600px;
+            padding-top: 250px;
+            background-image: url(/assets/img/img-fondo-m.png);
+            background-repeat: no-repeat;
+            background-position: left top;
 
             #div-inicio {
                 display: flex;

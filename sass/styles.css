@@ -13,9 +13,6 @@
 }
 body {
   background-color: #1E2A33;
-  background-image: url(/assets/img/img-fondo-m.png);
-  background-repeat: no-repeat;
-  background-position: left top;
 }
 body header #nav-bar {
   display: none;
@@ -40,8 +37,11 @@ body main #inicio {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 500px;
-  margin-top: 250px;
+  height: 600px;
+  padding-top: 250px;
+  background-image: url(/assets/img/img-fondo-m.png);
+  background-repeat: no-repeat;
+  background-position: left top;
 }
 body main #inicio #div-inicio {
   display: flex;
