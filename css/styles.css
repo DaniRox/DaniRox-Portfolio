@@ -7,11 +7,22 @@ ul {
   justify-content: space-evenly;
   align-items: center;
 }
-ul li {
-  padding: 2px;
-}
 ul li a img {
-  width: 30px;
+  color: #1E2A33;
+  width: 40px;
+  display: flex;
+  transition: transform 50s, filter 50s;
+}
+ul li a:hover {
+  display: block;
+  transform: scale(1.1);
+  filter: drop-shadow(0px 0px 3px #0F0F0F);
+}
+
+.titulo {
+  font-family: "Blinker", sans-serif;
+  font-weight: 800;
+  font-size: 6rem;
 }
 
 #navbar {
@@ -19,15 +30,15 @@ ul li a img {
   justify-content: center;
 }
 #navbar #nav-bar {
-  width: 260px;
-  height: 60px;
+  width: 370px;
+  height: 80px;
   background: #D69E02;
   border-radius: 10px;
   display: flex;
   justify-content: space-evenly;
   position: absolute;
   bottom: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

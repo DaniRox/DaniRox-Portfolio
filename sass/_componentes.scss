@@ -22,14 +22,27 @@ ul {
     align-items: center;
 
     li {
-        padding: 2px;
 
         a {
             
             img {
-                width: 30px;
+                color: $bronce;
+                width: 40px;
+                display: flex;
+                transition: transform 50s, filter 50s;
+            }
+
+            &:hover {
+                display: block;
+                transform: scale(1.1);
+                filter:drop-shadow(0px 0px 3px $noche);
             }
         }
     }
 }
 
+.titulo {
+    font-family: $blinker;
+    font-weight: 800;
+    font-size: 6rem;
+}

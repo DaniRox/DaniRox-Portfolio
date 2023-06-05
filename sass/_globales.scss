@@ -5,15 +5,15 @@
     justify-content: center;
 
     #nav-bar {
-        width: 260px;
-        height: 60px;
+        width: 370px;
+        height: 80px;
         background: componentes.$vara-oro;
         border-radius: 10px;
         display: flex;
         justify-content: space-evenly;
         position: absolute;
         bottom: 0;
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
     }
 }
 
