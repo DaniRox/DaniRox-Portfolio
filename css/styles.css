@@ -20,9 +20,18 @@ ul li a:hover {
 }
 
 .titulo {
+  color: #1E2A33;
   font-family: "Blinker", sans-serif;
   font-weight: 800;
   font-size: 6rem;
+}
+
+.subtitulo {
+  color: #F5FCF0;
+  font-family: "Blinker", sans-serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+  margin-left: 3px;
 }
 
 #navbar {
@@ -39,6 +48,22 @@ ul li a:hover {
   position: absolute;
   bottom: 0;
   margin-bottom: 1.5rem;
+}
+
+body {
+  background-image: url(/assets/img/img-fondo-m.png);
+}
+
+#inicio {
+  height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+#inicio #div-inicio {
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=styles.css.map */
