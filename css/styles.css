@@ -183,9 +183,50 @@ ul li a:active {
   }
 }
 
+.titulo-seccion {
+  color: #F5B700;
+  font-family: "Blinker", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+}
+
+#proyecto {
+  background-color: #64A1A9;
+  width: 250px;
+  height: 200px;
+  margin: 1.5rem;
+  border-radius: 10px;
+  border: 5px solid #64A1A9;
+}
+#proyecto .div-img-proyecto {
+  width: auto;
+  height: 80%;
+  overflow: hidden;
+  display: flex;
+  border-radius: 10px 10px 0 0;
+  justify-content: center;
+}
+#proyecto .div-img-proyecto .img-proyecto {
+  width: auto;
+  height: 100%;
+}
+#proyecto .titulo-proyecto {
+  color: #1E2A33;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin: 10px 0 0 3px;
+}
+
 #navbar {
+  width: 100%;
   display: flex;
   justify-content: center;
+  bottom: 0;
+  position: fixed;
 }
 #navbar #nav-bar {
   width: 70vw;
@@ -194,16 +235,19 @@ ul li a:active {
   border-radius: 10px;
   display: flex;
   justify-content: space-evenly;
-  position: absolute;
-  bottom: 0;
   margin-bottom: 1.5rem;
 }
 
-body {
+#home {
   background-color: #1E2A33;
   background-image: url(../assets/img/img-fondo-m.png);
   background-repeat: no-repeat;
   background-position: left top;
+}
+
+body {
+  background-color: #F5FCF0;
+  height: 100vh;
 }
 
 #inicio {
@@ -215,6 +259,18 @@ body {
   align-items: center;
 }
 #inicio #div-inicio {
+  display: flex;
+  flex-direction: column;
+}
+
+#galeria {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#galeria #div-proyectos {
   display: flex;
   flex-direction: column;
 }

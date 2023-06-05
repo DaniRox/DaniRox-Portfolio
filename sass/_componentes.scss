@@ -10,6 +10,8 @@ $vara-oro: #D69E02;
 $amarillo: #F5B700;
 $icterina: #F0F04B;
 $marfil: #F5FCF0;
+$canario: #FFE818;
+$topo: #968989;
 
 
 ul {
@@ -215,6 +217,43 @@ ul {
     }
 }
 
+.titulo-seccion {
+    color: $amarillo;
+    font-family: $blinker;
+    font-weight: 700;
+    font-size: 3rem;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+}
 
+#proyecto {
+    background-color: $pidra-luna;
+    width: 250px;
+    height: 200px;
+    margin: 1.5rem;
+    border-radius: 10px;
+    border: 5px solid $pidra-luna;
 
-  
+    .div-img-proyecto {
+        width: auto;
+        height: 80%;
+        overflow: hidden;
+        display: flex;
+        border-radius: 10px 10px 0 0;
+        justify-content: center;
+
+        .img-proyecto {
+            width: auto;
+            height: 100%;
+        }
+    }
+
+    .titulo-proyecto {
+        color: $bronce;
+        font-family: $fira;
+        font-weight: 500;
+        font-size: 1.2rem;
+        margin: 10px 0 0 3px;
+    }
+}
