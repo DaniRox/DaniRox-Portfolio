@@ -195,15 +195,15 @@ ul li a:active {
 
 #proyecto {
   background-color: #64A1A9;
-  width: 250px;
-  height: 200px;
+  width: 400px;
+  height: 350px;
   margin: 1.5rem;
   border-radius: 10px;
   border: 5px solid #64A1A9;
 }
 #proyecto .div-img-proyecto {
   width: auto;
-  height: 80%;
+  height: 85%;
   overflow: hidden;
   display: flex;
   border-radius: 10px 10px 0 0;
@@ -272,7 +272,9 @@ body {
 }
 #galeria #div-proyectos {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
