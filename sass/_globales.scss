@@ -19,14 +19,16 @@
 }
 
 #home {
+    height: 100vh;
     background-color: componentes.$bronce;
     background-image: url(../assets/img/img-fondo-m.png);
     background-repeat: no-repeat;
     background-position: left top;
+    overflow: hidden;
 }
 
 body {
-    background-color: componentes.$marfil;
+    background-color: componentes.$bronce;
     height: 100vh;
 }
 
@@ -52,6 +54,7 @@ body {
     align-items: center;
 
     #div-proyectos {
+        width: 80%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
