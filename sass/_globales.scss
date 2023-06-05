@@ -18,7 +18,10 @@
 }
 
 body {
-    background-image: url(./assets/img/img-fondo-m.png);
+    background-color: componentes.$bronce;
+    background-image: url(../assets/img/img-fondo-m.png);
+    background-repeat: no-repeat;
+    background-position: left top;
 }
 
 #inicio {
