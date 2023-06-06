@@ -1,5 +1,14 @@
 @use "componentes";
 
+@mixin seccion {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
 #navbar {
     width: 100%;
     display: flex;
@@ -43,12 +52,7 @@ body {
 }
 
 #galeria {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 5rem;
+    @include seccion();
 
     #div-proyectos {
         width: 95%;
@@ -58,4 +62,22 @@ body {
         justify-content: center;
         
     }
+}
+
+#sobre-mi {
+    @include seccion();
+    
+    #div-sobre-mi {
+        width: 95%;
+        display: flex;    
+    }
+}
+
+#contacto {
+    @include seccion();
+}
+
+footer {
+    bottom: 0;
+    display: flex;
 }

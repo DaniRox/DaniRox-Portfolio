@@ -265,3 +265,82 @@ ul {
         box-shadow: 0px 0px 3px $gris-payne;
     }
 }
+
+.img-sobre-mi {
+    width: 10rem;
+}
+
+.div-txt-sobre-mi {
+    font-family: $blinker;
+
+    .subtitulo-sobre-mi {
+        color: $icterina;
+        font-size: 2.3rem;
+        font-weight: 700;
+    }
+
+    .txt-sobre-mi {
+        color: $marfil;
+        font-size: 1.1rem;
+        font-weight: 100;
+    }
+}
+
+form {
+    background-color: $icterina;
+    width: 340px;
+    height: 310px;
+    margin: 2rem;
+    border-radius: 10px;
+    border: 5px solid $canario;
+    box-shadow: 0px 0px 10px $gris-payne;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+
+    .div-form {
+        width: 90%;
+        color: $bronce;
+        font-family: $blinker;
+
+        label {
+            width: 100%;
+            display: block;
+
+        }
+
+        input {
+            width: 100%;
+            display: block;
+            background-color: $marfil;
+            height: 33px;
+            border-radius: 5px;
+            padding: 0;
+            margin-bottom: 15px;
+            border: none;
+            
+            &:focus-visible {
+                outline: none;
+            }
+        }
+
+        textarea {
+            color: $bronce;
+            font-family: $blinker;
+            font-size: 1rem;
+            font-weight: 100;
+            width: 100%;
+            height: 90px;
+            padding: 0;
+            margin-bottom: 0;
+            background-image: $marfil;
+            border: none;
+            border-radius: 5px;
+            resize: none;
+            overflow: hidden;
+        }
+    }
+}
+
