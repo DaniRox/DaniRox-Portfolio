@@ -19,30 +19,26 @@
 }
 
 #home {
-    height: 100vh;
     background-color: componentes.$bronce;
     background-image: url(../assets/img/img-fondo-m.png);
     background-repeat: no-repeat;
     background-position: left top;
-    overflow: hidden;
 }
 
 body {
     background-color: componentes.$bronce;
-    height: 100vh;
 }
 
 #inicio {
-    height: 80vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-
     #div-inicio {
         display: flex;
         flex-direction: column;
+        margin-top: 35vh;
     }
 }
 
