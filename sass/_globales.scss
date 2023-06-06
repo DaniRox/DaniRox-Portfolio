@@ -19,7 +19,6 @@
 }
 
 #home {
-    height: 90vh;
     background-color: componentes.$bronce;
     background-image: url(../assets/img/img-fondo-m.png);
     background-repeat: no-repeat;
@@ -31,6 +30,7 @@ body {
 }
 
 #inicio {
+    height: 90vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -56,5 +56,6 @@ body {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        
     }
 }
