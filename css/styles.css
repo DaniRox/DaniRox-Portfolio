@@ -245,6 +245,7 @@ ul li a:active {
 }
 
 #home {
+  height: 90vh;
   background-color: #1E2A33;
   background-image: url(../assets/img/img-fondo-m.png);
   background-repeat: no-repeat;
@@ -265,7 +266,6 @@ body {
 #inicio #div-inicio {
   display: flex;
   flex-direction: column;
-  margin-top: 35vh;
 }
 
 #galeria {
