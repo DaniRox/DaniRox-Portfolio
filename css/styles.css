@@ -321,6 +321,38 @@ ul li a:active {
 }
 
 @media (min-width: 700px) {
+  ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  ul li a {
+    filter: drop-shadow(0px 0px 5px #0F0F0F);
+    transition: transform 5s;
+  }
+  ul li a img {
+    color: #1E2A33;
+    width: 2rem;
+    display: flex;
+  }
+  ul li a img:hover {
+    transform: scale(0.95);
+  }
+  ul li a img:hover {
+    transform: scale(0.9);
+  }
+  ul li a:hover {
+    display: block;
+    filter: drop-shadow(0px 0px 3px #1E2A33);
+  }
+  ul li a:active {
+    display: block;
+    filter: drop-shadow(0px 0px 3px #F0F04B);
+  }
   .div-contacto {
     flex-direction: row;
     justify-content: space-evenly;
@@ -396,7 +428,7 @@ body {
   margin-bottom: 5rem;
 }
 #sobre-mi #div-sobre-mi {
-  width: 95%;
+  width: 100vw;
   display: flex;
 }
 
@@ -416,6 +448,23 @@ footer {
 }
 
 @media (min-width: 700px) {
+  #navbar {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    position: fixed;
+  }
+  #navbar #nav-bar {
+    width: 6vw;
+    height: 24rem;
+    background: #D69E02;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1.5rem;
+  }
   #home {
     background-color: #1E2A33;
     background-image: url(../assets/img/img-fondo.png);

@@ -68,7 +68,7 @@ body {
     @include seccion();
     
     #div-sobre-mi {
-        width: 95%;
+        width: 100vw;
         display: flex;    
     }
 }
@@ -89,10 +89,32 @@ footer {
 }
 
 @media (min-width: 700px){
+    #navbar {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 2rem;
+        position: fixed;
+    
+        #nav-bar {
+            width: 6vw;
+            height: 24rem;
+            background: componentes.$vara-oro;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 1.5rem;
+        }
+
+    }
+
     #home {
         background-color: componentes.$bronce;
         background-image: url(../assets/img/img-fondo.png);
         background-repeat: no-repeat;
         background-position: left top;
     }
+
+
 }
