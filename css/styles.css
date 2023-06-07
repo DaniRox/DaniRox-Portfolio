@@ -192,8 +192,8 @@ ul li a:active {
 
 #proyecto {
   background-color: #64A1A9;
-  width: 340px;
-  height: 310px;
+  width: 24rem;
+  height: 20rem;
   margin: 2rem;
   border-radius: 10px;
   border: 5px solid #64A1A9;
@@ -313,7 +313,7 @@ form .div-form .div-btn .btn a {
 
 .iconos-contacto {
   width: 100%;
-  height: 30%;
+  height: 28%;
   background-color: #F0F04B;
   border: 3px solid #F5B700;
   border-radius: 10px;
@@ -491,6 +491,10 @@ body main #contacto, body main #galeria, body main #skills, body main #sobre-mi 
   flex-direction: column;
   justify-content: space-between;
 }
+body main #galeria {
+  height: 195vh;
+  align-items: center;
+}
 
 #inicio {
   height: 80vh;
@@ -506,6 +510,9 @@ body main #contacto, body main #galeria, body main #skills, body main #sobre-mi 
 }
 
 #footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
   display: flex;
   justify-content: center;
 }
