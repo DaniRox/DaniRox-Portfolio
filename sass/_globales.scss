@@ -134,10 +134,11 @@ body {
                 }
             }
 
-            #contacto {
+            #contacto, #galeria, #skills, #sobre-mi {
                 margin-left: 8rem;
                 flex-direction: row;
-                align-items: center;justify-content: space-around;
+                align-items: center;
+                justify-content: space-around;
             }
         }
 

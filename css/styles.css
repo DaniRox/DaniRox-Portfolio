@@ -199,6 +199,8 @@ ul li a:active {
   border: 5px solid #64A1A9;
   transition: transform 0.8s, box-shadow 0.8s;
   box-shadow: 0px 0px 10px #587291;
+  display: flex;
+  flex-direction: column;
 }
 #proyecto .div-img-proyecto {
   width: auto;
@@ -555,7 +557,7 @@ body main #galeria {
     margin-top: 2rem;
     display: flex;
   }
-  body main #contacto {
+  body main #contacto, body main #galeria, body main #skills, body main #sobre-mi {
     margin-left: 8rem;
     flex-direction: row;
     align-items: center;

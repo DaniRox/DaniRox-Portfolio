@@ -234,6 +234,8 @@ ul {
     border: 5px solid $pidra-luna;
     transition: transform 0.8s, box-shadow 0.8s;
     box-shadow: 0px 0px 10px $gris-payne;
+    display: flex;
+    flex-direction: column;
 
     .div-img-proyecto {
         width: auto;
