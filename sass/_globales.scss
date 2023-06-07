@@ -81,3 +81,12 @@ footer {
     bottom: 0;
     display: flex;
 }
+
+@media (min-width: 700px){
+    #home {
+        background-color: componentes.$bronce;
+        background-image: url(../assets/img/img-fondo.png);
+        background-repeat: no-repeat;
+        background-position: left top;
+    }
+}

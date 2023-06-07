@@ -245,9 +245,13 @@ ul li a:active {
   font-weight: 100;
 }
 
-form {
+.div-contacto {
+  display: flex;
+  flex-direction: column;
+}
+.div-contacto form {
   background-color: #F0F04B;
-  width: 340px;
+  width: 90vw;
   height: 310px;
   margin: 2rem;
   border-radius: 10px;
@@ -259,16 +263,16 @@ form {
   align-content: center;
   justify-content: space-evenly;
 }
-form .div-form {
+.div-contacto form .div-form {
   width: 90%;
   color: #1E2A33;
   font-family: "Blinker", sans-serif;
 }
-form .div-form label {
+.div-contacto form .div-form label {
   width: 100%;
   display: block;
 }
-form .div-form input {
+.div-contacto form .div-form input {
   width: 100%;
   display: block;
   background-color: #F5FCF0;
@@ -278,10 +282,10 @@ form .div-form input {
   margin-bottom: 15px;
   border: none;
 }
-form .div-form input:focus-visible {
+.div-contacto form .div-form input:focus-visible {
   outline: none;
 }
-form .div-form textarea {
+.div-contacto form .div-form textarea {
   color: #1E2A33;
   font-family: "Blinker", sans-serif;
   font-size: 1rem;
@@ -296,7 +300,30 @@ form .div-form textarea {
   resize: none;
   overflow: hidden;
 }
+.div-contacto .iconos-contacto {
+  background-color: #F0F04B;
+  width: 90vw;
+  height: 310px;
+  margin: 2rem;
+  border-radius: 10px;
+  border: 5px solid #FFE818;
+  box-shadow: 0px 0px 10px #587291;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+}
 
+@media (min-width: 700px) {
+  .div-contacto {
+    flex-direction: row;
+  }
+  .div-contacto form, .div-contacto .iconos-contacto {
+    width: 40vw;
+    height: 65vh;
+  }
+}
 #navbar {
   width: 100%;
   display: flex;
@@ -379,6 +406,15 @@ body {
 footer {
   bottom: 0;
   display: flex;
+}
+
+@media (min-width: 700px) {
+  #home {
+    background-color: #1E2A33;
+    background-image: url(../assets/img/img-fondo.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
