@@ -222,9 +222,11 @@ ul {
     font-family: $blinker;
     font-weight: 700;
     font-size: 4rem;
-    height: 7rem;
+    text-align: center;
+    margin: 2rem;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 #proyecto {
@@ -287,13 +289,17 @@ ul {
 }
 
 .div-contacto {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
     form {
         background-color: $icterina;
         width: 90vw;
         height: 310px;
-        margin: 2rem;
         border-radius: 10px;
         border: 5px solid $canario;
         box-shadow: 0px 0px 10px $gris-payne;
@@ -351,7 +357,6 @@ ul {
         background-color: $icterina;
         width: 90vw;
         height: 310px;
-        margin: 2rem;
         border-radius: 10px;
         border: 5px solid $canario;
         box-shadow: 0px 0px 10px $gris-payne;
@@ -368,9 +373,10 @@ ul {
 @media (min-width: 700px){
     .div-contacto {
         flex-direction: row;
+        justify-content: space-evenly;
         form, .iconos-contacto {
             width: 40vw;
-            height: 65vh;
+            height: 75vh;
         }
     }         
 }
