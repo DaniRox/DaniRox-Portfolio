@@ -5,31 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./sass/styles.css">
     <title>DaniRox-Portfolio</title>
 </head>
 
-<body id="home">
+<body>
 
-    <header id="navbar">
+    <header>
 
-        <nav id="nav-bar">
-            <a href="./index.html"><img src="./assets/icons/home.svg"></a>
-            <a href="./html/galeria.html"><img src="./assets/icons/galeria.svg"></a>
-            <a href="./html/skills.html"><img src="./assets/icons/skills.svg"></a>
-            <a href="./html/sobre-mi.html"><img src="./assets/icons/sobre-mi.svg"></a>
-            <a href="./html/contacto.html"><img src="./assets/icons/contacto.svg"></a>
-        </nav>
+        <div id="navbar">
+            <button class="btn-nav"><img src="./assets/icons/menú.svg" class="icon-btn-nav"></button>
+            <ul class="nav">
+                <li class="nav-item"><a href="index.html">Inicio</a></li>
+                <li class="nav-item"><a href="/html/galeria.html">Galeria</a></li>
+                <li class="nav-item"><a href="/html/skills.html">Skills</a></li>
+                <li class="nav-item"><a href="/html/sobre-mi.html">Mas de mi</a></li>
+                <li class="nav-item"><a href="/html/contacto.html">Contacto</a></li>
+            </ul>
+        </div>
 
     </header>
 		
-    <main id="inicio">
+    <main id="index">
 
-        <div id="div-inicio">
+        <div id="div-index">
 
-            <div class="div-titulo">
-                <h1 class="titulo-1"></h1>
-            </div>
+            <img src="/assets/icons/logo-DaniRox.svg" class="titulo">
             <h2 class="subtitulo">Front-end developer</h2>
 
         </div>

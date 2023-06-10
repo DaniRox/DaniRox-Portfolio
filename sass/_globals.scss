@@ -1,0 +1,47 @@
+@use "components";
+
+body {
+    background-color: components.$mint-cream;
+
+    header {
+
+        #navbar {
+            background-color: #5C9EAD;
+            width: 100vw;
+            height: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+
+            .btn-nav {
+                padding: 8px;
+                background-color: transparent;
+                border: none;
+
+
+                .icon-btn-nav {
+                    width: 1.2rem;
+                }
+            }
+
+            .nav {
+                background-color: bisque;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+
+                .nav-item {
+                    width: 100%;
+
+                    a {
+                        color: components.$paynes-gray;
+                        font-size: 1.1rem;
+                        font-family: components.$josefin;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
