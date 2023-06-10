@@ -9,7 +9,7 @@
 #div-index .subtitulo {
   color: #E39774;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 30vw;
+  font-size: 1.2rem;
   font-weight: 400;
 }
 
@@ -41,6 +41,7 @@ body header #navbar .nav {
 }
 body header #navbar .nav .nav-item {
   width: 100%;
+  text-align: end;
 }
 body header #navbar .nav .nav-item a {
   color: #326273;
