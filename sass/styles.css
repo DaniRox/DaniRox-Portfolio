@@ -47,26 +47,28 @@ body {
 body header #navbar {
   background-color: rgba(92, 158, 173, 0.3882352941);
   width: 100vw;
-  height: 2rem;
+  height: 3rem;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   position: absolute;
+  justify-content: center;
   z-index: 1;
 }
 body header #navbar .btn-nav {
-  padding: 8px;
+  padding-right: 10px;
   background-color: transparent;
   border: none;
+  z-index: 2;
 }
 body header #navbar .btn-nav .icon-btn-nav {
-  width: 1.2rem;
+  width: 2rem;
 }
 body header #navbar .nav {
   background-color: rgba(92, 158, 173, 0.3882352941);
   width: 100%;
   height: 10rem;
-  padding-top: 4px;
+  padding-top: 13rem;
   position: absolute;
   display: none;
   flex-direction: column;
