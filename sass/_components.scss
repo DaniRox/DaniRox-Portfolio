@@ -14,15 +14,46 @@ $moonstone: #5C9EAD;
 #div-index {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    z-index: 1;
 
     .titulo {
-        width: 60%;
+        width: 80vw;
     }
 
     .subtitulo {
         color: $atomic-tangerine;
         font-family: $josefin;
         font-size: 1.2rem;
-        font-weight: 400;
+        padding-right: 8px;
+    }
+}
+
+#div-lines {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+
+    .div-1 {
+        background-color: $moonstone;
+        height: 100vh;
+        width: 6px;
+        margin-left: 6px;
+    }
+
+    .div-2 {
+        background-color: $paynes-gray;
+        height: 100vh;
+        width: 20px;
+        margin-left: 20px;
+    }
+
+    .div-3 {
+        background-color: $orange;
+        height: 100vh;
+        width: 6px;
+        margin-left: 9px;
     }
 }
