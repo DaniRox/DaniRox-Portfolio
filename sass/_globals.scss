@@ -6,7 +6,7 @@ body {
     header {
 
         #navbar {
-            background-color: #5c9ead63;
+            background-color: components.$light-moonstone;
             width: 100vw;
             height: 3rem;
             display: flex;
@@ -17,28 +17,30 @@ body {
             z-index: 1;
 
             .btn-nav {
-                padding-right: 10px;
+                padding-right: 12px;
                 background-color: transparent;
                 border: none;
-                z-index: 2;
+                z-index: 5;
+                position: absolute;
 
 
                 .icon-btn-nav {
-                    width: 2rem;
+                    width: 2.2rem;
                 }
             }
 
             .nav {
-                background-color: #5c9ead63;
+                background-color: components.$light-moonstone;
                 width: 100%;
                 height: 10rem;
-                padding-top: 13rem;
+                margin-top: 13rem;
                 position: absolute;
                 display: none;
                 flex-direction: column;
                 flex-wrap: nowrap;
                 align-items: flex-end;
                 justify-content: space-evenly;
+                z-index: 2;
 
                 .nav-item {
                     width: 100%;
@@ -73,6 +75,7 @@ body {
 
         .lines {
             position: absolute;
+            z-index: 1;
         }
     }
 }

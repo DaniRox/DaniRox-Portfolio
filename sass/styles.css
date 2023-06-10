@@ -4,15 +4,15 @@
   flex-direction: column;
   align-items: flex-end;
   position: absolute;
-  z-index: 1;
+  z-index: 2;
 }
 #div-index .titulo {
-  width: 80vw;
+  width: 90vw;
 }
 #div-index .subtitulo {
   color: #E39774;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   padding-right: 8px;
 }
 
@@ -21,6 +21,7 @@
   display: flex;
   flex-direction: row;
   position: absolute;
+  z-index: 1;
 }
 #div-lines .div-1 {
   background-color: #5C9EAD;
@@ -56,25 +57,27 @@ body header #navbar {
   z-index: 1;
 }
 body header #navbar .btn-nav {
-  padding-right: 10px;
+  padding-right: 12px;
   background-color: transparent;
   border: none;
-  z-index: 2;
+  z-index: 5;
+  position: absolute;
 }
 body header #navbar .btn-nav .icon-btn-nav {
-  width: 2rem;
+  width: 2.2rem;
 }
 body header #navbar .nav {
   background-color: rgba(92, 158, 173, 0.3882352941);
   width: 100%;
   height: 10rem;
-  padding-top: 13rem;
+  margin-top: 13rem;
   position: absolute;
   display: none;
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: flex-end;
   justify-content: space-evenly;
+  z-index: 2;
 }
 body header #navbar .nav .nav-item {
   width: 100%;
@@ -103,4 +106,5 @@ body main .principal {
 }
 body main .lines {
   position: absolute;
+  z-index: 1;
 }/*# sourceMappingURL=styles.css.map */

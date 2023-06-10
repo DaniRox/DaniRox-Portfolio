@@ -9,6 +9,7 @@ $mint-cream: #F7FFF7;
 $orange: #F9A620;
 $paynes-gray: #326273;
 $moonstone: #5C9EAD;
+$light-moonstone: #5c9ead63;
 
 
 #div-index {
@@ -16,16 +17,16 @@ $moonstone: #5C9EAD;
     flex-direction: column;
     align-items: flex-end;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
 
     .titulo {
-        width: 80vw;
+        width: 90vw;
     }
 
     .subtitulo {
         color: $atomic-tangerine;
         font-family: $josefin;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         padding-right: 8px;
     }
 }
@@ -35,6 +36,7 @@ $moonstone: #5C9EAD;
     display: flex;
     flex-direction: row;
     position: absolute;
+    z-index: 1;
 
     .div-1 {
         background-color: $moonstone;
