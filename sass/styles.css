@@ -218,6 +218,9 @@ body header #navbar .nav .nav-item a {
   font-family: "Josefin Sans", sans-serif;
   text-decoration: none;
 }
+body #index {
+  justify-content: flex-start;
+}
 body main {
   width: 100vw;
   height: 100vh;
