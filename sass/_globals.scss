@@ -51,7 +51,7 @@ body {
                     text-align: end;
 
                     a {
-                        color: components.$paynes-gray;
+                        color: components.$mint-cream;
                         font-size: 1.3rem;
                         font-weight: 400;
                         font-family: components.$josefin;
@@ -98,7 +98,7 @@ body {
         }
 
         #gallery {
-            width: 90%;
+            width: 100%;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;

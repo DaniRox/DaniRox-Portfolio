@@ -233,7 +233,7 @@
   flex-direction: column;
   border: 6px solid #E39774;
   border-radius: 20px;
-  margin: 2rem;
+  margin: 2rem 0.8rem;
 }
 #project .div-img-project {
   width: auto;
@@ -253,8 +253,9 @@
 #project .div-title-project .title-project {
   color: #F7FFF7;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 800;
+  margin-left: 5px;
 }
 
 .txt-footer {
@@ -265,7 +266,7 @@
 }
 
 .logo-footer {
-  width: 8rem;
+  width: 9rem;
   margin-left: 0.4rem;
   padding-bottom: 5px;
 }
@@ -317,7 +318,7 @@ body header #navbar .nav .nav-item {
   text-align: end;
 }
 body header #navbar .nav .nav-item a {
-  color: #326273;
+  color: #F7FFF7;
   font-size: 1.3rem;
   font-weight: 400;
   font-family: "Josefin Sans", sans-serif;
@@ -355,7 +356,7 @@ body main #lines {
   z-index: 1;
 }
 body main #gallery {
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

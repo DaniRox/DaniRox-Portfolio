@@ -20,7 +20,6 @@ $light-moonstone: #5c9ead63;
     z-index: -1;
 }
 
-
 #div-index {
     display: flex;
     flex-direction: column;
@@ -403,7 +402,7 @@ $light-moonstone: #5c9ead63;
     flex-direction: column;
     border: 6px solid $atomic-tangerine;
     border-radius: 20px;
-    margin: 2rem;
+    margin: 2rem 0.8rem;
 
     .div-img-project {
         width: auto;
@@ -425,8 +424,9 @@ $light-moonstone: #5c9ead63;
         .title-project {
             color: $mint-cream;
             font-family: $josefin;
-            font-size: 1.6rem;
+            font-size: 1.8rem;
             font-weight: 800;
+            margin-left: 5px;
         }
     }
 }
@@ -439,7 +439,7 @@ $light-moonstone: #5c9ead63;
 }        
 
 .logo-footer {
-    width: 8rem;
+    width: 9rem;
     margin-left: 0.4rem;
     padding-bottom: 5px;
 }
