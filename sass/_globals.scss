@@ -2,6 +2,8 @@
 
 body {
     background-color: components.$mint-cream;
+    width: 100vw;
+    height: 100vh;
 
     header {
 
@@ -58,16 +60,14 @@ body {
                 }
             }
         }
-
     }
 
     #index {
         justify-content: flex-start;
     }
-    
+
     main {
         width: 100vw;
-        height: 100vh;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -96,14 +96,19 @@ body {
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-around;
+            margin-bottom: 2rem;
         }
     }
 
-    .footer {
+    #footer {
         width: 100vw;
-        height: 5rem;
+        height: 3rem;
         display: flex;
         flex-direction: row;
         justify-content: center;
+        align-items: flex-start;
+        bottom: 0;
+        position: relative;
+
     }
 }
