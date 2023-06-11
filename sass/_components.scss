@@ -207,3 +207,60 @@ $light-moonstone: #5c9ead63;
         
     }
 }
+
+
+.title-section {
+    color: $gunmetal;
+    font-family: $abril;
+    font-size: 3rem;
+    font-weight: 300;
+    width: 100vw;
+    text-align: center;
+    padding: 5rem 0 2rem;
+}
+
+#project {
+    width: 14rem;
+    height: 12rem;
+    background-color: $atomic-tangerine;
+    display: flex;
+    flex-direction: column;
+    border: 4px solid $atomic-tangerine;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+
+    .div-img-project {
+        width: auto;
+        height: 80%;
+        overflow: hidden;
+        border-radius: 20px 20px 0 0;
+
+        .img-project {
+             width: 100%;
+             height: auto;
+        }
+    }
+    
+    .div-title-project {
+        height: 20%;
+        display: flex;
+        align-items: center;
+        
+        .title-project {
+            color: $mint-cream;
+            font-family: $josefin;
+            font-size: 1.2rem;
+            font-weight: 800;
+        }
+    }
+}
+
+.txt-footer {
+    font-family: $josefin;
+    font-size: 1rem;
+    font-weight: 300;
+}        
+
+.logo-footer {
+    width: 5rem;
+}

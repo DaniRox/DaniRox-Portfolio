@@ -5,21 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../sass/styles.css">
     <title>DaniRox-Sobre mi</title>
 </head>
 
 <body>
 
-    <header id="navbar">
+    <header>
 
-        <ul class="nav">
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="../html/galeria.html">Galeria</a></li>
-            <li><a href="../html/skills.html">Skills</a></li>
-            <li><a href="../html/sobre-mi.html">DaniRox</a></li>
-            <li><a href="../html/contacto.html">Contacto</a></li>
-        </ul>
+        <div id="navbar">
+            <button class="btn-nav" onclick="displayMenu()"><img src="../assets/icons/menú.svg" class="icon-btn-nav"></button>
+            <ul class="nav">
+                <li class="nav-item"><a href="./index.html">Inicio</a></li>
+                <li class="nav-item"><a href="../html/galeria.html">Galeria</a></li>
+                <li class="nav-item"><a href="../html/skills.html">Skills</a></li>
+                <li class="nav-item"><a href="../html/sobre-mi.html">Mas de mi</a></li>
+                <li class="nav-item"><a href="../html/contacto.html">Contacto</a></li>
+            </ul>
+        </div>
 
         <h1 class="title-section">Más de mí</h1>
 
@@ -50,6 +53,8 @@
         <p class="txt-footer">Diseño y desarollo por<img src="../assets/icons/logo-DaniRox.svg" class="logo-footer"></p>
 
     </footer>
+
+    <script src="../scripts.js"></script>
 
 </body>
 </html>
