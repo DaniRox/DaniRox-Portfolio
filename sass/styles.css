@@ -126,14 +126,14 @@
 }
 
 #project {
-  width: 18rem;
-  height: 15rem;
+  width: 26rem;
+  height: 21rem;
   background-color: #E39774;
   display: flex;
   flex-direction: column;
   border: 6px solid #E39774;
   border-radius: 20px;
-  margin-bottom: 2rem;
+  margin: 2rem;
 }
 #project .div-img-project {
   width: auto;
@@ -158,6 +158,7 @@
 }
 
 .txt-footer {
+  color: #1E2A33;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1rem;
   font-weight: 300;
@@ -251,7 +252,7 @@ body main #gallery {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-bottom: 2rem;
 }
 body #footer {
