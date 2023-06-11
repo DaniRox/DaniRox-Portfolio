@@ -110,5 +110,12 @@ body {
         bottom: 0;
         position: relative;
 
+        #div-footer {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+
     }
 }
