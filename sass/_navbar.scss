@@ -12,6 +12,11 @@
     justify-content: center;
     z-index: 1;
 
+    @include media-queries.tablet {
+        height: 4rem;
+        z-index: 3;
+    }
+
     .btn-nav {
         padding-right: 16px;
         background-color: transparent;
@@ -48,7 +53,6 @@
             background-color: transparent;
             height: 0;
             margin-top: 0;
-            
             position: fixed;
             display: flex;
             flex-direction: row;
@@ -65,17 +69,19 @@
             @include media-queries.tablet {
                 width: auto;
                 margin-right: 0;
-                margin-left: 2rem;
+                margin-left: 3rem;
             }
 
             a {
                 color: components.$mint-cream;
-                font-size: 1.3rem;
+                font-size: 1.5rem;
                 font-weight: 400;
                 font-family: components.$josefin;
                 text-decoration: none;
+                text-shadow: -1px 1px 2px components.$mint-cream;
 
                 @include media-queries.tablet {
+                    font-size: 1.8rem;
                     color: components.$paynes-gray;
                 }
             }

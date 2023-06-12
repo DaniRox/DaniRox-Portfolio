@@ -51,6 +51,10 @@ body {
             flex-wrap: wrap;
             justify-content: space-evenly;
             margin-bottom: 2rem;
+
+            @include media-queries.desktop {
+                width: 86%;
+            }
         }
     }
 
