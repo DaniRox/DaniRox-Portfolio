@@ -43,19 +43,6 @@ body {
             position: absolute;
             z-index: 1;
         }
-
-        #gallery {
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
-            margin-bottom: 2rem;
-
-            @include media-queries.desktop {
-                width: 86%;
-            }
-        }
     }
 
     #footer {

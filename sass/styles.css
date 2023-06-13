@@ -54,39 +54,6 @@
   }
 }
 
-#project {
-  width: 22rem;
-  height: 17rem;
-  background-color: #E39774;
-  display: flex;
-  flex-direction: column;
-  border: 6px solid #E39774;
-  border-radius: 20px;
-  margin: 2rem 0.8rem;
-}
-#project .div-img-project {
-  width: auto;
-  height: 78%;
-  overflow: hidden;
-  border-radius: 20px 20px 0 0;
-}
-#project .div-img-project .img-project {
-  width: 100%;
-  height: auto;
-}
-#project .div-title-project {
-  height: 22%;
-  display: flex;
-  align-items: center;
-}
-#project .div-title-project .title-project {
-  color: #F7FFF7;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 1.8rem;
-  font-weight: 800;
-  margin-left: 5px;
-}
-
 .txt-footer {
   color: #1E2A33;
   font-family: "Josefin Sans", sans-serif;
@@ -135,19 +102,6 @@ body main #principal {
 body main #lines {
   position: absolute;
   z-index: 1;
-}
-body main #gallery {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin-bottom: 2rem;
-}
-@media screen and (min-width: 970px) {
-  body main #gallery {
-    width: 86%;
-  }
 }
 body #footer {
   width: 100vw;
@@ -465,4 +419,110 @@ body #footer #div-footer {
     transform-origin: 0% 100%;
     opacity: 1;
   }
+}
+
+#gallery {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 970px) {
+  #gallery {
+    width: 86%;
+  }
+}
+#gallery .project {
+  width: 22rem;
+  height: 17rem;
+  background-color: #E39774;
+  display: flex;
+  flex-direction: column;
+  border: 6px solid #E39774;
+  border-radius: 20px;
+  margin: 2rem 0.8rem;
+}
+#gallery .project .div-img-project {
+  width: auto;
+  height: 78%;
+  overflow: hidden;
+  border-radius: 20px 20px 0 0;
+}
+#gallery .project .div-img-project .img-project {
+  width: 100%;
+  height: auto;
+}
+#gallery .project .div-title-project {
+  height: 22%;
+  display: flex;
+  align-items: center;
+}
+#gallery .project .div-title-project .title-project {
+  color: #F7FFF7;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-left: 5px;
+}
+
+.gallery-info {
+  background-color: rgba(92, 158, 173, 0.3882352941);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  z-index: 3;
+  position: fixed;
+  display: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.gallery-info .project {
+  background-color: #E39774;
+  width: 90%;
+  height: 50%;
+  border-radius: 20px;
+  display: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.gallery-info .project .div-btn-close {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.gallery-info .project .div-btn-close .btn-close {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #5C9EAD;
+  background-color: transparent;
+  border: none;
+  padding: 1.5rem 1.5rem 1rem 1.5rem;
+  cursor: pointer;
+}
+.gallery-info .project .title-info-project {
+  color: #F7FFF7;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin: 0 1.5rem 0.3rem;
+}
+.gallery-info .project .link-info-project {
+  color: #5C9EAD;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 1.5rem 0.5rem;
+}
+.gallery-info .project .txt-info-project {
+  color: #F7FFF7;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 200;
+  margin: 0 1.5rem;
 }/*# sourceMappingURL=styles.css.map */

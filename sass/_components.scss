@@ -65,42 +65,7 @@ $light-moonstone: #5c9ead63;
     }
 }
 
-#project {
-    width: 22rem;
-    height: 17rem;
-    background-color: $atomic-tangerine;
-    display: flex;
-    flex-direction: column;
-    border: 6px solid $atomic-tangerine;
-    border-radius: 20px;
-    margin: 2rem 0.8rem;
 
-    .div-img-project {
-        width: auto;
-        height: 78%;
-        overflow: hidden;
-        border-radius: 20px 20px 0 0;
-
-        .img-project {
-             width: 100%;
-             height: auto;
-        }
-    }
-    
-    .div-title-project {
-        height: 22%;
-        display: flex;
-        align-items: center;
-        
-        .title-project {
-            color: $mint-cream;
-            font-family: $josefin;
-            font-size: 1.8rem;
-            font-weight: 800;
-            margin-left: 5px;
-        }
-    }
-}
 
 .txt-footer {
     color: $gunmetal;
