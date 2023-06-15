@@ -1,0 +1,47 @@
+@use "media-queries";
+@use "components";
+
+.sobre-mi {
+    background-color: components.$atomic-tangerine;
+    width: 80%;
+    height: auto;
+    margin-top: 11.5rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    .sobre-mi__img {
+        background-image: url(../assets/img/img-perfil.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 30%;
+        height: 100%;
+        border-radius: 20px 0 0 20px;
+        display: none;
+    }
+
+    .sobre-mi__txt {
+        width: 100%;
+        padding: 1.7rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        .txt__title {
+            color: components.$mint-cream;
+            font-family: components.$josefin;
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 0.6rem;
+        }
+
+        .txt__parraf {
+            color: components.$mint-cream;
+            font-family: components.$josefin;
+            font-size: 1.1rem;
+            font-weight: 400;
+        }
+    }
+}
+

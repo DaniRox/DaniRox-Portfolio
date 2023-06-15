@@ -1,11 +1,14 @@
 @use "media-queries";
 @use "components";
 
-.div-footer {
+.footer {
+    width: 100vw;
+    height: 3rem;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    position: relative;
 
     .div-footer__txt {
         color: components.$gunmetal;
@@ -15,7 +18,7 @@
     }
 
     .div-footer__icon {
-        width: 9rem;
+        width: 2rem;
         margin-left: 0.4rem;
         padding-bottom: 5px;
     }

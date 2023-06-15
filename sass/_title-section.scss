@@ -1,0 +1,18 @@
+@use "media-queries";
+@use "components";
+
+.title-section {
+    color: components.$gunmetal;
+    font-family: components.$abril;
+    font-size: 3rem;
+    font-weight: 300;
+    width: 100vw;
+    text-align: center;
+    padding: 6.5rem 0 0;
+    position: absolute;
+
+    @include media-queries.tablet {
+        font-size: 3.5rem;
+        padding: 7rem 0 1rem;
+    }
+}
