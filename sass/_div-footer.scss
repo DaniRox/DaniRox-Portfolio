@@ -1,0 +1,22 @@
+@use "media-queries";
+@use "components";
+
+.div-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    .div-footer__txt {
+        color: components.$gunmetal;
+        font-family: components.$josefin;
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+
+    .div-footer__icon {
+        width: 9rem;
+        margin-left: 0.4rem;
+        padding-bottom: 5px;
+    }
+}

@@ -1,20 +1,15 @@
 @use "media-queries";
 @use "components";
 
-
-@mixin divlines {
+.lines {
     position: absolute;
     display: flex;
     flex-direction: row;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     z-index: -1;
-}
 
-#div-lines {
-    @include divlines();
-
-    .div-1 {
+    .lines__line-uno {
         background-color: components.$moonstone;
         height: 100vh;
         width: 6px;
@@ -73,7 +68,7 @@
         }
     }
 
-    .div-2 {
+    .lines__line-dos {
         background-color: components.$paynes-gray;
         height: 100vh;
         width: 20px;
@@ -132,7 +127,7 @@
         }
     }
 
-    .div-3 {
+    .lines__line-tres {
         background-color: components.$orange;
         height: 100vh;
         width: 6px;
@@ -193,7 +188,6 @@
 }
 
 #div-lines-gallery {
-    @include divlines();
 
     .div-1-gallery {
         background-color: components.$moonstone;

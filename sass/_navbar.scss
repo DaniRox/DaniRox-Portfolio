@@ -1,90 +1,64 @@
 @use "media-queries";
 @use "components";
 
-#navbar {
+.navbar {
     background-color: components.$light-moonstone;
     width: 100vw;
-    height: 3rem;
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     align-items: flex-end;
     position: fixed;
-    justify-content: center;
-    z-index: 1;
 
     @include media-queries.tablet {
-        height: 4rem;
-        z-index: 3;
+        align-items: flex-start;
     }
 
-    .btn-nav {
-        padding-right: 16px;
+    .nav-button {
+        background-image: url(../assets/icons/menú.svg);
+        background-repeat: no-repeat;
+        background-position: center;
         background-color: transparent;
+        padding: 1.5rem;
         border: none;
-        z-index: 5;
-        display: flex;
-        position: absolute;
-        cursor: pointer;
 
         @include media-queries.tablet {
             display: none;
         }
-
-        .icon-btn-nav {
-            width: 2rem;
-        }
     }
 
-    .nav {
-        background-color: components.$light-moonstone;
-        width: 100%;
-        height: 10rem;
-        margin-top: 13rem;
-        padding-right: 10px;
-        position: absolute;
+    .nav-menu {
         display: none;
         flex-direction: column;
         flex-wrap: nowrap;
+        justify-content: center;
         align-items: flex-end;
-        justify-content: space-evenly;
-        z-index: 1;
 
         @include media-queries.tablet {
-            background-color: transparent;
-            height: 0;
-            margin-top: 0;
-            position: fixed;
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
-            align-items: center;
-            justify-content: flex-start;
         }
 
-        .nav-item {
-            width: 100%;
-            margin-right: 6px;
-            text-align: end;
+        .nav-menu__menu-item {
+            color: components.$paynes-gray;
+            font-family: components.$josefin;
+            font-size: 1.4rem;
+            font-weight: 500;
+            text-decoration: none;
+            padding: 0.7rem;
 
-            @include media-queries.tablet {
-                width: auto;
-                margin-right: 0;
-                margin-left: 3rem;
+            &:hover {
+                color: components.$atomic-tangerine;
+                font-weight: 600;
+                text-shadow: 0px 0px 6px components.$moonstone,  0px 0px 1px components.$moonstone;
             }
+        }
 
-            a {
-                color: components.$mint-cream;
-                font-size: 1.5rem;
-                font-weight: 400;
-                font-family: components.$josefin;
-                text-decoration: none;
-                text-shadow: -1px 1px 2px components.$mint-cream;
-
-                @include media-queries.tablet {
-                    font-size: 1.8rem;
-                    color: components.$paynes-gray;
-                }
-            }
+        .nav-menu__menu-item--selected {
+            color: components.$paynes-gray;
+            font-weight: 600;
+            text-shadow: 0px 0px 4px components.$moonstone,  0px 0px 1px components.$moonstone;
         }
     }
 }

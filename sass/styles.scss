@@ -1,11 +1,9 @@
-@use "media-queries";
-
-@use "globals";
-
 @use "components";
 
 @use "navbar";
 
-@use "lines-deco";
+@use "deco-lines";
 
-@use "gallery";
+@use "div-footer";
+
+@use "presentation";
