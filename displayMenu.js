@@ -8,3 +8,5 @@ function displayMenu() {
         navMenu.style.display = "none";
     }
 }
+
+btnMenu.addEventListener("click", displayMenu);
