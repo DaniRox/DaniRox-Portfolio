@@ -10,30 +10,20 @@
 </head>
 
 <body>
-    
-    <header>
 
-        <div id="navbar">
-            <button class="btn-nav" onclick="displayMenu()"><img src="../assets/icons/menú.svg" class="icon-btn-nav"></button>
-            <ul class="nav">
-                <li class="nav-item"><a href="../index.html">Inicio</a></li>
-                <li class="nav-item"><a href="../html/galeria.html">Galeria</a></li>
-                <li class="nav-item"><a href="../html/skills.html">Skills</a></li>
-                <li class="nav-item"><a href="../html/sobre-mi.html">Mas de mi</a></li>
-                <li class="nav-item"><a href="../html/contacto.html">Contacto</a></li>
-            </ul>
-        </div>
+    <header class="header">
 
-        <h1 class="title-section">Galeria de Proyectos</h1>
-
-        <section id="lines-gallery">
-            <div id="div-lines-gallery">
-                <div class="div-1-gallery"></div>
-                <div class="div-2-gallery"></div>
-                <div class="div-3-gallery"></div>
+        <nav class="navbar">
+            <button class="nav-button" id="nav-button"></button>
+            <div class="nav-menu">
+                <a href="../index.html" class="nav-menu__menu-item nav-menu__menu-item--selected">Inicio</a>
+                <a href="../html/galeria.html" class="nav-menu__menu-item">Galeria</a>
+                <a href="../html/skills.html" class="nav-menu__menu-item">Skills</a>
+                <a href="../html/sobre-mi.html" class="nav-menu__menu-item">Mas de mi</a>
+                <a href="../html/contacto.html" class="nav-menu__menu-item">Contacto</a>
             </div>
-        </section>
-        
+        </nav>
+
     </header>
 
     <main>
@@ -153,7 +143,7 @@
 
     </footer>
 
-    <script src="../scripts.js"></script>
+    <script src="../displayMenu.js"></script>
     <script src="../display-project.js"></script>
 
 </body>

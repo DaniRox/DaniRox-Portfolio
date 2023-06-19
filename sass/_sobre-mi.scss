@@ -4,21 +4,34 @@
 .sobre-mi {
     background-color: components.$atomic-tangerine;
     width: 80%;
-    height: auto;
+    height: 65%;
     margin-top: 11.5rem;
     border-radius: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     
-    .sobre-mi__img {
-        background-image: url(../assets/img/img-perfil.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        width: 30%;
-        height: 100%;
-        border-radius: 20px 0 0 20px;
+    .sobre-mi__div-img {
         display: none;
+
+        @include media-queries.tablet {
+            min-width: 40%;
+            height: 100%;
+            border-radius: 20px 0 0 20px;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+
+
+            .div-img__img {
+                height: 100%;
+                width: auto;
+            }
+        }
+
+        @include media-queries.desktop {
+            width: 30%;
+        }
     }
 
     .sobre-mi__txt {

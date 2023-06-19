@@ -43,6 +43,7 @@ body {
   flex-wrap: nowrap;
   align-items: flex-end;
   position: fixed;
+  z-index: 2;
 }
 @media screen and (min-width: 700px) {
   .navbar {
@@ -306,19 +307,19 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   bottom: 0;
-  position: relative;
+  position: absolute;
 }
 .footer .div-footer__txt {
   color: #1E2A33;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 300;
 }
 .footer .div-footer__icon {
-  width: 2rem;
+  width: 6rem;
   margin-left: 0.4rem;
-  padding-bottom: 5px;
 }
 
 .title-section {
@@ -380,21 +381,34 @@ body {
 .sobre-mi {
   background-color: #E39774;
   width: 80%;
-  height: auto;
+  height: 65%;
   margin-top: 11.5rem;
   border-radius: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.sobre-mi .sobre-mi__img {
-  background-image: url(../assets/img/img-perfil.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 30%;
-  height: 100%;
-  border-radius: 20px 0 0 20px;
+.sobre-mi .sobre-mi__div-img {
   display: none;
+}
+@media screen and (min-width: 700px) {
+  .sobre-mi .sobre-mi__div-img {
+    min-width: 40%;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .sobre-mi .sobre-mi__div-img .div-img__img {
+    height: 100%;
+    width: auto;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .sobre-mi .sobre-mi__div-img {
+    width: 30%;
+  }
 }
 .sobre-mi .sobre-mi__txt {
   width: 100%;

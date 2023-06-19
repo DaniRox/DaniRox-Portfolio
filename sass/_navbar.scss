@@ -9,6 +9,7 @@
     flex-wrap: nowrap;
     align-items: flex-end;
     position: fixed;
+    z-index: 2;
 
     @include media-queries.tablet {
         align-items: flex-start;
