@@ -13,13 +13,14 @@
 
     @include media-queries.tablet {
         width: 75%;
+        height: 60%;
         height: 450px;
         margin-top: 8rem;
     }
 
     @include media-queries.desktop {
         width: 60%;
-        height: 400px;
+        margin-top: 8.5rem;
     }
     
     .sobre-mi__div-img {
@@ -34,8 +35,7 @@
 
 
             .div-img__img {
-                height: 100%;
-                width: auto;
+                height: 450px;
             }
         }
 

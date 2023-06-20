@@ -402,6 +402,7 @@ body {
 @media screen and (min-width: 700px) {
   .sobre-mi {
     width: 75%;
+    height: 60%;
     height: 450px;
     margin-top: 8rem;
   }
@@ -409,7 +410,7 @@ body {
 @media screen and (min-width: 1000px) {
   .sobre-mi {
     width: 60%;
-    height: 400px;
+    margin-top: 8.5rem;
   }
 }
 .sobre-mi .sobre-mi__div-img {
@@ -424,8 +425,7 @@ body {
     overflow: hidden;
   }
   .sobre-mi .sobre-mi__div-img .div-img__img {
-    height: 100%;
-    width: auto;
+    height: 450px;
   }
 }
 @media screen and (min-width: 1000px) {
