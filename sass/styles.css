@@ -341,12 +341,12 @@ body {
   font-weight: 300;
   width: 100vw;
   text-align: center;
-  padding: 5rem 0 0;
+  padding: 4.5rem 0 0;
+  position: absolute;
 }
 @media screen and (min-width: 700px) {
   .title-section {
     font-size: 2.8rem;
-    padding: 5.5rem 0 1rem;
   }
 }
 
@@ -392,16 +392,18 @@ body {
 .sobre-mi {
   background-color: #E39774;
   width: 80%;
-  margin-top: 1rem;
+  margin-top: 8rem;
   border-radius: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  position: absolute;
 }
 @media screen and (min-width: 700px) {
   .sobre-mi {
     width: 75%;
-    height: 500px;
+    height: 450px;
+    margin-top: 8rem;
   }
 }
 @media screen and (min-width: 1000px) {
