@@ -4,11 +4,20 @@
 .lines {
     position: absolute;
     display: flex;
+    height: 100%;
     flex-direction: row;
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 1rem;
     z-index: -1;
+
+    @include media-queries.tablet {
+        left: 2rem;
+    }
+        
+    @include media-queries.desktop {
+        left: 5rem;
+    }
 
     .lines__line-uno {
         background-color: components.$moonstone;
@@ -66,6 +75,7 @@
         
         @include media-queries.tablet {
             margin-left: 4rem;
+            width: 8px;
         }
     }
 
@@ -73,7 +83,7 @@
         background-color: components.$paynes-gray;
         height: 100vh;
         width: 20px;
-        margin-left: 1.2rem;
+        margin-left: 1rem;
 
             -webkit-animation: scale-in-ver-bottom 1.9s 0.1s ;
                     animation: scale-in-ver-bottom 1.9s 0.1s ;
@@ -124,7 +134,8 @@
         }
 
         @include media-queries.tablet {
-            margin-left: 5rem;
+            margin-left: 2rem;
+            width: 24px;
         }
     }
 
@@ -132,7 +143,7 @@
         background-color: components.$orange;
         height: 100vh;
         width: 6px;
-        margin-left: 2.5rem;
+        margin-left: 2.7rem;
 
         -webkit-animation: scale-in-ver-bottom 2.2s 2s ;
         animation: scale-in-ver-bottom 2.2s 0.4s ;
@@ -183,7 +194,8 @@
         }
         
         @include media-queries.tablet {
-            margin-left: 1.5rem;
+            margin-left: 4rem;
+            width: 12px;
         }
     }
 }
