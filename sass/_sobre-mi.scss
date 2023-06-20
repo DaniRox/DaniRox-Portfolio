@@ -4,7 +4,7 @@
 .sobre-mi {
     background-color: components.$atomic-tangerine;
     width: 80%;
-    margin-top: 8rem;
+    margin-top: 10rem;
     border-radius: 20px;
     display: flex;
     flex-direction: row;
@@ -15,7 +15,7 @@
         width: 75%;
         height: 60%;
         height: 450px;
-        margin-top: 8rem;
+        margin-top: 9rem;
     }
 
     @include media-queries.desktop {

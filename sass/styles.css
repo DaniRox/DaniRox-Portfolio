@@ -392,7 +392,7 @@ body {
 .sobre-mi {
   background-color: #E39774;
   width: 80%;
-  margin-top: 8rem;
+  margin-top: 10rem;
   border-radius: 20px;
   display: flex;
   flex-direction: row;
@@ -404,7 +404,7 @@ body {
     width: 75%;
     height: 60%;
     height: 450px;
-    margin-top: 8rem;
+    margin-top: 9rem;
   }
 }
 @media screen and (min-width: 1000px) {
