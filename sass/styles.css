@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans:wght@300;400;500;700&display=swap");
+body {
+  background-color: #F7FFF7;
+  width: 100vw;
+  height: 100vh;
+}
+
+.presentation {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.presentation .presentation__title {
+  width: 100%;
+  filter: drop-shadow(-4px 4px 5px #326273);
+}
+.presentation .presentation__subtitle {
+  color: #E39774;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.9rem;
+  font-weight: 300;
+  padding-right: 12px;
+}/*# sourceMappingURL=styles.css.map */
