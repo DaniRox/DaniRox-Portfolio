@@ -1,0 +1,26 @@
+@use "media-queries";
+@use "globals";
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    position: absolute;
+
+    .div-footer__txt {
+        color: globals.$gunmetal;
+        font-family: globals.$josefin;
+        font-size: 1rem;
+        font-weight: 300;
+        margin-bottom: 0.4rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .div-footer__icon {
+            width: 6rem;
+            margin-bottom: 0.3rem;
+        }
+    }
+}

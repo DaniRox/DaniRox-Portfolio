@@ -1,0 +1,29 @@
+@use "media-queries";
+@use "globals";
+
+.sobre-mi-section {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+    .sobre-mi {
+        background-color: globals.$atomic-tangerine;
+        width: 80%;
+        height: 60%;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .sobre-mi__div-img {
+            width: 20%;
+
+            .div-img__img {
+                display: none;
+            }
+        }
+    }
+}
