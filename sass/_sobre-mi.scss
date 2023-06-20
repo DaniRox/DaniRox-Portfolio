@@ -11,19 +11,20 @@
     justify-content: space-between;
 
     @include media-queries.tablet {
-        width: 70%;
-        height: 520px;
+        width: 75%;
+        height: 500px;
     }
 
     @include media-queries.desktop {
         width: 60%;
+        height: 400px;
     }
     
     .sobre-mi__div-img {
         display: none;
 
         @include media-queries.tablet {
-            width: 40%;
+            width: 50%;
             border-radius: 20px 0 0 20px;
             display: flex;
             justify-content: center;
@@ -37,7 +38,7 @@
         }
 
         @include media-queries.desktop {
-            width: 20%;
+            width: 40%;
         }
     }
 
