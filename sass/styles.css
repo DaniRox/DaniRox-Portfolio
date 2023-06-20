@@ -61,6 +61,7 @@ body {
 }
 @media screen and (min-width: 770px) {
   .navbar .nav-menu .nav-menu__menu-item {
+    font-size: 1.7rem;
     padding: 1.3rem;
   }
 }
@@ -216,11 +217,10 @@ body {
 
 .section-presentation {
   width: 100vw;
-  height: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
 }
 .section-presentation .presentation {
   width: 90%;
@@ -245,7 +245,7 @@ body {
 .section-presentation .presentation .presentation__subtitle {
   color: #E39774;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   font-weight: 300;
   padding-right: 12px;
 }
