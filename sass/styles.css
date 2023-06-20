@@ -17,7 +17,6 @@ body {
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
-  position: absolute;
 }
 
 .section-presentation {
