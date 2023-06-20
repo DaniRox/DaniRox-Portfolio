@@ -1,8 +1,78 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans:wght@300;400;500;700&display=swap");
 body {
   background-color: #F7FFF7;
+}
+
+.navbar {
+  background-color: rgba(92, 158, 173, 0.3882352941);
   width: 100vw;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  position: fixed;
+  z-index: 2;
+}
+@media screen and (min-width: 450) {
+  .navbar {
+    align-items: flex-start;
+  }
+}
+.navbar .nav-button {
+  background-image: url(../assets/icons/menú.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  padding: 1.5rem;
+  border: none;
+}
+@media screen and (min-width: 450) {
+  .navbar .nav-button {
+    display: none;
+  }
+}
+.navbar .nav-menu {
+  display: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+@media screen and (min-width: 450) {
+  .navbar .nav-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}
+.navbar .nav-menu .nav-menu__menu-item {
+  color: #326273;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.7rem;
+}
+.navbar .nav-menu .nav-menu__menu-item:hover {
+  color: #E39774;
+  font-weight: 600;
+  text-shadow: 0px 0px 6px #5C9EAD, 0px 0px 1px #5C9EAD;
+}
+@media screen and (min-width: 450) {
+  .navbar .nav-menu .nav-menu__menu-item {
+    font-size: 1.1rem;
+  }
+}
+.navbar .nav-menu .nav-menu__menu-item--selected {
+  color: #326273;
+  font-weight: 600;
+  text-shadow: 0px 0px 4px #5C9EAD, 0px 0px 1px #5C9EAD;
+}
+
+.navbar--transparent {
+  background-color: transparent;
+  align-items: flex-end;
 }
 
 .presentation {
