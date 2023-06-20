@@ -216,14 +216,14 @@ body {
 
 .section-presentation {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
 }
 .section-presentation .presentation {
-  width: 85%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
