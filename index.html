@@ -11,39 +11,29 @@
 
 <body>
 
-    <header class="header">
+    <nav class="navbar navbar--transparent">
+        <button class="nav-button" id="nav-button"></button>
+        <div class="nav-menu">
+            <a href="index.html" class="nav-menu__menu-item nav-menu__menu-item--selected">Inicio</a>
+            <a href="./html/galeria.html" class="nav-menu__menu-item">Galeria</a>
+            <a href="./html/skills.html" class="nav-menu__menu-item">Skills</a>
+            <a href="./html/sobre-mi.html" class="nav-menu__menu-item">Mas de mi</a>
+            <a href="./html/contacto.html" class="nav-menu__menu-item">Contacto</a>            </div>
+    </nav>
 
-        <nav class="navbar navbar--transparent">
-            <button class="nav-button" id="nav-button"></button>
-            <div class="nav-menu">
-                <a href="index.html" class="nav-menu__menu-item nav-menu__menu-item--selected">Inicio</a>
-                <a href="./html/galeria.html" class="nav-menu__menu-item">Galeria</a>
-                <a href="./html/skills.html" class="nav-menu__menu-item">Skills</a>
-                <a href="./html/sobre-mi.html" class="nav-menu__menu-item">Mas de mi</a>
-                <a href="./html/contacto.html" class="nav-menu__menu-item">Contacto</a>
-            </div>
-        </nav>
+    <section class="lines">
+        <div class="lines__line-uno"></div>
+        <div class="lines__line-dos"></div>
+        <div class="lines__line-tres"></div>
+    </section>
 
-    </header>
-		
-    <main class="main">
+    <section class="section-presentation">
 
-        <section class="lines">
-            <div class="lines__line-uno"></div>
-            <div class="lines__line-dos"></div>
-            <div class="lines__line-tres"></div>
-        </section>
+        <div class="presentation">
+            <img src="./assets/icons/logo-DaniRox.svg" class="presentation__title">
+            <h2 class="presentation__subtitle">Front-end developer</h2>            </div>
 
-        <section class="section-presentation">
-
-            <div class="presentation">
-                <img src="./assets/icons/logo-DaniRox.svg" class="presentation__title">
-                <h2 class="presentation__subtitle">Front-end developer</h2>
-            </div>
-
-        </section>
-
-    </main>
+    </section>
 
     <script src="./displayMenu.js"></script>
 
