@@ -80,6 +80,7 @@ body .sobre-mi-section {
 }
 
 .lines {
+  height: 100%;
   position: absolute;
   display: flex;
   flex-direction: row;

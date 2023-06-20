@@ -2,6 +2,7 @@
 @use "components";
 
 .lines {
+    height: 100%;
     position: absolute;
     display: flex;
     flex-direction: row;
