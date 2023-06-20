@@ -44,7 +44,7 @@
         .nav-menu__menu-item {
             color: globals.$paynes-gray;
             font-family: globals.$josefin;
-            font-size: 1.4rem;
+            font-size: 1.2rem;
             font-weight: 500;
             text-decoration: none;
             padding: 0.7rem;
@@ -56,7 +56,7 @@
             }
 
             @include media-queries.desktop {
-                font-size: 1.7rem;
+                font-size: 1.5rem;
                 padding: 1.3rem;
             }
 

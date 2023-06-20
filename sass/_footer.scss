@@ -21,6 +21,15 @@
         .div-footer__icon {
             width: 6rem;
             margin-bottom: 0.3rem;
+            margin-left: 0.5rem;
+
+            @include media-queries.desktop {
+                width: 7rem;
+            }
+        }
+
+        @include media-queries.desktop {
+            font-size: 1.2rem;
         }
     }
 }

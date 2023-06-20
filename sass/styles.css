@@ -49,7 +49,7 @@ body {
 .navbar .nav-menu .nav-menu__menu-item {
   color: #326273;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 500;
   text-decoration: none;
   padding: 0.7rem;
@@ -61,7 +61,7 @@ body {
 }
 @media screen and (min-width: 770px) {
   .navbar .nav-menu .nav-menu__menu-item {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     padding: 1.3rem;
   }
 }
@@ -235,12 +235,23 @@ body {
 .footer .div-footer__txt .div-footer__icon {
   width: 6rem;
   margin-bottom: 0.3rem;
+  margin-left: 0.5rem;
+}
+@media screen and (min-width: 770px) {
+  .footer .div-footer__txt .div-footer__icon {
+    width: 7rem;
+  }
+}
+@media screen and (min-width: 770px) {
+  .footer .div-footer__txt {
+    font-size: 1.2rem;
+  }
 }
 
 .title-section {
   color: #1E2A33;
   font-family: "Abril Fatface", cursive;
-  font-size: 3rem;
+  font-size: 3.2rem;
   font-weight: 300;
   width: 100vw;
   text-align: center;
@@ -249,7 +260,7 @@ body {
 }
 @media screen and (min-width: 480px) {
   .title-section {
-    font-size: 2.8rem;
+    font-size: 3.2rem;
   }
 }
 
