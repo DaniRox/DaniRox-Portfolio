@@ -3,11 +3,11 @@
 
 .section-presentation {
     width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    padding-top: 50%;
 
     .presentation {
         width: 85%;
@@ -15,8 +15,15 @@
         flex-direction: column;
         align-items: flex-end;
 
-        .presentation__title {
+        @include media-queries.tablet {
+            width: 70%;
+        }
 
+        @include media-queries.desktop {
+            width: 50%;
+        }
+
+        .presentation__title {
             width: 100%;
             filter: drop-shadow( -4px 4px 5px globals.$paynes-gray);
         }
@@ -27,6 +34,14 @@
             font-size: 1.9rem;
             font-weight: 300;
             padding-right: 12px;
+
+            @include media-queries.tablet {
+                font-size: 2.1rem;
+            }
+    
+            @include media-queries.desktop {
+                font-size: 2.7rem;
+            }
         }
     }
 }

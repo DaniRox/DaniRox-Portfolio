@@ -11,7 +11,7 @@
     position: fixed;
     z-index: 2;
 
-    @include media-queries.tablet {
+    @include media-queries.desktop {
         align-items: flex-start;
     }
 
@@ -23,7 +23,7 @@
         padding: 1.5rem;
         border: none;
 
-        @include media-queries.tablet {
+        @include media-queries.desktop {
             display: none;
         }
     }
@@ -35,7 +35,7 @@
         justify-content: center;
         align-items: flex-end;
 
-        @include media-queries.tablet {
+        @include media-queries.desktop {
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
@@ -55,9 +55,10 @@
                 text-shadow: 0px 0px 6px globals.$moonstone,  0px 0px 1px globals.$moonstone;
             }
 
-            @include media-queries.tablet {
-                font-size: 1.5rem;
+            @include media-queries.desktop {
+                padding: 1.3rem;
             }
+
         }
 
         .nav-menu__menu-item--selected {
