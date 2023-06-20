@@ -82,7 +82,6 @@ body .sobre-mi-section {
 .lines {
   position: absolute;
   display: flex;
-  height: 100%;
   flex-direction: row;
   position: absolute;
   bottom: 0;
