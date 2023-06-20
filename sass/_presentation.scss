@@ -1,14 +1,14 @@
 @use "media-queries";
 @use "components";
 
-/*.section-presentation {
+.section-presentation {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-
+/*
     .presentation {
         width: 85%;
         display: flex;
@@ -43,5 +43,5 @@
                 font-size: 2.5rem;
             }
         }
-    }
-}*/
+    }*/
+}
