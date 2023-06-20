@@ -325,7 +325,7 @@ body {
 .title-section {
   color: #1E2A33;
   font-family: "Abril Fatface", cursive;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 300;
   width: 100vw;
   text-align: center;
@@ -381,19 +381,23 @@ body {
 .sobre-mi {
   background-color: #E39774;
   width: 80%;
-  height: 65%;
   margin-top: 11.5rem;
   border-radius: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+@media screen and (min-width: 700px) {
+  .sobre-mi {
+    height: 520px;
+  }
+}
 .sobre-mi .sobre-mi__div-img {
   display: none;
 }
 @media screen and (min-width: 700px) {
   .sobre-mi .sobre-mi__div-img {
-    width: 40%;
+    min-width: 40%;
     height: 100%;
     border-radius: 20px 0 0 20px;
     display: flex;
@@ -416,6 +420,11 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+}
+@media screen and (min-width: 700px) {
+  .sobre-mi .sobre-mi__txt {
+    justify-content: center;
+  }
 }
 .sobre-mi .sobre-mi__txt .txt__title {
   color: #F7FFF7;

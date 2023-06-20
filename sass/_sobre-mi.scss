@@ -4,18 +4,21 @@
 .sobre-mi {
     background-color: components.$atomic-tangerine;
     width: 80%;
-    height: 65%;
     margin-top: 11.5rem;
     border-radius: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    @include media-queries.tablet {
+        height: 520px;
+    }
     
     .sobre-mi__div-img {
         display: none;
 
         @include media-queries.tablet {
-            width: 40%;
+            min-width: 40%;
             height: 100%;
             border-radius: 20px 0 0 20px;
             display: flex;
@@ -40,6 +43,10 @@
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
+
+        @include media-queries.tablet {
+            justify-content: center;
+        }
 
         .txt__title {
             color: components.$mint-cream;
