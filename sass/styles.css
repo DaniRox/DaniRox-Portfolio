@@ -249,14 +249,16 @@ body {
 }
 
 .title-section {
+  width: 100vw;
+  padding: 4.5rem 0 0;
+  position: absolute;
+}
+.title-section .title-section__title {
   color: #1E2A33;
   font-family: "Abril Fatface", cursive;
   font-size: 3.2rem;
   font-weight: 300;
-  width: 100vw;
   text-align: center;
-  padding: 4.5rem 0 0;
-  position: absolute;
 }
 @media screen and (min-width: 480px) {
   .title-section {
