@@ -61,7 +61,7 @@ body {
 }
 @media screen and (min-width: 770px) {
   .navbar .nav-menu .nav-menu__menu-item {
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     padding: 1.3rem;
   }
 }
@@ -317,8 +317,28 @@ body {
   justify-content: space-between;
 }
 .sobre-mi-section .sobre-mi .sobre-mi__div-img {
-  width: 20%;
+  width: 0%;
 }
 .sobre-mi-section .sobre-mi .sobre-mi__div-img .div-img__img {
   display: none;
+}
+.sobre-mi-section .sobre-mi .sobre-mi__txt {
+  width: 100%;
+  padding: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.sobre-mi-section .sobre-mi .sobre-mi__txt .txt__title {
+  color: #F7FFF7;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+.sobre-mi-section .sobre-mi .sobre-mi__txt .txt__parraf {
+  color: #F7FFF7;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
 }/*# sourceMappingURL=styles.css.map */

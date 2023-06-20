@@ -19,10 +19,33 @@
         justify-content: space-between;
 
         .sobre-mi__div-img {
-            width: 20%;
+            width: 0%;
 
             .div-img__img {
                 display: none;
+            }
+        }
+
+        .sobre-mi__txt {
+            width: 100%;
+            padding: 1.7rem;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+
+            .txt__title {
+                color: globals.$mint-cream;
+                font-family: globals.$josefin;
+                font-size: 2rem;
+                font-weight: 600;
+                margin-bottom: 0.6rem;
+            }
+
+            .txt__parraf {
+                color: globals.$mint-cream;
+                font-family: globals.$josefin;
+                font-size: 1.1rem;
+                font-weight: 400;
             }
         }
     }
