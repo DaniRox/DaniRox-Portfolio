@@ -2,10 +2,9 @@
 @use "globals";
 
 .lines {
-    position: absolute;
     display: flex;
     flex-direction: row;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     z-index: -1;
@@ -14,7 +13,7 @@
         background-color: globals.$moonstone;
         height: 100vh;
         width: 6px;
-        margin-left: 1rem;
+        margin-left: 2rem;
         
         -webkit-animation: scale-in-ver-bottom 1.8s ;
         animation: scale-in-ver-bottom 1.8s ;
@@ -65,7 +64,13 @@
         }
         
         @include media-queries.tablet {
+            width: 6.5px;
             margin-left: 4rem;
+        }
+
+        @include media-queries.desktop {
+            width: 7.5px;
+            margin-left: 5rem;
         }
     }
 
@@ -124,14 +129,20 @@
         }
 
         @include media-queries.tablet {
-            margin-left: 5rem;
+            width: 22px;
+            margin-left: 2.2rem;
+        }
+
+        @include media-queries.desktop {
+            width: 25px;
+            margin-left: 2.9rem;
         }
     }
 
     .lines__line-tres {
         background-color: globals.$orange;
         height: 100vh;
-        width: 6px;
+        width: 7px;
         margin-left: 2.5rem;
 
         -webkit-animation: scale-in-ver-bottom 2.2s 2s ;
@@ -183,7 +194,13 @@
         }
         
         @include media-queries.tablet {
-            margin-left: 1.5rem;
+            width: 8.5px;
+            margin-left: 4.5rem;
+        }
+
+        @include media-queries.desktop {
+            width: 10px;
+            margin-left: 6rem;
         }
     }
 }
