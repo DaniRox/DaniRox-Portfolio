@@ -61,7 +61,7 @@ body {
 }
 @media screen and (min-width: 770px) {
   .navbar .nav-menu .nav-menu__menu-item {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     padding: 1.3rem;
   }
 }
@@ -118,7 +118,7 @@ body {
     opacity: 1;
   }
 }
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 480px) {
   .lines .lines__line-uno {
     width: 6.5px;
     margin-left: 4rem;
@@ -160,7 +160,7 @@ body {
     opacity: 1;
   }
 }
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 480px) {
   .lines .lines__line-dos {
     width: 22px;
     margin-left: 2.2rem;
@@ -202,7 +202,7 @@ body {
     opacity: 1;
   }
 }
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 480px) {
   .lines .lines__line-tres {
     width: 8.5px;
     margin-left: 4.5rem;
@@ -229,9 +229,9 @@ body {
   flex-direction: column;
   align-items: flex-end;
 }
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 480px) {
   .section-presentation .presentation {
-    width: 70%;
+    width: 75%;
   }
 }
 @media screen and (min-width: 770px) {
@@ -250,7 +250,7 @@ body {
   font-weight: 300;
   padding-right: 12px;
 }
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 480px) {
   .section-presentation .presentation .presentation__subtitle {
     font-size: 2.1rem;
   }
