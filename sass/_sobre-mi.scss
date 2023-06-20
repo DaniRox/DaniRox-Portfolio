@@ -11,6 +11,7 @@
     justify-content: space-between;
 
     @include media-queries.tablet {
+        width: 70%;
         height: 520px;
     }
     
@@ -18,8 +19,7 @@
         display: none;
 
         @include media-queries.tablet {
-            min-width: 40%;
-            height: 100%;
+            width: 40%;
             border-radius: 20px 0 0 20px;
             display: flex;
             justify-content: center;
@@ -33,7 +33,7 @@
         }
 
         @include media-queries.desktop {
-            width: 30%;
+            width: 20%;
         }
     }
 

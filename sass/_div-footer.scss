@@ -3,12 +3,12 @@
 
 .footer {
     width: 100vw;
-    height: 3rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     bottom: 0;
+    margin-bottom: 0.3rem;
     position: absolute;
 
     .div-footer__txt {

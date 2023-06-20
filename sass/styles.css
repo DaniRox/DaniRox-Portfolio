@@ -36,7 +36,7 @@ body {
 }
 
 .navbar {
-  background-color: rgba(92, 158, 173, 0.3882352941);
+  background-color: rgba(92, 158, 173, 0.5098039216);
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -303,12 +303,12 @@ body {
 
 .footer {
   width: 100vw;
-  height: 3rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   bottom: 0;
+  margin-bottom: 0.3rem;
   position: absolute;
 }
 .footer .div-footer__txt {
@@ -329,7 +329,7 @@ body {
   font-weight: 300;
   width: 100vw;
   text-align: center;
-  padding: 6.5rem 0 0;
+  padding: 5rem 0 0;
   position: absolute;
 }
 @media screen and (min-width: 700px) {
@@ -389,6 +389,7 @@ body {
 }
 @media screen and (min-width: 700px) {
   .sobre-mi {
+    width: 70%;
     height: 520px;
   }
 }
@@ -397,8 +398,7 @@ body {
 }
 @media screen and (min-width: 700px) {
   .sobre-mi .sobre-mi__div-img {
-    min-width: 40%;
-    height: 100%;
+    width: 40%;
     border-radius: 20px 0 0 20px;
     display: flex;
     justify-content: center;
@@ -411,7 +411,7 @@ body {
 }
 @media screen and (min-width: 1000px) {
   .sobre-mi .sobre-mi__div-img {
-    width: 30%;
+    width: 20%;
   }
 }
 .sobre-mi .sobre-mi__txt {
