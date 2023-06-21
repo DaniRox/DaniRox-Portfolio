@@ -29,11 +29,12 @@
 
                 @include media-queries.desktop {
                     display: flex;
+                    height: 430px;
                 }
             }
 
             @include media-queries.desktop {
-                width: 30%;
+                width: 20%;
                 height: 100%;
                 overflow: hidden;
                 display: flex;
@@ -68,11 +69,12 @@
 
                 @include media-queries.desktop {
                     font-size: 1.4rem;
+                    overflow: auto;
                 }
             }
 
             @include media-queries.desktop {
-                width: 70%;
+                width: 80%;
             }
         }
 
@@ -81,8 +83,12 @@
         }
 
         @include media-queries.desktop {
-            height: 650px;
+            height: 400px;
             margin: 10rem 0 0;
+        }
+
+        @include media-queries.desktop {
+            align-items: flex-start;
         }
     }
 }

@@ -409,11 +409,12 @@ body {
 @media screen and (min-width: 770px) {
   .sobre-mi-section .sobre-mi .sobre-mi__div-img .div-img__img {
     display: flex;
+    height: 430px;
   }
 }
 @media screen and (min-width: 770px) {
   .sobre-mi-section .sobre-mi .sobre-mi__div-img {
-    width: 30%;
+    width: 20%;
     height: 100%;
     overflow: hidden;
     display: flex;
@@ -448,11 +449,12 @@ body {
 @media screen and (min-width: 770px) {
   .sobre-mi-section .sobre-mi .sobre-mi__txt .txt__parraf {
     font-size: 1.4rem;
+    overflow: auto;
   }
 }
 @media screen and (min-width: 770px) {
   .sobre-mi-section .sobre-mi .sobre-mi__txt {
-    width: 70%;
+    width: 80%;
   }
 }
 @media screen and (min-width: 770px) {
@@ -462,8 +464,13 @@ body {
 }
 @media screen and (min-width: 770px) {
   .sobre-mi-section .sobre-mi {
-    height: 650px;
+    height: 400px;
     margin: 10rem 0 0;
+  }
+}
+@media screen and (min-width: 770px) {
+  .sobre-mi-section .sobre-mi {
+    align-items: flex-start;
   }
 }
 
