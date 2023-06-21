@@ -1,0 +1,48 @@
+@use "media-queries";
+@use "globals";
+
+.gallery-section {
+    width: 100vw;
+    min-height: 89vh;
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+
+    .project {
+        width: 22rem;
+        height: 17rem;
+        background-color: globals.$atomic-tangerine;
+        display: flex;
+        flex-direction: column;
+        border: 6px solid globals.$atomic-tangerine;
+        border-radius: 20px;
+        margin: 2rem 0.8rem;
+    
+        .project__div-img {
+            width: auto;
+            height: 78%;
+            overflow: hidden;
+            border-radius: 20px 20px 0 0;
+    
+            .div-img__img {
+                 width: 100%;
+                 height: auto;
+            }
+        }
+        
+        .project__title {
+            color: globals.$mint-cream;
+            font-family: globals.$josefin;
+            font-size: 1.8rem;
+            font-weight: 800;
+            margin-left: 5px;
+            height: 22%;
+            display: flex;
+            align-items: center;
+        }
+    }
+}

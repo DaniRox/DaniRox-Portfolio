@@ -1,0 +1,11 @@
+@use "media-queries";
+@use "globals";
+
+.contact-section {
+    width: 100vw;
+    min-height: 89vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}

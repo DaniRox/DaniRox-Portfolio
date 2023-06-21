@@ -6,14 +6,15 @@
     display: flex;
     justify-content: center;
     bottom: 0;
-    position: absolute;
+    position: relative;
+    margin-top: 2rem 0 1rem;
 
     .div-footer__txt {
         color: globals.$gunmetal;
         font-family: globals.$josefin;
         font-size: 1rem;
         font-weight: 300;
-        margin-bottom: 0.4rem;
+        margin: 1rem;
         display: flex;
         flex-direction: row;
         align-items: center;
