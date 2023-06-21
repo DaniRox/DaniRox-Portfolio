@@ -263,12 +263,20 @@ body {
 @media screen and (min-width: 480px) {
   .title-section .title-section__title {
     font-size: 3.3rem;
-    padding: 4.5rem 0 0;
   }
 }
 @media screen and (min-width: 770px) {
   .title-section .title-section__title {
     font-size: 3.8rem;
+  }
+}
+@media screen and (min-width: 480px) {
+  .title-section {
+    padding: 4.5rem 0 0;
+  }
+}
+@media screen and (min-width: 770px) {
+  .title-section {
     padding: 5.5rem 0 0;
   }
 }
