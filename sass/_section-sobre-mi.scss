@@ -14,7 +14,7 @@
         width: 80%;
         height: 60%;
         border-radius: 20px;
-        margin: 9rem;
+        margin: 10rem 0 0;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -53,7 +53,7 @@
         }
 
         @include media-queries.desktop {
-            margin: 9rem;
+            margin: 9rem 0 0;
         }
     }
 }

@@ -16,5 +16,11 @@
 
     @include media-queries.tablet {
         font-size: 3.2rem;
+        padding: 4.5rem 0 0;
+    }
+
+    @include media-queries.tablet {
+        font-size: 3.7rem;
+        padding: 5.5rem 0 0;
     }
 }

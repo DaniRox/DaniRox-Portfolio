@@ -61,8 +61,8 @@ body {
 }
 @media screen and (min-width: 770px) {
   .navbar .nav-menu .nav-menu__menu-item {
-    font-size: 1.5rem;
-    padding: 0.6rem 1.3rem;
+    font-size: 1.6rem;
+    padding: 0.7rem 1.3rem;
   }
 }
 .navbar .nav-menu .nav-menu__menu-item--selected {
@@ -263,6 +263,13 @@ body {
 @media screen and (min-width: 480px) {
   .title-section {
     font-size: 3.2rem;
+    padding: 4.5rem 0 0;
+  }
+}
+@media screen and (min-width: 480px) {
+  .title-section {
+    font-size: 3.7rem;
+    padding: 5.5rem 0 0;
   }
 }
 
@@ -325,7 +332,7 @@ body {
   width: 80%;
   height: 60%;
   border-radius: 20px;
-  margin: 9rem;
+  margin: 10rem 0 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -358,6 +365,6 @@ body {
 }
 @media screen and (min-width: 770px) {
   .sobre-mi-section .sobre-mi {
-    margin: 9rem;
+    margin: 9rem 0 0;
   }
 }/*# sourceMappingURL=styles.css.map */
