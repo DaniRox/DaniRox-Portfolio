@@ -223,17 +223,16 @@ body {
   align-items: flex-end;
   bottom: 0;
   position: relative;
-  margin-top: 2rem 0 1rem;
 }
 .footer .div-footer__txt {
   color: #1E2A33;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1rem;
   font-weight: 300;
-  margin: 1rem;
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin: 2rem 0 1rem;
 }
 .footer .div-footer__txt .div-footer__icon {
   width: 6rem;
