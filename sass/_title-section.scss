@@ -12,15 +12,15 @@
         font-size: 3.2rem;
         font-weight: 300;
         text-align: center;
-    }
 
     @include media-queries.tablet {
-        font-size: 3.2rem;
+        font-size: 3.3rem;
         padding: 4.5rem 0 0;
     }
 
     @include media-queries.desktop {
         font-size: 3.8rem;
         padding: 5.5rem 0 0;
+    }
     }
 }
