@@ -331,7 +331,7 @@ body {
 
 .gallery-section {
   width: 100vw;
-  min-height: 89vh;
+  min-height: 85vh;
   padding-top: 10rem;
   display: flex;
   flex-direction: row;
@@ -373,7 +373,7 @@ body {
 
 .skills-section {
   width: 100vw;
-  min-height: 89vh;
+  min-height: 85vh;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -382,7 +382,7 @@ body {
 
 .sobre-mi-section {
   width: 100vw;
-  min-height: 89vh;
+  min-height: 85vh;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -465,7 +465,7 @@ body {
 
 .contact-section {
   width: 100vw;
-  min-height: 89vh;
+  min-height: 85vh;
   display: flex;
   justify-content: center;
   align-items: flex-start;
