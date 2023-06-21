@@ -222,13 +222,8 @@ body {
   justify-content: center;
   align-items: flex-end;
   bottom: 0;
-<<<<<<< HEAD
   position: relative;
   margin-top: 2rem 0 1rem;
-=======
-  top: 100vh;
-  position: relative;
->>>>>>> 18c9cdeb91aeecb31855e2bf598e33b8fe41eb6a
 }
 .footer .div-footer__txt {
   color: #1E2A33;
@@ -413,24 +408,13 @@ body {
 }
 @media screen and (min-width: 770px) {
   .sobre-mi-section .sobre-mi .sobre-mi__div-img .div-img__img {
-<<<<<<< HEAD
     height: 250px;
-=======
-    width: 30rem;
->>>>>>> 18c9cdeb91aeecb31855e2bf598e33b8fe41eb6a
     display: flex;
   }
 }
 @media screen and (min-width: 770px) {
   .sobre-mi-section .sobre-mi .sobre-mi__div-img {
     width: 30%;
-<<<<<<< HEAD
-=======
-    height: 100%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
->>>>>>> 18c9cdeb91aeecb31855e2bf598e33b8fe41eb6a
   }
 }
 .sobre-mi-section .sobre-mi .sobre-mi__txt {
@@ -468,24 +452,15 @@ body {
     width: 70%;
   }
 }
-<<<<<<< HEAD
 @media screen and (min-width: 770px) {
-=======
-@media screen and (min-width: 480px) {
->>>>>>> 18c9cdeb91aeecb31855e2bf598e33b8fe41eb6a
   .sobre-mi-section .sobre-mi {
     width: 70%;
   }
 }
 @media screen and (min-width: 770px) {
   .sobre-mi-section .sobre-mi {
-<<<<<<< HEAD
     width: 60%;
     margin: 10rem 0 0;
-=======
-    height: auto;
-    margin: 11rem 0 0;
->>>>>>> 18c9cdeb91aeecb31855e2bf598e33b8fe41eb6a
   }
 }
 

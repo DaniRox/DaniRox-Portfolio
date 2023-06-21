@@ -27,24 +27,13 @@
                 display: none;
 
                 @include media-queries.desktop {
-<<<<<<< HEAD
                     height: 250px;
-=======
-                    width: 30rem;
->>>>>>> 18c9cdeb91aeecb31855e2bf598e33b8fe41eb6a
                     display: flex;
                 }
             }
 
             @include media-queries.desktop {
                 width: 30%;
-<<<<<<< HEAD
-=======
-                height: 100%;
-                overflow: hidden;
-                display: flex;
-                justify-content: center;
->>>>>>> 18c9cdeb91aeecb31855e2bf598e33b8fe41eb6a
             }
         }
 
@@ -83,22 +72,13 @@
             }
         }
 
-<<<<<<< HEAD
         @include media-queries.desktop {
-=======
-        @include media-queries.tablet {
->>>>>>> 18c9cdeb91aeecb31855e2bf598e33b8fe41eb6a
             width: 70%;
         }
 
         @include media-queries.desktop {
-<<<<<<< HEAD
             width: 60%;
             margin: 10rem 0 0;
-=======
-            height: auto;
-            margin: 11rem 0 0;
->>>>>>> 18c9cdeb91aeecb31855e2bf598e33b8fe41eb6a
         }
     }
 }
