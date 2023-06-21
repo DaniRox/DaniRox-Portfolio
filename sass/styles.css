@@ -266,7 +266,7 @@ body {
     padding: 4.5rem 0 0;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 770px) {
   .title-section {
     font-size: 3.8rem;
     padding: 5.5rem 0 0;
