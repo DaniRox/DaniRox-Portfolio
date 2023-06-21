@@ -268,7 +268,7 @@ body {
 }
 @media screen and (min-width: 480px) {
   .title-section {
-    font-size: 3.7rem;
+    font-size: 3.8rem;
     padding: 5.5rem 0 0;
   }
 }
@@ -336,6 +336,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 .sobre-mi-section .sobre-mi .sobre-mi__div-img {
   width: 0%;
@@ -353,18 +354,28 @@ body {
 .sobre-mi-section .sobre-mi .sobre-mi__txt .txt__title {
   color: #F7FFF7;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
   margin-bottom: 0.6rem;
+}
+@media screen and (min-width: 770px) {
+  .sobre-mi-section .sobre-mi .sobre-mi__txt .txt__title {
+    font-size: 2rem;
+  }
 }
 .sobre-mi-section .sobre-mi .sobre-mi__txt .txt__parraf {
   color: #F7FFF7;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 400;
 }
 @media screen and (min-width: 770px) {
+  .sobre-mi-section .sobre-mi .sobre-mi__txt .txt__parraf {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 770px) {
   .sobre-mi-section .sobre-mi {
-    margin: 9rem 0 0;
+    margin: 10rem 0 0;
   }
 }/*# sourceMappingURL=styles.css.map */

@@ -18,6 +18,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
 
         .sobre-mi__div-img {
             width: 0%;
@@ -37,23 +38,29 @@
             .txt__title {
                 color: globals.$mint-cream;
                 font-family: globals.$josefin;
-                font-size: 2rem;
+                font-size: 1.8rem;
                 font-weight: 600;
                 margin-bottom: 0.6rem;
+
+                @include media-queries.desktop {
+                    font-size: 2rem;
+                }
             }
 
             .txt__parraf {
                 color: globals.$mint-cream;
                 font-family: globals.$josefin;
-                font-size: 1.1rem;
+                font-size: 1.2rem;
                 font-weight: 400;
+
+                @include media-queries.desktop {
+                    font-size: 1.4rem;
+                }
             }
-
-
         }
 
         @include media-queries.desktop {
-            margin: 9rem 0 0;
+            margin: 10rem 0 0;
         }
     }
 }
