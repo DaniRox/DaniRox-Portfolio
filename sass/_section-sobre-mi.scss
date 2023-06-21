@@ -25,6 +25,19 @@
 
             .div-img__img {
                 display: none;
+
+                @include media-queries.desktop {
+                    width: 30rem;
+                    display: flex;
+                }
+            }
+
+            @include media-queries.desktop {
+                width: 30%;
+                height: 100%;
+                overflow: hidden;
+                display: flex;
+                justify-content: center;
             }
         }
 
@@ -57,10 +70,19 @@
                     font-size: 1.4rem;
                 }
             }
+
+            @include media-queries.desktop {
+                width: 70%;
+            }
+        }
+
+        @include media-queries.tablet {
+            width: 70%;
         }
 
         @include media-queries.desktop {
-            margin: 10rem 0 0;
+            height: auto;
+            margin: 11rem 0 0;
         }
     }
 }
