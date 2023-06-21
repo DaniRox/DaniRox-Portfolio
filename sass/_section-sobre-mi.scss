@@ -6,7 +6,7 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     position: absolute;
 
     .sobre-mi {
@@ -14,6 +14,7 @@
         width: 80%;
         height: 60%;
         border-radius: 20px;
+        margin: 9rem;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -47,6 +48,12 @@
                 font-size: 1.1rem;
                 font-weight: 400;
             }
+
+
+        }
+
+        @include media-queries.desktop {
+            margin: 9rem;
         }
     }
 }

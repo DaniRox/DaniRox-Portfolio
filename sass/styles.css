@@ -62,7 +62,7 @@ body {
 @media screen and (min-width: 770px) {
   .navbar .nav-menu .nav-menu__menu-item {
     font-size: 1.5rem;
-    padding: 1.3rem;
+    padding: 0.6rem 1.3rem;
   }
 }
 .navbar .nav-menu .nav-menu__menu-item--selected {
@@ -317,7 +317,7 @@ body {
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   position: absolute;
 }
 .sobre-mi-section .sobre-mi {
@@ -325,6 +325,7 @@ body {
   width: 80%;
   height: 60%;
   border-radius: 20px;
+  margin: 9rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -354,4 +355,9 @@ body {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.1rem;
   font-weight: 400;
+}
+@media screen and (min-width: 770px) {
+  .sobre-mi-section .sobre-mi {
+    margin: 9rem;
+  }
 }/*# sourceMappingURL=styles.css.map */
