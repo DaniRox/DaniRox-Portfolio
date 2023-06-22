@@ -64,7 +64,7 @@
         .info-project {
             background-color: globals.$gunmetal;
             width: 85%;
-            height: 50%;
+            height: 60%;
             border-radius: 20px;
             display: none;
             flex-direction: column;
@@ -77,7 +77,7 @@
     
                 .div-btn-close__btn-close {
                     font-family: globals.$josefin;
-                    font-size: 1.2rem;
+                    font-size: 1.3rem;
                     font-weight: 800;
                     color: globals.$moonstone;
                     background-color: transparent;
@@ -92,7 +92,7 @@
                 font-family: globals.$josefin;
                 font-size: 1.8rem;
                 font-weight: 800;
-                margin: 0 1.5rem 0.3rem;
+                margin: 0 1.5rem 0.7rem;
             }
     
             .info-project__link {
@@ -112,7 +112,7 @@
             }
 
             @include media-queries.tablet {
-                width: 60%;
+                width: 75%;
                 height: 60%;
             }
     

@@ -522,7 +522,7 @@ body {
 .gallery-section .div-info-project .info-project {
   background-color: #1E2A33;
   width: 85%;
-  height: 50%;
+  height: 60%;
   border-radius: 20px;
   display: none;
   flex-direction: column;
@@ -535,7 +535,7 @@ body {
 }
 .gallery-section .div-info-project .info-project .info-project__div-btn-close .div-btn-close__btn-close {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 800;
   color: #5C9EAD;
   background-color: transparent;
@@ -548,7 +548,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.8rem;
   font-weight: 800;
-  margin: 0 1.5rem 0.3rem;
+  margin: 0 1.5rem 0.7rem;
 }
 .gallery-section .div-info-project .info-project .info-project__link {
   color: #5C9EAD;
@@ -566,7 +566,7 @@ body {
 }
 @media screen and (min-width: 480px) {
   .gallery-section .div-info-project .info-project {
-    width: 60%;
+    width: 75%;
     height: 60%;
   }
 }
