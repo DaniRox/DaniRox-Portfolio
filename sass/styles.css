@@ -550,6 +550,16 @@ body {
   font-weight: 800;
   margin: 0 1.5rem 0.7rem;
 }
+@media screen and (min-width: 480px) {
+  .gallery-section .div-info-project .info-project .info-project__title {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 770px) {
+  .gallery-section .div-info-project .info-project .info-project__title {
+    font-size: 2.2rem;
+  }
+}
 .gallery-section .div-info-project .info-project .info-project__link {
   color: #5C9EAD;
   font-family: "Josefin Sans", sans-serif;
@@ -557,12 +567,32 @@ body {
   font-weight: 600;
   margin: 0 1.5rem 0.5rem;
 }
+@media screen and (min-width: 480px) {
+  .gallery-section .div-info-project .info-project .info-project__link {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (min-width: 770px) {
+  .gallery-section .div-info-project .info-project .info-project__link {
+    font-size: 1.5rem;
+  }
+}
 .gallery-section .div-info-project .info-project .info-project__txt {
   color: #F7FFF7;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.1rem;
   font-weight: 300;
   margin: 0 1.5rem;
+}
+@media screen and (min-width: 480px) {
+  .gallery-section .div-info-project .info-project .info-project__txt {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (min-width: 770px) {
+  .gallery-section .div-info-project .info-project .info-project__txt {
+    font-size: 1.5rem;
+  }
 }
 @media screen and (min-width: 480px) {
   .gallery-section .div-info-project .info-project {
@@ -578,7 +608,7 @@ body {
 }
 @media screen and (min-width: 480px) {
   .gallery-section {
-    padding-top: 9rem;
+    padding-top: 1rem;
   }
 }
 @media screen and (min-width: 770px) {

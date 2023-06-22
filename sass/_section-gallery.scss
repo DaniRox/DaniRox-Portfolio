@@ -93,6 +93,14 @@
                 font-size: 1.8rem;
                 font-weight: 800;
                 margin: 0 1.5rem 0.7rem;
+
+                @include media-queries.tablet {
+                    font-size: 2rem;
+                }
+        
+                @include media-queries.desktop {
+                    font-size: 2.2rem;
+                }
             }
     
             .info-project__link {
@@ -101,6 +109,14 @@
                 font-size: 1.1rem;
                 font-weight: 600;
                 margin: 0 1.5rem 0.5rem;
+
+                @include media-queries.tablet {
+                    font-size: 1.3rem;
+                }
+        
+                @include media-queries.desktop {
+                    font-size: 1.5rem;
+                }
             }
     
             .info-project__txt {
@@ -109,6 +125,14 @@
                 font-size: 1.1rem;
                 font-weight: 300;
                 margin: 0 1.5rem;
+
+                @include media-queries.tablet {
+                    font-size: 1.3rem;
+                }
+        
+                @include media-queries.desktop {
+                    font-size: 1.5rem;
+                }
             }
 
             @include media-queries.tablet {
@@ -125,7 +149,7 @@
     }
 
     @include media-queries.tablet {
-        padding-top: 9rem;
+        padding-top: 1rem;
     }
 
     @include media-queries.desktop {
