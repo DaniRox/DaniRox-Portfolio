@@ -880,9 +880,10 @@ body {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-between;
+  align-items: center;
 }
 .contact-section form .form {
-  margin: 0.7rem 1.5rem;
+  margin: 0.7rem 0;
   width: 90%;
 }
 .contact-section form .form label, .contact-section form .form p {
@@ -890,43 +891,44 @@ body {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.2rem;
   font-weight: 600;
-  width: 90%;
+  width: 100%;
   display: block;
   margin: 0.6rem 0;
 }
 .contact-section form .form input, .contact-section form .form textarea {
   color: #1E2A33;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   background-color: #F7FFF7;
   border-radius: 16px;
   padding: 1rem;
   border: none;
-  width: 90%;
+  width: calc(100% - 2rem);
   height: 1rem;
 }
 .contact-section form .form input:focus-visible, .contact-section form .form textarea:focus-visible {
   outline: none;
 }
 .contact-section form .form textarea {
-  height: 10rem;
+  height: 5rem;
   overflow: scroll;
 }
-.contact-section form .form__boton {
+.contact-section form .form-boton {
   width: auto;
   display: flex;
   justify-content: flex-end;
   margin-bottom: 1.5rem;
 }
-.contact-section form .form__boton .form__btn {
+.contact-section form .form-boton .form-boton__btn {
+  background-color: #F7FFF7;
   display: block;
   width: 8rem;
   height: 3rem;
   border-radius: 16px;
   border: none;
 }
-.contact-section form .form__boton .form__btn a {
+.contact-section form .form-boton .form-boton__btn a {
   color: #326273;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.4rem;
@@ -934,7 +936,7 @@ body {
 }
 @media screen and (min-width: 770px) {
   .contact-section form {
-    width: 60%;
+    width: 600px;
     margin: 11em 0 0;
   }
 }

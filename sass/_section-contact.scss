@@ -18,9 +18,10 @@
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: space-between;
+        align-items: center;
 
         .form {
-            margin: 0.7rem 1.5rem;
+            margin: 0.7rem 0;
             width: 90%;
 
             label, p {
@@ -28,7 +29,7 @@
                 font-family: globals.$josefin;
                 font-size: 1.2rem;
                 font-weight: 600;
-                width: 90%;
+                width: 100%;
                 display: block;
                 margin: 0.6rem 0;
 
@@ -37,13 +38,13 @@
             input, textarea {
                 color: globals.$gunmetal;
                 font-family: globals.$josefin;
-                font-size: 1.1rem;
+                font-size: 1.2rem;
                 font-weight: 400;
                 background-color: globals.$mint-cream;
                 border-radius: 16px;
                 padding: 1rem;
                 border: none;
-                width: 90%;
+                width: calc(100% - 2rem);
                 height: 1rem;
                 
                 &:focus-visible {
@@ -52,19 +53,20 @@
             }
 
             textarea {
-                height: 10rem;
+                height: 5rem;
                 overflow: scroll;
             }
 
         }
 
-        .form__boton {
+        .form-boton {
             width: auto;
             display: flex;
             justify-content: flex-end;
             margin-bottom: 1.5rem;
 
-            .form__btn {
+            .form-boton__btn {
+                background-color: globals.$mint-cream;
                 display: block;
                 width: 8rem;
                 height: 3rem;
@@ -81,7 +83,7 @@
         }
 
         @include media-queries.desktop {
-            width: 60%;
+            width: 600px;
             margin: 11em 0 0;
         }
     }
