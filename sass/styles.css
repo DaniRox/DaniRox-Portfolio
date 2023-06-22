@@ -770,7 +770,7 @@ body {
 }
 @media screen and (min-width: 770px) {
   .gallery-section {
-    min-height: 90vh;
+    min-height: 87vh;
     padding-top: 10rem;
   }
 }
@@ -785,7 +785,7 @@ body {
 }
 @media screen and (min-width: 770px) {
   .skills-section {
-    min-height: 90vh;
+    min-height: 87vh;
   }
 }
 
@@ -882,7 +882,7 @@ body {
 }
 @media screen and (min-width: 770px) {
   .sobre-mi-section {
-    min-height: 90vh;
+    min-height: 87vh;
   }
 }
 
@@ -1042,7 +1042,7 @@ body {
 @media screen and (min-width: 770px) {
   .contact-section {
     width: 70%;
-    min-height: 90vh;
+    min-height: 87vh;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
