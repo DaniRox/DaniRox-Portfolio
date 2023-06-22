@@ -49,7 +49,7 @@
 
         &:hover {
             box-shadow: 0px 0px 30px 9px globals.$paynes-gray;
-            scale: 1.1;
+            scale: 1.05;
         }
     }
 
@@ -83,14 +83,15 @@
                 justify-content: flex-end;
     
                 .div-btn-close__btn-close {
-                    font-family: globals.$josefin;
-                    font-size: 1.3rem;
+                    width: 2rem;
                     font-weight: 800;
-                    color: globals.$moonstone;
-                    background-color: transparent;
-                    border: none;
                     padding: 1.5rem 1.5rem 1rem 1.5rem;
                     cursor: pointer;
+                    transition: all 100ms;
+
+                    &:hover {
+                        scale: 1.15;
+                    }
                 }
             }
     
