@@ -4,7 +4,7 @@
 .gallery-section {
     width: 100vw;
     min-height: 8vh;
-    padding-top: 10rem;
+    padding-top: 12rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -13,14 +13,14 @@
     position: relative;
 
     .project {
-        width: 22rem;
-        height: 17rem;
+        width: 27rem;
+        height: 18rem;
         background-color: globals.$atomic-tangerine;
         display: flex;
         flex-direction: column;
         border: 6px solid globals.$atomic-tangerine;
         border-radius: 20px;
-        margin: 2rem 0.8rem;
+        margin: 2rem;
     
         .project__div-img {
             width: auto;
@@ -45,4 +45,158 @@
             align-items: center;
         }
     }
+
+    .div-info-project {
+        background-color: globals.$light-moonstone;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        z-index: 3;
+        position: fixed;
+        display: none;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+
+
+        .info-project {
+            background-color: globals.$atomic-tangerine;
+            width: 85%;
+            height: 50%;
+            border-radius: 20px;
+            display: none;
+            flex-direction: column;
+            flex-wrap: nowrap;
+
+            .info-project__div-btn-close {
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+    
+                .div-btn-close__btn-close {
+                    font-family: globals.$josefin;
+                    font-size: 1.2rem;
+                    font-weight: 800;
+                    color: globals.$moonstone;
+                    background-color: transparent;
+                    border: none;
+                    padding: 1.5rem 1.5rem 1rem 1.5rem;
+                    cursor: pointer;
+                }
+            }
+    
+            .info-project__title {
+                color: globals.$mint-cream;
+                font-family: globals.$josefin;
+                font-size: 1.8rem;
+                font-weight: 800;
+                margin: 0 1.5rem 0.3rem;
+            }
+    
+            .info-project__link {
+                color: globals.$moonstone;
+                font-family: globals.$josefin;
+                font-size: 1rem;
+                font-weight: 600;
+                margin: 0 1.5rem 0.5rem;
+            }
+    
+            .info-project__txt {
+                color: globals.$mint-cream;
+                font-family: globals.$josefin;
+                font-size: 1rem;
+                font-weight: 200;
+                margin: 0 1.5rem;
+            }
+
+            @include media-queries.tablet {
+                width: 60%;
+                height: 60%;
+            }
+    
+            @include media-queries.desktop {
+                width: 60%;
+                height: 50%;
+            }
+        }
+
+    }
+
+    @include media-queries.tablet {
+        padding-top: 9rem;
+    }
+
+    @include media-queries.desktop {
+        padding-top: 10rem;
+    }
 }
+
+
+
+/*.gallery-info {
+    background-color: globals.$light-moonstone;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    z-index: 3;
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    .project {
+        background-color: globals.$atomic-tangerine;
+        width: 90%;
+        height: 50%;
+        border-radius: 20px;
+        display: none;
+        flex-direction: column;
+        flex-wrap: nowrap;
+
+        .div-btn-close {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+
+            .btn-close {
+                font-family: globals.$josefin;
+                font-size: 1.2rem;
+                font-weight: 800;
+                color: globals.$moonstone;
+                background-color: transparent;
+                border: none;
+                padding: 1.5rem 1.5rem 1rem 1.5rem;
+                cursor: pointer;
+            }
+        }
+
+        .title-info-project {
+            color: components.$mint-cream;
+            font-family: components.$josefin;
+            font-size: 1.8rem;
+            font-weight: 800;
+            margin: 0 1.5rem 0.3rem;
+        }
+
+        .link-info-project {
+            color: components.$moonstone;
+            font-family: components.$josefin;
+            font-size: 1rem;
+            font-weight: 600;
+            margin: 0 1.5rem 0.5rem;
+        }
+
+        .txt-info-project {
+            color: components.$mint-cream;
+            font-family: components.$josefin;
+            font-size: 1rem;
+            font-weight: 200;
+            margin: 0 1.5rem;
+        }
+    }
+}*/
