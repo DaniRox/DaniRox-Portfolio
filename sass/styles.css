@@ -611,7 +611,7 @@ body {
   position: relative;
 }
 .gallery-section .project {
-  width: 27rem;
+  width: 85%;
   height: 18rem;
   background-color: #E39774;
   display: flex;
@@ -645,6 +645,18 @@ body {
 .gallery-section .project:hover {
   box-shadow: 0px 0px 30px 9px #326273;
   scale: 1.05;
+}
+@media screen and (min-width: 480px) {
+  .gallery-section .project {
+    width: 75%;
+    height: 350px;
+  }
+}
+@media screen and (min-width: 770px) {
+  .gallery-section .project {
+    width: 27rem;
+    height: 350px;
+  }
 }
 .gallery-section .div-info-project {
   background-color: rgba(92, 158, 173, 0.6235294118);
@@ -873,7 +885,7 @@ body {
 }
 .contact-section form {
   background-color: #E39774;
-  width: 90%;
+  width: 85%;
   border-radius: 20px;
   margin: 10rem 0 0;
   display: flex;
@@ -938,6 +950,12 @@ body {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.4rem;
   font-weight: 600;
+}
+@media screen and (min-width: 480px) {
+  .contact-section form {
+    width: 75%;
+    height: 350px;
+  }
 }
 @media screen and (min-width: 770px) {
   .contact-section form {
