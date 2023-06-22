@@ -873,7 +873,7 @@ body {
 }
 .contact-section form {
   background-color: #E39774;
-  width: 70%;
+  width: 90%;
   border-radius: 20px;
   margin: 10rem 0 0;
   display: flex;
@@ -887,7 +887,7 @@ body {
   width: 90%;
 }
 .contact-section form .form label, .contact-section form .form p {
-  color: #326273;
+  color: #F7FFF7;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.1rem;
   font-weight: 600;
@@ -960,7 +960,7 @@ body {
 }
 @media screen and (min-width: 480px) {
   .contact-section .icons-contact .icons-contact__icon {
-    height: 3.5rem;
+    height: 2.8rem;
     padding: 2rem;
   }
 }
@@ -969,9 +969,9 @@ body {
     padding: 2rem 3rem;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 770px) {
   .contact-section .icons-contact {
-    width: 70%;
+    width: 80%;
   }
 }
 @media screen and (min-width: 770px) {
