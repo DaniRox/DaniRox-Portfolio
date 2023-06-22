@@ -548,7 +548,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.8rem;
   font-weight: 800;
-  margin: 0 1.5rem 0.7rem;
+  margin: 0 1.5rem 0.8rem;
 }
 @media screen and (min-width: 480px) {
   .gallery-section .div-info-project .info-project .info-project__title {
@@ -565,7 +565,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.1rem;
   font-weight: 600;
-  margin: 0 1.5rem 0.5rem;
+  margin: 0 1.5rem 0.8rem;
 }
 @media screen and (min-width: 480px) {
   .gallery-section .div-info-project .info-project .info-project__link {
@@ -596,7 +596,7 @@ body {
 }
 @media screen and (min-width: 480px) {
   .gallery-section .div-info-project .info-project {
-    width: 75%;
+    width: 80%;
     height: 50%;
   }
 }
