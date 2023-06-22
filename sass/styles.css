@@ -586,7 +586,7 @@ body {
 }
 @media screen and (min-width: 480px) {
   .gallery-section .div-info-project .info-project .info-project__txt {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }
 @media screen and (min-width: 770px) {
