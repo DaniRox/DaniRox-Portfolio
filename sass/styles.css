@@ -597,7 +597,7 @@ body {
 @media screen and (min-width: 480px) {
   .gallery-section .div-info-project .info-project {
     width: 75%;
-    height: 60%;
+    height: 50%;
   }
 }
 @media screen and (min-width: 770px) {
