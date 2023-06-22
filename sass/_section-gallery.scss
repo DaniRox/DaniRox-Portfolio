@@ -176,6 +176,7 @@
     }
 
     @include media-queries.desktop {
+        min-height: 90vh;
         padding-top: 10rem;
     }
 }

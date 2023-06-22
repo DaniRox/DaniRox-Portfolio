@@ -770,6 +770,7 @@ body {
 }
 @media screen and (min-width: 770px) {
   .gallery-section {
+    min-height: 90vh;
     padding-top: 10rem;
   }
 }
@@ -781,6 +782,11 @@ body {
   justify-content: center;
   align-items: flex-start;
   position: relative;
+}
+@media screen and (min-width: 770px) {
+  .skills-section {
+    min-height: 90vh;
+  }
 }
 
 .sobre-mi-section {
@@ -874,6 +880,11 @@ body {
     align-items: flex-start;
   }
 }
+@media screen and (min-width: 770px) {
+  .sobre-mi-section {
+    min-height: 90vh;
+  }
+}
 
 .contact-section {
   width: 100vw;
@@ -907,6 +918,16 @@ body {
   display: block;
   margin: 0.6rem 0;
 }
+@media screen and (min-width: 480px) {
+  .contact-section form .form label, .contact-section form .form p {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 770px) {
+  .contact-section form .form label, .contact-section form .form p {
+    font-size: 1.5rem;
+  }
+}
 .contact-section form .form input, .contact-section form .form textarea {
   color: #1E2A33;
   font-family: "Josefin Sans", sans-serif;
@@ -921,6 +942,16 @@ body {
 }
 .contact-section form .form input:focus-visible, .contact-section form .form textarea:focus-visible {
   outline: none;
+}
+@media screen and (min-width: 480px) {
+  .contact-section form .form input, .contact-section form .form textarea {
+    height: 1.2rem;
+  }
+}
+@media screen and (min-width: 770px) {
+  .contact-section form .form input, .contact-section form .form textarea {
+    height: 1.4rem;
+  }
 }
 .contact-section form .form textarea {
   height: 3rem;
@@ -948,8 +979,18 @@ body {
 .contact-section form .form-boton .form-boton__btn a {
   color: #326273;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   font-weight: 600;
+}
+@media screen and (min-width: 480px) {
+  .contact-section form .form-boton .form-boton__btn a {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 770px) {
+  .contact-section form .form-boton .form-boton__btn a {
+    font-size: 1.5rem;
+  }
 }
 @media screen and (min-width: 480px) {
   .contact-section form {
@@ -971,18 +1012,19 @@ body {
   justify-content: space-evenly;
 }
 .contact-section .icons-contact .icons-contact__icon {
-  height: 2.4rem;
+  height: 2.6rem;
   padding: 2rem 3rem;
   filter: drop-shadow(0 0 3px #5C9EAD);
 }
 @media screen and (min-width: 480px) {
   .contact-section .icons-contact .icons-contact__icon {
-    height: 2.8rem;
+    height: 3rem;
     padding: 2rem;
   }
 }
 @media screen and (min-width: 770px) {
   .contact-section .icons-contact .icons-contact__icon {
+    height: 3.4rem;
     padding: 2rem 3rem;
   }
 }
@@ -1000,6 +1042,7 @@ body {
 @media screen and (min-width: 770px) {
   .contact-section {
     width: 70%;
+    min-height: 90vh;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;

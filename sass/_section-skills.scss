@@ -8,4 +8,8 @@
     justify-content: center;
     align-items: flex-start;
     position: relative;
+
+    @include media-queries.desktop {
+        min-height: 90vh;
+    }
 }

@@ -90,4 +90,8 @@
             align-items: flex-start;
         }
     }
+
+    @include media-queries.desktop {
+        min-height: 90vh;
+    }
 }
