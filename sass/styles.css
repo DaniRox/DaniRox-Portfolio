@@ -897,7 +897,7 @@ body {
   font-size: 1.3rem;
   font-weight: 400;
   background-color: #F7FFF7;
-  border-radius: 20px;
+  border-radius: 16px;
   padding: 0;
   border: none;
   width: 100%;
@@ -907,21 +907,21 @@ body {
   height: 10rem;
   overflow: scroll;
 }
-.contact-section form .form .form--btn {
+.contact-section form .form__boton {
+  width: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.contact-section form .form__boton .form__btn {
   display: block;
-  width: 10rem;
-  height: 4rem;
-  border-radius: 20px;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 16px;
   border: none;
 }
-.contact-section form .form .form--btn a {
+.contact-section form .form__boton .form__btn a {
   color: #326273;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.4rem;
   font-weight: 600;
-}
-.contact-section form .form-boton {
-  width: 100%;
-  display: flex;
-  justify-content: center;
 }/*# sourceMappingURL=styles.css.map */

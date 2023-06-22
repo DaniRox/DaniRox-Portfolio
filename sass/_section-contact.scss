@@ -37,7 +37,7 @@
                 font-size: 1.3rem;
                 font-weight: 400;
                 background-color: globals.$mint-cream;
-                border-radius: 20px;
+                border-radius: 16px;
                 padding: 0;
                 border: none;
                 width: 100%;
@@ -49,11 +49,18 @@
                 overflow: scroll;
             }
 
-            .form--btn {
+        }
+
+        .form__boton {
+            width: auto;
+            display: flex;
+            justify-content: flex-end;
+
+            .form__btn {
                 display: block;
-                width: 10rem;
-                height: 4rem;
-                border-radius: 20px;
+                width: 8rem;
+                height: 3rem;
+                border-radius: 16px;
                 border: none;
 
                 a {
@@ -63,12 +70,6 @@
                     font-weight: 600;
                 }
             }
-        }
-
-        .form-boton {
-            width: 100%;
-            display: flex;
-            justify-content: center;
         }
     }
 }
