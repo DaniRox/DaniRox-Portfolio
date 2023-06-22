@@ -99,6 +99,7 @@
         .icons-contact__icon {
             height: 2.8rem;
             padding: 2rem 3rem;
+            filter: drop-shadow(0 0 3px globals.$moonstone);
 
             @include media-queries.tablet {
                 height: 3.5rem;

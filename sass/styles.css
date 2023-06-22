@@ -951,6 +951,7 @@ body {
 .contact-section .icons-contact .icons-contact__icon {
   height: 2.8rem;
   padding: 2rem 3rem;
+  filter: drop-shadow(0 0 3px #5C9EAD);
 }
 @media screen and (min-width: 480px) {
   .contact-section .icons-contact .icons-contact__icon {
