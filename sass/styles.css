@@ -484,6 +484,8 @@ body {
   border: 6px solid #E39774;
   border-radius: 20px;
   margin: 2rem;
+  box-shadow: 0px 0px 15px 4px #326273;
+  transition: all 130ms;
 }
 .gallery-section .project .project__div-img {
   width: auto;
@@ -504,6 +506,10 @@ body {
   height: 22%;
   display: flex;
   align-items: center;
+}
+.gallery-section .project:hover {
+  box-shadow: 0px 0px 30px 9px #326273;
+  scale: 1.1;
 }
 .gallery-section .div-info-project {
   background-color: rgba(92, 158, 173, 0.6235294118);

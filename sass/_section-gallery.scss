@@ -21,6 +21,8 @@
         border: 6px solid globals.$atomic-tangerine;
         border-radius: 20px;
         margin: 2rem;
+        box-shadow: 0px 0px 15px 4px globals.$paynes-gray;
+        transition: all 130ms;
     
         .project__div-img {
             width: auto;
@@ -43,6 +45,11 @@
             height: 22%;
             display: flex;
             align-items: center;
+        }
+
+        &:hover {
+            box-shadow: 0px 0px 30px 9px globals.$paynes-gray;
+            scale: 1.1;
         }
     }
 
