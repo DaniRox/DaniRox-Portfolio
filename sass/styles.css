@@ -873,7 +873,7 @@ body {
 }
 .contact-section form {
   background-color: #E39774;
-  width: 80%;
+  width: 70%;
   border-radius: 20px;
   margin: 10rem 0 0;
   display: flex;
@@ -889,7 +889,7 @@ body {
 .contact-section form .form label, .contact-section form .form p {
   color: #F7FFF7;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 600;
   width: 100%;
   display: block;
@@ -898,11 +898,11 @@ body {
 .contact-section form .form input, .contact-section form .form textarea {
   color: #1E2A33;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 400;
   background-color: #F7FFF7;
   border-radius: 16px;
-  padding: 1rem;
+  padding: 0.8rem;
   border: none;
   width: calc(100% - 2rem);
   height: 1rem;
@@ -911,11 +911,11 @@ body {
   outline: none;
 }
 .contact-section form .form textarea {
-  height: 5rem;
+  height: 3rem;
   overflow: scroll;
 }
 .contact-section form .form-boton {
-  width: auto;
+  width: 86%;
   display: flex;
   justify-content: flex-end;
   margin-bottom: 1.5rem;
@@ -923,10 +923,15 @@ body {
 .contact-section form .form-boton .form-boton__btn {
   background-color: #F7FFF7;
   display: block;
-  width: 8rem;
+  width: 7rem;
   height: 3rem;
   border-radius: 16px;
   border: none;
+  transition: all 0.4s;
+}
+.contact-section form .form-boton .form-boton__btn:hover {
+  box-shadow: 0 0 12px #326273;
+  scale: 1.05;
 }
 .contact-section form .form-boton .form-boton__btn a {
   color: #326273;
@@ -949,7 +954,7 @@ body {
   justify-content: space-evenly;
 }
 .contact-section .icons-contact .icons-contact__icon {
-  height: 2.8rem;
+  height: 2.4rem;
   padding: 2rem 3rem;
   filter: drop-shadow(0 0 3px #5C9EAD);
 }
