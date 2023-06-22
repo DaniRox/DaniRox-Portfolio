@@ -925,7 +925,7 @@ body {
 }
 @media screen and (min-width: 770px) {
   .contact-section form .form label, .contact-section form .form p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 }
 .contact-section form .form input, .contact-section form .form textarea {
@@ -950,7 +950,7 @@ body {
 }
 @media screen and (min-width: 770px) {
   .contact-section form .form input, .contact-section form .form textarea {
-    height: 1.4rem;
+    height: 1.5rem;
   }
 }
 .contact-section form .form textarea {
