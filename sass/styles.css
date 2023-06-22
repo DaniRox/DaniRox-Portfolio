@@ -663,11 +663,13 @@ body {
 .gallery-section .div-info-project .info-project {
   background-color: #1E2A33;
   width: 85%;
-  height: 60%;
-  border-radius: 20px;
+  height: auto;
+  min-height: 60%;
   display: none;
   flex-direction: column;
   flex-wrap: nowrap;
+  padding-bottom: 2rem;
+  border-radius: 20px;
 }
 .gallery-section .div-info-project .info-project .info-project__div-btn-close {
   width: 100%;
@@ -738,13 +740,15 @@ body {
 @media screen and (min-width: 480px) {
   .gallery-section .div-info-project .info-project {
     width: 80%;
-    height: 50%;
+    height: auto;
+    min-height: 50%;
   }
 }
 @media screen and (min-width: 770px) {
   .gallery-section .div-info-project .info-project {
     width: 60%;
-    height: 50%;
+    height: auto;
+    min-height: 50%;
   }
 }
 @media screen and (min-width: 480px) {

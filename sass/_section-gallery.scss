@@ -71,11 +71,13 @@
         .info-project {
             background-color: globals.$gunmetal;
             width: 85%;
-            height: 60%;
-            border-radius: 20px;
+            height: auto;
+            min-height: 60%;
             display: none;
             flex-direction: column;
             flex-wrap: nowrap;
+            padding-bottom: 2rem;
+            border-radius: 20px;
 
             .info-project__div-btn-close {
                 width: 100%;
@@ -145,12 +147,14 @@
 
             @include media-queries.tablet {
                 width: 80%;
-                height: 50%;
+                height: auto;
+                min-height: 50%;
             }
     
             @include media-queries.desktop {
                 width: 60%;
-                height: 50%;
+                height: auto;
+                min-height: 50%;
             }
         }
 
@@ -158,6 +162,7 @@
 
     @include media-queries.tablet {
         padding-top: 11rem;
+
     }
 
     @include media-queries.desktop {
