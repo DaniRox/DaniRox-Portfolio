@@ -5,7 +5,7 @@ body {
 }
 
 .navbar {
-  background-color: rgba(92, 158, 173, 0.3882352941);
+  background-color: rgba(92, 158, 173, 0.6235294118);
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -506,9 +506,9 @@ body {
   align-items: center;
 }
 .gallery-section .div-info-project {
-  background-color: rgba(92, 158, 173, 0.3882352941);
-  width: 100%;
-  height: 100%;
+  background-color: rgba(92, 158, 173, 0.6235294118);
+  width: 100vw;
+  height: 100vh;
   top: 0;
   bottom: 0;
   z-index: 3;
@@ -520,7 +520,7 @@ body {
   align-items: center;
 }
 .gallery-section .div-info-project .info-project {
-  background-color: #E39774;
+  background-color: #1E2A33;
   width: 85%;
   height: 50%;
   border-radius: 20px;
@@ -553,15 +553,15 @@ body {
 .gallery-section .div-info-project .info-project .info-project__link {
   color: #5C9EAD;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
   margin: 0 1.5rem 0.5rem;
 }
 .gallery-section .div-info-project .info-project .info-project__txt {
   color: #F7FFF7;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 1rem;
-  font-weight: 200;
+  font-size: 1.1rem;
+  font-weight: 300;
   margin: 0 1.5rem;
 }
 @media screen and (min-width: 480px) {
@@ -587,71 +587,6 @@ body {
   }
 }
 
-/*.gallery-info {
-    background-color: globals.$light-moonstone;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    bottom: 0;
-    z-index: 3;
-    position: fixed;
-    display: none;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-
-    .project {
-        background-color: globals.$atomic-tangerine;
-        width: 90%;
-        height: 50%;
-        border-radius: 20px;
-        display: none;
-        flex-direction: column;
-        flex-wrap: nowrap;
-
-        .div-btn-close {
-            width: 100%;
-            display: flex;
-            justify-content: flex-end;
-
-            .btn-close {
-                font-family: globals.$josefin;
-                font-size: 1.2rem;
-                font-weight: 800;
-                color: globals.$moonstone;
-                background-color: transparent;
-                border: none;
-                padding: 1.5rem 1.5rem 1rem 1.5rem;
-                cursor: pointer;
-            }
-        }
-
-        .title-info-project {
-            color: components.$mint-cream;
-            font-family: components.$josefin;
-            font-size: 1.8rem;
-            font-weight: 800;
-            margin: 0 1.5rem 0.3rem;
-        }
-
-        .link-info-project {
-            color: components.$moonstone;
-            font-family: components.$josefin;
-            font-size: 1rem;
-            font-weight: 600;
-            margin: 0 1.5rem 0.5rem;
-        }
-
-        .txt-info-project {
-            color: components.$mint-cream;
-            font-family: components.$josefin;
-            font-size: 1rem;
-            font-weight: 200;
-            margin: 0 1.5rem;
-        }
-    }
-}*/
 .skills-section {
   width: 100vw;
   min-height: 85vh;
