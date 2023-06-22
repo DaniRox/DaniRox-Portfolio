@@ -11,7 +11,7 @@
 
     .sobre-mi {
         background-color: globals.$atomic-tangerine;
-        width: 80%;
+        width: 85%;
         height: auto;
         border-radius: 20px;
         margin: 10rem 0 0;
@@ -80,7 +80,7 @@
         }
 
         @include media-queries.tablet {
-            width: 70%;
+            width: 75%;
         }
 
         @include media-queries.desktop {

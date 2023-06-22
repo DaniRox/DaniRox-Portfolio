@@ -793,7 +793,7 @@ body {
 }
 .sobre-mi-section .sobre-mi {
   background-color: #E39774;
-  width: 80%;
+  width: 85%;
   height: auto;
   border-radius: 20px;
   margin: 10rem 0 0;
@@ -863,7 +863,7 @@ body {
 }
 @media screen and (min-width: 480px) {
   .sobre-mi-section .sobre-mi {
-    width: 70%;
+    width: 75%;
   }
 }
 @media screen and (min-width: 770px) {
@@ -954,7 +954,6 @@ body {
 @media screen and (min-width: 480px) {
   .contact-section form {
     width: 75%;
-    height: 350px;
   }
 }
 @media screen and (min-width: 770px) {
