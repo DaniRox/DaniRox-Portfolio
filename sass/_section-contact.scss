@@ -4,8 +4,71 @@
 .contact-section {
     width: 100vw;
     min-height: 85vh;
+    padding-top: 10rem;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     position: relative;
+
+    form {
+        background-color: globals.$atomic-tangerine;
+        width: 80%;
+        height: 70%;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+
+        .form {
+            margin: 1rem 1.5rem;
+
+            label, p {
+                color: globals.$mint-cream;
+                font-family: globals.$josefin;
+                font-size: 1.4rem;
+                font-weight: 600;
+                display: block;
+                margin: 0.6rem 0;
+
+            }
+
+            input, textarea {
+                color: globals.$gunmetal;
+                font-family: globals.$josefin;
+                font-size: 1.3rem;
+                font-weight: 400;
+                background-color: globals.$mint-cream;
+                border-radius: 20px;
+                padding: 0;
+                border: none;
+                width: 100%;
+                height: 3.5rem;
+            }
+
+            textarea {
+                height: 10rem;
+                overflow: scroll;
+            }
+
+            .form--btn {
+                display: block;
+                width: 10rem;
+                height: 4rem;
+                border-radius: 20px;
+                border: none;
+
+                a {
+                    color: globals.$paynes-gray;
+                    font-family: globals.$josefin;
+                    font-size: 1.4rem;
+                    font-weight: 600;
+                }
+            }
+        }
+
+        .form-boton {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+    }
 }

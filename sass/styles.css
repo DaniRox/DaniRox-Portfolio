@@ -862,8 +862,62 @@ body {
 .contact-section {
   width: 100vw;
   min-height: 85vh;
+  padding-top: 10rem;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   position: relative;
+}
+.contact-section form {
+  background-color: #E39774;
+  width: 80%;
+  height: 70%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.contact-section form .form {
+  margin: 1rem 1.5rem;
+}
+.contact-section form .form label, .contact-section form .form p {
+  color: #F7FFF7;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  display: block;
+  margin: 0.6rem 0;
+}
+.contact-section form .form input, .contact-section form .form textarea {
+  color: #1E2A33;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  background-color: #F7FFF7;
+  border-radius: 20px;
+  padding: 0;
+  border: none;
+  width: 100%;
+  height: 3.5rem;
+}
+.contact-section form .form textarea {
+  height: 10rem;
+  overflow: scroll;
+}
+.contact-section form .form .form--btn {
+  display: block;
+  width: 10rem;
+  height: 4rem;
+  border-radius: 20px;
+  border: none;
+}
+.contact-section form .form .form--btn a {
+  color: #326273;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.contact-section form .form-boton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=styles.css.map */
