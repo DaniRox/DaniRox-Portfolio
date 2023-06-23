@@ -69,13 +69,17 @@
     }
 
     @include media-queries.tablet {
-        min-height: 60vh;
         align-items: center;
         padding-top: 11rem;
         justify-content: space-evenly;
     }
 
     @include media-queries.desktop-s {
+        padding-top: 10rem;
+    }
+
+    @include media-queries.desktop {
+        min-height: 87vh;
         padding-top: 10rem;
     }
 }
