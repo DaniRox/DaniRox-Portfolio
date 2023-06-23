@@ -791,7 +791,7 @@ body {
 }
 @media screen and (min-width: 770px) {
   .footer {
-    position: relative;
+    position: absolute;
   }
 }
 

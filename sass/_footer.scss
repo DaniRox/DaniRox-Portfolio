@@ -37,6 +37,6 @@
     }
 
     @include media-queries.desktop {
-        position: relative;
+        position: absolute;
     }
 }
