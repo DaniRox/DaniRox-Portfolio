@@ -147,8 +147,8 @@
             filter: drop-shadow(0 0 3px globals.$moonstone);
 
             @include media-queries.tablet {
-                height: 3rem;
-                padding: 2rem;
+                height: 2.8rem;
+                padding: 1.8rem;
             }
     
             @include media-queries.desktop {

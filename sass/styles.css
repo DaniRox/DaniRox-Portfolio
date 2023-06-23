@@ -1028,8 +1028,8 @@ body {
 }
 @media screen and (min-width: 480px) {
   .contact-section .icons-contact .icons-contact__icon {
-    height: 3rem;
-    padding: 2rem;
+    height: 2.8rem;
+    padding: 1.8rem;
   }
 }
 @media screen and (min-width: 770px) {
