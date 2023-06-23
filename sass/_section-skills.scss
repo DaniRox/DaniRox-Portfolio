@@ -61,6 +61,10 @@
                 width: 20rem;
                 margin: 3rem 2.5rem;
             }
+
+            @include media-queries.desktop {
+                margin: 4rem 3rem;
+            }
         }
     }
 

@@ -1123,6 +1123,11 @@ body {
     margin: 3rem 2.5rem;
   }
 }
+@media screen and (min-width: 1100px) {
+  .skills-section .div-skills .div-skills__skill {
+    margin: 4rem 3rem;
+  }
+}
 @media screen and (min-width: 480px) {
   .skills-section {
     min-height: 60vh;
