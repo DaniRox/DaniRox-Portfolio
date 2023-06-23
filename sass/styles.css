@@ -1009,6 +1009,7 @@ body {
 }
 @media screen and (min-width: 770px) {
   .contact-section .div-form {
+    width: 50%;
     margin: 11em 0 0;
     justify-content: flex-end;
   }
@@ -1040,7 +1041,7 @@ body {
 .contact-section .icons-contact .icons-contact__icon:hover {
   filter: drop-shadow(0 0 3px #5C9EAD);
 }
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 480px) {
   .contact-section .icons-contact {
     width: 80%;
   }
@@ -1050,6 +1051,7 @@ body {
     width: 50%;
     margin: 11em 0 0;
     height: 57vh;
+    padding-right: 8rem;
     align-content: space-around;
   }
 }

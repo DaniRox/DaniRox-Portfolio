@@ -126,6 +126,7 @@
         }
 
         @include media-queries.desktop {
+            width: 50%;
             margin: 11em 0 0;
             justify-content: flex-end;
         }
@@ -158,7 +159,7 @@
             }
         }
 
-        @include media-queries.desktop {
+        @include media-queries.tablet {
             width: 80%;
         }
 
@@ -166,6 +167,7 @@
             width: 50%;
             margin: 11em 0 0;
             height: 57vh;
+            padding-right: 8rem;
             align-content: space-around;
         }
     }
