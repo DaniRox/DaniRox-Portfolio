@@ -59,11 +59,11 @@
             @include media-queries.desktop-s {
                 font-size: 1.4rem;
                 width: 20rem;
-                margin: 3rem 2.5rem;
+                margin: 2.5rem 3rem;
             }
 
             @include media-queries.desktop {
-                margin: 4rem 3rem;
+                margin: 3rem 4rem;
             }
         }
     }
