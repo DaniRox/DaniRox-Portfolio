@@ -1,0 +1,12 @@
+@use "media-queries";
+@use "globals";
+
+.contacto-lines {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+
+}
