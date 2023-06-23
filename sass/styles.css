@@ -1094,13 +1094,13 @@ body {
 }
 @media screen and (min-width: 480px) {
   .skills-section .skill {
-    width: 13rem;
+    width: 75%;
     margin: 2rem 1rem;
   }
 }
 @media screen and (min-width: 770px) {
   .skills-section .skill {
-    min-width: 17rem;
+    width: 20rem;
   }
 }
 @media screen and (min-width: 480px) {

@@ -38,12 +38,12 @@
         }
 
         @include media-queries.tablet {
-            width: 13rem;
+            width: 75%;
             margin: 2rem 1rem;
         }
 
         @include media-queries.desktop-s {
-            min-width: 17rem;
+            width: 20rem;
         }
     }
 
