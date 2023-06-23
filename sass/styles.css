@@ -485,6 +485,33 @@ body {
   }
 }
 
+.skills-lines {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+.skills-lines .skills-lines__line-uno {
+  background-color: #5C9EAD;
+  height: 100vh;
+  width: 6px;
+  margin-left: 2.5rem;
+}
+.skills-lines .skills-lines__line-dos {
+  background-color: #F9A620;
+  height: 100vh;
+  width: 20px;
+  margin-left: 1.2rem;
+}
+.skills-lines .skills-lines__line-tres {
+  background-color: #326273;
+  height: 100vh;
+  width: 7px;
+  margin-left: 2rem;
+}
+
 .contacto-lines {
   display: flex;
   flex-direction: row;
@@ -492,6 +519,24 @@ body {
   bottom: 0;
   right: 0;
   z-index: -1;
+}
+.contacto-lines .contacto-lines__line-uno {
+  background-color: #5C9EAD;
+  height: 100vh;
+  width: 6px;
+  margin-left: 2.5rem;
+}
+.contacto-lines .contacto-lines__line-dos {
+  background-color: #F9A620;
+  height: 100vh;
+  width: 20px;
+  margin-left: 1.2rem;
+}
+.contacto-lines .contacto-lines__line-tres {
+  background-color: #326273;
+  height: 100vh;
+  width: 7px;
+  margin-left: 2rem;
 }
 
 .footer {
@@ -980,7 +1025,6 @@ body {
 }
 @media screen and (min-width: 770px) {
   .contact-section .div-form form .form {
-    height: 5rem;
     margin: 0.5rem 0;
   }
 }
@@ -988,7 +1032,7 @@ body {
   width: 86%;
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 .contact-section .div-form form .form-boton .form-boton__btn {
   background-color: #F7FFF7;

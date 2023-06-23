@@ -1,7 +1,7 @@
 @use "media-queries";
 @use "globals";
 
-.contacto-lines {
+.skills-lines {
     display: flex;
     flex-direction: row;
     position: fixed;
@@ -9,7 +9,7 @@
     right: 0;
     z-index: -1;
 
-    .contacto-lines__line-uno {
+    .skills-lines__line-uno {
         background-color: globals.$moonstone;
         height: 100vh;
         width: 6px;
@@ -17,7 +17,7 @@
 
     }
 
-    .contacto-lines__line-dos {
+    .skills-lines__line-dos {
         background-color: globals.$orange;
         height: 100vh;
         width: 20px;
@@ -25,7 +25,8 @@
 
     }
 
-    .contacto-lines__line-tres {
+
+    .skills-lines__line-tres {
         background-color: globals.$paynes-gray;
         height: 100vh;
         width: 7px;
