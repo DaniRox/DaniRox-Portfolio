@@ -1136,7 +1136,7 @@ body {
 }
 @media screen and (min-width: 770px) {
   .sobre-mi-section .sobre-mi .sobre-mi__txt .txt__parraf {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     overflow: auto;
   }
 }
@@ -1154,7 +1154,7 @@ body {
 @media screen and (min-width: 770px) {
   .sobre-mi-section .sobre-mi {
     min-width: 700px;
-    width: 55%;
+    width: 45%;
     height: 400px;
     align-items: flex-start;
   }

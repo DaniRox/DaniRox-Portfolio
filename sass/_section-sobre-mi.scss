@@ -68,7 +68,7 @@
                 font-weight: 400;
 
                 @include media-queries.desktop {
-                    font-size: 1.4rem;
+                    font-size: 1.8rem;
                     overflow: auto;
                 }
             }
@@ -85,7 +85,7 @@
 
         @include media-queries.desktop {
             min-width: 700px;
-            width: 55%;
+            width: 45%;
             height: 400px;
             align-items: flex-start;
         }
