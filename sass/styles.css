@@ -942,6 +942,7 @@ body {
 @media screen and (min-width: 770px) {
   .contact-section .div-form form .form label, .contact-section .div-form form .form p {
     font-size: 1.3rem;
+    margin: 0.5rem 0;
   }
 }
 .contact-section .div-form form .form input, .contact-section .div-form form .form textarea {
@@ -979,7 +980,7 @@ body {
 }
 @media screen and (min-width: 770px) {
   .contact-section .div-form form .form {
-    margin: 0.6rem 0;
+    margin: 0.5rem 0;
   }
 }
 .contact-section .div-form form .form-boton {

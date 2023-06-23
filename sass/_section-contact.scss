@@ -43,6 +43,7 @@
             
                     @include media-queries.desktop {
                         font-size: 1.3rem;
+                        margin: 0.5rem 0;
                     }
                 }
 
@@ -81,7 +82,7 @@
                 }
 
                 @include media-queries.desktop {
-                    margin: 0.6rem 0;
+                    margin: 0.5rem 0;
                 }
             }
 
