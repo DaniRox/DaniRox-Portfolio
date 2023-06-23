@@ -53,12 +53,13 @@
 
         @include media-queries.desktop-s {
             width: 20rem;
-            height: 7rem;
+            margin: 2.5rem;
         }
     }
 
     @include media-queries.tablet {
-        min-height: 87vh;
+        min-height: 60vh;
+        align-items: center;
         padding-top: 11rem;
         justify-content: space-evenly;
     }
