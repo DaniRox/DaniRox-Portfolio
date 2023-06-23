@@ -1045,8 +1045,9 @@ body {
 }
 @media screen and (min-width: 770px) {
   .contact-section .icons-contact {
-    width: 45%;
+    width: 50%;
     margin: 11em 0 0;
+    padding-right: 8rem;
     height: 57vh;
     align-content: space-around;
   }
