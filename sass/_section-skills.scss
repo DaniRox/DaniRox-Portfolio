@@ -62,13 +62,6 @@
             }
         }
 
-        @include media-queries.tablet {
-            width: 80%;
-        }
-
-        @include media-queries.desktop-s {
-            width: 70%;
-        }
 
     }
 

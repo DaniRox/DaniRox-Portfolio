@@ -1121,16 +1121,6 @@ body {
   }
 }
 @media screen and (min-width: 480px) {
-  .skills-section .div-skills {
-    width: 80%;
-  }
-}
-@media screen and (min-width: 770px) {
-  .skills-section .div-skills {
-    width: 70%;
-  }
-}
-@media screen and (min-width: 480px) {
   .skills-section {
     min-height: 60vh;
     align-items: center;
