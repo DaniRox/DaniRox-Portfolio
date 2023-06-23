@@ -795,6 +795,10 @@ body {
   }
 }
 
+.footer--relativo {
+  position: relative;
+}
+
 .title-section {
   width: 100vw;
   padding: 4.5rem 0 0;
@@ -877,7 +881,7 @@ body {
 
 .gallery-section {
   width: 100vw;
-  min-height: 8vh;
+  min-height: 85vh;
   padding-top: 12rem;
   display: flex;
   flex-direction: row;
