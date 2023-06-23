@@ -29,16 +29,16 @@
             align-items: center;
 
             .skill__icon {
-                width: 3rem;
+                height: 3rem;
                 height: auto;
                 padding: 1rem;
 
                 @include media-queries.tablet {
-                    width: 3.5rem;
+                    height: 3.5rem;
                 }
 
                 @include media-queries.desktop-s {
-                    width: 4rem;
+                    height: 4rem;
                 }
             }
 
@@ -57,12 +57,11 @@
             }
 
             @include media-queries.desktop-s {
+                font-size: 1.4rem;
                 width: 20rem;
-                margin: 2.5rem;
+                margin: 3rem 2.5rem;
             }
         }
-
-
     }
 
     @include media-queries.tablet {
