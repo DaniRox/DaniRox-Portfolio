@@ -1153,14 +1153,15 @@ body {
 }
 @media screen and (min-width: 770px) {
   .sobre-mi-section .sobre-mi {
-    width: 60%;
+    min-width: 700px;
+    width: 55%;
     height: 400px;
     align-items: flex-start;
   }
 }
 @media screen and (min-width: 770px) {
   .sobre-mi-section {
-    min-height: 60vh;
+    min-height: 50vh;
     margin: 11em 0 0;
     align-items: center;
   }
