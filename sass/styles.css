@@ -1065,7 +1065,7 @@ body {
 
 .sobre-mi-section {
   width: 100vw;
-  min-height: 60vh;
+  min-height: 85vh;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -1155,7 +1155,7 @@ body {
 }
 @media screen and (min-width: 770px) {
   .sobre-mi-section {
-    min-height: 87vh;
+    min-height: 60vh;
     margin: 11em 0 0;
     align-items: center;
   }
