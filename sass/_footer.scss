@@ -36,7 +36,7 @@
         }
     }
 
-    @include media-queries.desktop {
+    @include media-queries.desktop-s {
         position: absolute;
     }
 }
