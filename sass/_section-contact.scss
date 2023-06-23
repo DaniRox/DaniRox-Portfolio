@@ -9,117 +9,129 @@
     align-items: center;
     position: relative;
 
-    form {
-        background-color: globals.$atomic-tangerine;
-        width: 80%;
-        border-radius: 20px;
+    .div-form {
         margin: 10rem 0 0;
         display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        align-items: center;
+        width: 80%;
 
-        .form {
-            margin: 0.7rem 0;
-            width: 90%;
-
-            label, p {
-                color: globals.$mint-cream;
-                font-family: globals.$josefin;
-                font-size: 1.1rem;
-                font-weight: 600;
-                width: 100%;
-                display: block;
-                margin: 0.6rem 0;
-
-                @include media-queries.tablet {
-                    font-size: 1.2rem;
-                }
-        
-                @include media-queries.desktop {
-                    font-size: 1.3rem;
-                }
-            }
-
-            input, textarea {
-                color: globals.$gunmetal;
-                font-family: globals.$josefin;
-                font-size: 1.1rem;
-                font-weight: 400;
-                background-color: globals.$mint-cream;
-                border-radius: 16px;
-                padding: 0.8rem;
-                border: none;
-                width: calc(100% - 2rem);
-                height: 1rem;
-                
-                &:focus-visible {
-                    outline: none;
-                }
-
-                @include media-queries.tablet {
-                    height: 1.2rem;
-                }
-        
-                @include media-queries.desktop {
-                    height: 1.5rem;
-                }
-            }
-
-            textarea {
-                height: 3rem;
-                overflow: scroll;
-            }
-
-        }
-
-        .form-boton {
-            width: 86%;
+        form {
+            background-color: globals.$atomic-tangerine;
+            width: 100%;
+            border-radius: 20px;
             display: flex;
-            justify-content: flex-end;
-            margin-bottom: 1.5rem;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
 
-            .form-boton__btn {
-                background-color: globals.$mint-cream;
-                display: block;
-                width: 7rem;
-                height: 3rem;
-                border-radius: 16px;
-                border: none;
-                transition: all 0.4s;
+            .form {
+                margin: 0.7rem 0;
+                width: 90%;
 
-                &:hover {
-                    box-shadow: 0 0 12px globals.$paynes-gray;
-                    scale: 1.05;
-                }
-
-                a {
-                    color: globals.$paynes-gray;
+                label, p {
+                    color: globals.$mint-cream;
                     font-family: globals.$josefin;
                     font-size: 1.1rem;
                     font-weight: 600;
+                    width: 100%;
+                    display: block;
+                    margin: 0.6rem 0;
 
                     @include media-queries.tablet {
                         font-size: 1.2rem;
                     }
             
                     @include media-queries.desktop {
-                        font-size: 1.5rem;
+                        font-size: 1.3rem;
+                    }
+                }
+
+                input, textarea {
+                    color: globals.$gunmetal;
+                    font-family: globals.$josefin;
+                    font-size: 1.1rem;
+                    font-weight: 400;
+                    background-color: globals.$mint-cream;
+                    border-radius: 16px;
+                    padding: 0.8rem;
+                    border: none;
+                    width: calc(100% - 2rem);
+                    height: 1rem;
+                    
+                    &:focus-visible {
+                        outline: none;
+                    }
+
+                    @include media-queries.tablet {
+                        height: 1.2rem;
+                    }
+            
+                    @include media-queries.desktop {
+                        height: 1.5rem;
+                    }
+                }
+
+                textarea {
+                    height: 3rem;
+                    overflow: scroll;
+                    resize: none;
+                }
+
+            }
+
+            .form-boton {
+                width: 86%;
+                display: flex;
+                justify-content: flex-end;
+                margin-bottom: 1.5rem;
+
+                .form-boton__btn {
+                    background-color: globals.$mint-cream;
+                    display: block;
+                    width: 7rem;
+                    height: 3rem;
+                    border-radius: 16px;
+                    border: none;
+                    transition: all 0.4s;
+
+                    &:hover {
+                        box-shadow: 0 0 12px globals.$paynes-gray;
+                        scale: 1.05;
+                    }
+
+                    a {
+                        color: globals.$paynes-gray;
+                        font-family: globals.$josefin;
+                        font-size: 1.1rem;
+                        font-weight: 600;
+
+                        @include media-queries.tablet {
+                            font-size: 1.2rem;
+                        }
+                
+                        @include media-queries.desktop {
+                            font-size: 1.5rem;
+                        }
                     }
                 }
             }
-        }
+
+            @include media-queries.desktop {
+                width: 500px;
+            }
+        } 
 
         @include media-queries.tablet {
             width: 75%;
         }
 
         @include media-queries.desktop {
-            width: 600px;
             margin: 11em 0 0;
+            justify-content: flex-end;
         }
     }
+
+
 
     .icons-contact {
         width: 80%;
@@ -141,7 +153,7 @@
     
             @include media-queries.desktop {
                 height: 3.4rem;
-                padding: 2rem 3rem;
+                padding: 1.8rem 3rem;
             }
         }
 
@@ -150,16 +162,20 @@
         }
 
         @include media-queries.desktop {
-            width: 60%;
+            width: 45%;
             margin: 11em 0 0;
+            height: 57vh;
+            align-content: space-around;
         }
     }
 
     @include media-queries.desktop {
-        width: 70%;
+        width: 80%;
+        margin: 0 10%;
         min-height: 87vh;
         flex-direction: row;
         flex-wrap: nowrap;
+        align-items: flex-start;
         justify-content: space-around;
     }
 }

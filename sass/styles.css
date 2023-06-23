@@ -894,22 +894,26 @@ body {
   align-items: center;
   position: relative;
 }
-.contact-section form {
-  background-color: #E39774;
-  width: 80%;
-  border-radius: 20px;
+.contact-section .div-form {
   margin: 10rem 0 0;
+  display: flex;
+  width: 80%;
+}
+.contact-section .div-form form {
+  background-color: #E39774;
+  width: 100%;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
 }
-.contact-section form .form {
+.contact-section .div-form form .form {
   margin: 0.7rem 0;
   width: 90%;
 }
-.contact-section form .form label, .contact-section form .form p {
+.contact-section .div-form form .form label, .contact-section .div-form form .form p {
   color: #F7FFF7;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.1rem;
@@ -919,16 +923,16 @@ body {
   margin: 0.6rem 0;
 }
 @media screen and (min-width: 480px) {
-  .contact-section form .form label, .contact-section form .form p {
+  .contact-section .div-form form .form label, .contact-section .div-form form .form p {
     font-size: 1.2rem;
   }
 }
 @media screen and (min-width: 770px) {
-  .contact-section form .form label, .contact-section form .form p {
+  .contact-section .div-form form .form label, .contact-section .div-form form .form p {
     font-size: 1.3rem;
   }
 }
-.contact-section form .form input, .contact-section form .form textarea {
+.contact-section .div-form form .form input, .contact-section .div-form form .form textarea {
   color: #1E2A33;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.1rem;
@@ -940,30 +944,31 @@ body {
   width: calc(100% - 2rem);
   height: 1rem;
 }
-.contact-section form .form input:focus-visible, .contact-section form .form textarea:focus-visible {
+.contact-section .div-form form .form input:focus-visible, .contact-section .div-form form .form textarea:focus-visible {
   outline: none;
 }
 @media screen and (min-width: 480px) {
-  .contact-section form .form input, .contact-section form .form textarea {
+  .contact-section .div-form form .form input, .contact-section .div-form form .form textarea {
     height: 1.2rem;
   }
 }
 @media screen and (min-width: 770px) {
-  .contact-section form .form input, .contact-section form .form textarea {
+  .contact-section .div-form form .form input, .contact-section .div-form form .form textarea {
     height: 1.5rem;
   }
 }
-.contact-section form .form textarea {
+.contact-section .div-form form .form textarea {
   height: 3rem;
   overflow: scroll;
+  resize: none;
 }
-.contact-section form .form-boton {
+.contact-section .div-form form .form-boton {
   width: 86%;
   display: flex;
   justify-content: flex-end;
   margin-bottom: 1.5rem;
 }
-.contact-section form .form-boton .form-boton__btn {
+.contact-section .div-form form .form-boton .form-boton__btn {
   background-color: #F7FFF7;
   display: block;
   width: 7rem;
@@ -972,35 +977,40 @@ body {
   border: none;
   transition: all 0.4s;
 }
-.contact-section form .form-boton .form-boton__btn:hover {
+.contact-section .div-form form .form-boton .form-boton__btn:hover {
   box-shadow: 0 0 12px #326273;
   scale: 1.05;
 }
-.contact-section form .form-boton .form-boton__btn a {
+.contact-section .div-form form .form-boton .form-boton__btn a {
   color: #326273;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.1rem;
   font-weight: 600;
 }
 @media screen and (min-width: 480px) {
-  .contact-section form .form-boton .form-boton__btn a {
+  .contact-section .div-form form .form-boton .form-boton__btn a {
     font-size: 1.2rem;
   }
 }
 @media screen and (min-width: 770px) {
-  .contact-section form .form-boton .form-boton__btn a {
+  .contact-section .div-form form .form-boton .form-boton__btn a {
     font-size: 1.5rem;
   }
 }
+@media screen and (min-width: 770px) {
+  .contact-section .div-form form {
+    width: 500px;
+  }
+}
 @media screen and (min-width: 480px) {
-  .contact-section form {
+  .contact-section .div-form {
     width: 75%;
   }
 }
 @media screen and (min-width: 770px) {
-  .contact-section form {
-    width: 600px;
+  .contact-section .div-form {
     margin: 11em 0 0;
+    justify-content: flex-end;
   }
 }
 .contact-section .icons-contact {
@@ -1025,7 +1035,7 @@ body {
 @media screen and (min-width: 770px) {
   .contact-section .icons-contact .icons-contact__icon {
     height: 3.4rem;
-    padding: 2rem 3rem;
+    padding: 1.8rem 3rem;
   }
 }
 @media screen and (min-width: 770px) {
@@ -1035,16 +1045,20 @@ body {
 }
 @media screen and (min-width: 770px) {
   .contact-section .icons-contact {
-    width: 60%;
+    width: 45%;
     margin: 11em 0 0;
+    height: 57vh;
+    align-content: space-around;
   }
 }
 @media screen and (min-width: 770px) {
   .contact-section {
-    width: 70%;
+    width: 80%;
+    margin: 0 10%;
     min-height: 87vh;
     flex-direction: row;
     flex-wrap: nowrap;
+    align-items: flex-start;
     justify-content: space-around;
   }
 }/*# sourceMappingURL=styles.css.map */
