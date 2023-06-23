@@ -10,6 +10,7 @@
     align-items: flex-end;
     position: fixed;
     z-index: 2;
+    top: 0;
 
     @include media-queries.desktop {
         align-items: flex-start;
