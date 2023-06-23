@@ -27,6 +27,14 @@
             width: 3rem;
             height: auto;
             padding: 1rem;
+
+            @include media-queries.tablet {
+                width: 3.5rem;
+            }
+
+            @include media-queries.desktop-s {
+                width: 4rem;
+            }
         }
 
         .skill__title {
@@ -40,10 +48,12 @@
         @include media-queries.tablet {
             width: 75%;
             margin: 2rem 1rem;
+            height: 6rem;
         }
 
         @include media-queries.desktop-s {
             width: 20rem;
+            height: 7rem;
         }
     }
 

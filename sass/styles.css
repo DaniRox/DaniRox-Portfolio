@@ -1085,6 +1085,16 @@ body {
   height: auto;
   padding: 1rem;
 }
+@media screen and (min-width: 480px) {
+  .skills-section .skill .skill__icon {
+    width: 3.5rem;
+  }
+}
+@media screen and (min-width: 770px) {
+  .skills-section .skill .skill__icon {
+    width: 4rem;
+  }
+}
 .skills-section .skill .skill__title {
   color: #F7FFF7;
   font-family: "Josefin Sans", sans-serif;
@@ -1096,11 +1106,13 @@ body {
   .skills-section .skill {
     width: 75%;
     margin: 2rem 1rem;
+    height: 6rem;
   }
 }
 @media screen and (min-width: 770px) {
   .skills-section .skill {
     width: 20rem;
+    height: 7rem;
   }
 }
 @media screen and (min-width: 480px) {
