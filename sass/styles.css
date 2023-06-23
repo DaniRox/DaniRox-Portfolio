@@ -1161,7 +1161,7 @@ body {
 }
 @media screen and (min-width: 770px) {
   .sobre-mi-section {
-    min-height: 50vh;
+    min-height: 70vh;
     margin: 11em 0 0;
     align-items: center;
   }
