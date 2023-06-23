@@ -35,4 +35,8 @@
             font-size: 1.2rem;
         }
     }
+
+    @include media-queries.desktop {
+        position: relative;
+    }
 }
