@@ -12,8 +12,8 @@
     .sobre-mi-lines__line-uno {
         background-color: globals.$moonstone;
         height: 100vh;
-        width: 23px;
-        margin-right: 2.5rem;
+        width: 20px;
+        margin-right: 3.5rem;
 
         -webkit-animation: scale-in-ver-bottom 1s ease-in-out 1s both;
 	        animation: scale-in-ver-bottom 1s ease-in-out 1s both;
@@ -65,13 +65,13 @@
   
 
         @include media-queries.tablet {
-            width: 25px;
-            margin-right: 3.5rem;
+            width: 22px;
+            margin-right: 4.5rem;
         }
 
         @include media-queries.desktop {
-            width: 28px;
-            margin-right: 5rem;
+            width: 25px;
+            margin-right: 6rem;
         }
     }
 
@@ -146,7 +146,7 @@
     .sobre-mi-lines__line-tres {
         background-color: globals.$orange;
         height: 100vh;
-        width: 13px;
+        width: 9px;
         margin-right: 2rem;
 
         -webkit-animation: scale-in-ver-bottom 1.5s ease-in-out 0.5s both;
@@ -199,12 +199,12 @@
   
 
         @include media-queries.tablet {
-            width: 15px;
+            width: 11px;
             margin-right: 3rem;
         }
 
         @include media-queries.desktop {
-            width: 19px;
+            width: 14px;
             margin-right: 6rem;
         }
     }
