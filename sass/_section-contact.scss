@@ -142,7 +142,6 @@
         .icons-contact__icon {
             height: 2.6rem;
             padding: 2rem 3rem;
-            filter: drop-shadow(0 0 3px globals.$moonstone);
 
             @include media-queries.tablet {
                 height: 2.8rem;
@@ -152,6 +151,10 @@
             @include media-queries.desktop {
                 height: 3.4rem;
                 padding: 1.8rem 3.5rem;
+            }
+
+            &:hover {
+                filter: drop-shadow(0 0 3px globals.$moonstone);
             }
         }
 
