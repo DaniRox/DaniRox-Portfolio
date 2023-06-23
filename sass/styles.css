@@ -627,9 +627,12 @@ body {
   height: 78%;
   overflow: hidden;
   border-radius: 20px 20px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 .gallery-section .project .project__div-img .div-img__img {
-  width: 100%;
+  width: 120%;
   height: auto;
 }
 .gallery-section .project .project__title {
@@ -895,7 +898,7 @@ body {
   position: relative;
 }
 .contact-section .div-form {
-  margin: 10rem 0 0;
+  margin: 10rem 0 2rem 0;
   display: flex;
   width: 80%;
 }
@@ -949,18 +952,26 @@ body {
 }
 @media screen and (min-width: 480px) {
   .contact-section .div-form form .form input, .contact-section .div-form form .form textarea {
+    font-size: 1.2rem;
     height: 1.2rem;
   }
 }
 @media screen and (min-width: 770px) {
   .contact-section .div-form form .form input, .contact-section .div-form form .form textarea {
+    font-size: 1.4rem;
     height: 1.5rem;
   }
 }
 .contact-section .div-form form .form textarea {
   height: 3rem;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   resize: none;
+}
+@media screen and (min-width: 770px) {
+  .contact-section .div-form form .form {
+    margin: 0.6rem 0;
+  }
 }
 .contact-section .div-form form .form-boton {
   width: 86%;
@@ -1009,7 +1020,7 @@ body {
 }
 @media screen and (min-width: 770px) {
   .contact-section .div-form {
-    margin: 11em 0 0;
+    margin: 11em 0 0 0;
     justify-content: flex-end;
   }
 }
@@ -1036,7 +1047,7 @@ body {
 }
 @media screen and (min-width: 770px) {
   .contact-section .div-icons__icons-contact .icons-contact .icons-contact__icon {
-    height: 3.4rem;
+    height: 3.6rem;
     padding: 2rem 3.5rem;
   }
 }
@@ -1046,7 +1057,6 @@ body {
 @media screen and (min-width: 770px) {
   .contact-section .div-icons__icons-contact .icons-contact {
     align-content: space-around;
-    justify-content: center;
     max-width: 450px;
     height: 90%;
   }
