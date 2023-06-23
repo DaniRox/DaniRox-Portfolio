@@ -117,7 +117,7 @@
             }
 
             @include media-queries.desktop {
-                width: 500px;
+                width: 650px;
             }
         } 
 
@@ -126,7 +126,6 @@
         }
 
         @include media-queries.desktop {
-            width: 50%;
             margin: 11em 0 0;
             justify-content: flex-end;
         }
@@ -145,7 +144,7 @@
 
             .icons-contact__icon {
                 height: 2.6rem;
-                padding: 2rem 3rem;
+                padding: 3rem 1rem;
 
                 @include media-queries.tablet {
                     height: 2.8rem;
@@ -154,7 +153,7 @@
         
                 @include media-queries.desktop {
                     height: 3.4rem;
-                    padding: 1.8rem 3.5rem;
+                    padding: 2rem 3.5rem;
                 }
 
                 &:hover {
@@ -162,7 +161,12 @@
                 }
             }
 
-
+            @include media-queries.desktop {
+                align-content: space-around;
+                justify-content: center;
+                max-width: 450px;
+                height: 90%;
+            }
         }
 
         @include media-queries.tablet {
@@ -170,14 +174,12 @@
         }
 
         @include media-queries.desktop {
-            width: 50%;
+            width: 100%;
             margin: 11em 0 0;
             height: 65vh;
-            align-content: space-around;
-        }
-
-        @include media-queries.desktop {
-            width: 10rem;
+            align-content: space-between;
+            justify-content: center;
+            align-items: center;
         }
     }
 

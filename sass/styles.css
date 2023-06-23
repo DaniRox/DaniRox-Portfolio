@@ -999,7 +999,7 @@ body {
 }
 @media screen and (min-width: 770px) {
   .contact-section .div-form form {
-    width: 500px;
+    width: 650px;
   }
 }
 @media screen and (min-width: 480px) {
@@ -1009,7 +1009,6 @@ body {
 }
 @media screen and (min-width: 770px) {
   .contact-section .div-form {
-    width: 50%;
     margin: 11em 0 0;
     justify-content: flex-end;
   }
@@ -1027,7 +1026,7 @@ body {
 }
 .contact-section .div-icons__icons-contact .icons-contact .icons-contact__icon {
   height: 2.6rem;
-  padding: 2rem 3rem;
+  padding: 3rem 1rem;
 }
 @media screen and (min-width: 480px) {
   .contact-section .div-icons__icons-contact .icons-contact .icons-contact__icon {
@@ -1038,11 +1037,19 @@ body {
 @media screen and (min-width: 770px) {
   .contact-section .div-icons__icons-contact .icons-contact .icons-contact__icon {
     height: 3.4rem;
-    padding: 1.8rem 3.5rem;
+    padding: 2rem 3.5rem;
   }
 }
 .contact-section .div-icons__icons-contact .icons-contact .icons-contact__icon:hover {
   filter: drop-shadow(0 0 3px #5C9EAD);
+}
+@media screen and (min-width: 770px) {
+  .contact-section .div-icons__icons-contact .icons-contact {
+    align-content: space-around;
+    justify-content: center;
+    max-width: 450px;
+    height: 90%;
+  }
 }
 @media screen and (min-width: 480px) {
   .contact-section .div-icons__icons-contact {
@@ -1051,15 +1058,12 @@ body {
 }
 @media screen and (min-width: 770px) {
   .contact-section .div-icons__icons-contact {
-    width: 50%;
+    width: 100%;
     margin: 11em 0 0;
     height: 65vh;
-    align-content: space-around;
-  }
-}
-@media screen and (min-width: 770px) {
-  .contact-section .div-icons__icons-contact {
-    width: 10rem;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media screen and (min-width: 770px) {
