@@ -1029,7 +1029,7 @@ body {
 @media screen and (min-width: 480px) {
   .contact-section .icons-contact .icons-contact__icon {
     height: 2.8rem;
-    padding: 1.8rem;
+    padding: 2rem 1.6rem;
   }
 }
 @media screen and (min-width: 770px) {
