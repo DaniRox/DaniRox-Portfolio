@@ -1014,45 +1014,52 @@ body {
     justify-content: flex-end;
   }
 }
-.contact-section .icons-contact {
+.contact-section .div-icons__icons-contact {
   width: 80%;
-  margin: 2rem;
+  display: flex;
+}
+.contact-section .div-icons__icons-contact .icons-contact {
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.contact-section .icons-contact .icons-contact__icon {
+.contact-section .div-icons__icons-contact .icons-contact .icons-contact__icon {
   height: 2.6rem;
   padding: 2rem 3rem;
 }
 @media screen and (min-width: 480px) {
-  .contact-section .icons-contact .icons-contact__icon {
+  .contact-section .div-icons__icons-contact .icons-contact .icons-contact__icon {
     height: 2.8rem;
     padding: 2rem 1.6rem;
   }
 }
 @media screen and (min-width: 770px) {
-  .contact-section .icons-contact .icons-contact__icon {
+  .contact-section .div-icons__icons-contact .icons-contact .icons-contact__icon {
     height: 3.4rem;
     padding: 1.8rem 3.5rem;
   }
 }
-.contact-section .icons-contact .icons-contact__icon:hover {
+.contact-section .div-icons__icons-contact .icons-contact .icons-contact__icon:hover {
   filter: drop-shadow(0 0 3px #5C9EAD);
 }
 @media screen and (min-width: 480px) {
-  .contact-section .icons-contact {
+  .contact-section .div-icons__icons-contact {
     width: 80%;
   }
 }
 @media screen and (min-width: 770px) {
-  .contact-section .icons-contact {
+  .contact-section .div-icons__icons-contact {
     width: 50%;
     margin: 11em 0 0;
-    height: 57vh;
-    padding-right: 8rem;
+    height: 65vh;
     align-content: space-around;
+  }
+}
+@media screen and (min-width: 770px) {
+  .contact-section .div-icons__icons-contact {
+    width: 10rem;
   }
 }
 @media screen and (min-width: 770px) {
@@ -1063,6 +1070,6 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 }/*# sourceMappingURL=styles.css.map */
