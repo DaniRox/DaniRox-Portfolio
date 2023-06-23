@@ -13,7 +13,7 @@
         background-color: globals.$moonstone;
         height: 100vh;
         width: 8px;
-        margin-right: 3rem;
+        margin-right: 2rem;
 
         -webkit-animation: scale-in-ver-bottom 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
 	        animation: scale-in-ver-bottom 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
@@ -66,12 +66,12 @@
 
         @include media-queries.tablet {
             width: 10px;
-            margin-right: 4rem;
+            margin-right: 3rem;
         }
 
         @include media-queries.desktop {
             width: 13px;
-            margin-right: 6rem;
+            margin-right: 6.5rem;
         }
     }
 
@@ -145,7 +145,7 @@
         background-color: globals.$paynes-gray;
         height: 100vh;
         width: 15px;
-        margin-right: 5rem;
+        margin-right: 3rem;
 
         -webkit-animation: scale-in-ver-bottom 3s cubic-bezier(0.165, 0.840, 0.440, 1.000) both;
 	        animation: scale-in-ver-bottom 3s cubic-bezier(0.165, 0.840, 0.440, 1.000) both;
@@ -198,7 +198,7 @@
 
         @include media-queries.tablet {
             width: 17px;
-            margin-right: 5rem;
+            margin-right: 4rem;
         }
 
         @include media-queries.desktop {
