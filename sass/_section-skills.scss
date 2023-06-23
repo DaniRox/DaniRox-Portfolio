@@ -3,13 +3,51 @@
 
 .skills-section {
     width: 100vw;
-    min-height: 85vh;
+    min-height: 8vh;
+    padding-top: 12rem;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
     position: relative;
 
-    @include media-queries.desktop {
+    .skill {
+        background-color: globals.$paynes-gray;
+        width: 80%;
+        height: 5rem;
+        margin: 2rem;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .skill__icon {
+            width: 3rem;
+            height: auto;
+            padding: 1rem;
+        }
+
+        .skill__title {
+            color: globals.$mint-cream;
+            font-family: globals.$josefin;
+            font-size: 1.2rem;
+            font-weight: 600;
+            padding-top: 0.5rem;
+        }
+
+        @include media-queries.tablet {
+            width: 13rem;
+            margin: 2rem 1rem;
+        }
+
+        @include media-queries.desktop-s {
+            min-width: 17rem;
+        }
+    }
+
+    @include media-queries.tablet {
         min-height: 87vh;
+        justify-content: space-evenly;
     }
 }
