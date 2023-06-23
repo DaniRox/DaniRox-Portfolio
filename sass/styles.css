@@ -1086,6 +1086,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  transition: all 130ms;
 }
 .skills-section .div-skills .div-skills__skill .skill__icon {
   height: 3rem;
@@ -1108,6 +1109,9 @@ body {
   font-size: 1.2rem;
   font-weight: 600;
   padding-top: 0.5rem;
+}
+.skills-section .div-skills .div-skills__skill:hover {
+  scale: 1.04;
 }
 @media screen and (min-width: 480px) {
   .skills-section .div-skills .div-skills__skill {
