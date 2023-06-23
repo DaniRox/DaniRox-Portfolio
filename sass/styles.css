@@ -933,12 +933,14 @@ body {
   .gallery-section .project {
     width: 75%;
     height: 350px;
+    margin: 2rem 1rem;
   }
 }
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 770px) {
   .gallery-section .project {
     width: 27rem;
     height: 350px;
+    margin: 3rem 2.5rem;
   }
 }
 .gallery-section .div-info-project {
