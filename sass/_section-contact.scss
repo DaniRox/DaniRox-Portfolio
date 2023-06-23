@@ -135,6 +135,7 @@
         @include media-queries.desktop-s {
             margin: 11em 0 0 0;
             justify-content: flex-end;
+            min-height: 450px;
         }
 
         @include media-queries.desktop {
