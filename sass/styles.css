@@ -973,13 +973,14 @@ body {
   }
 }
 .contact-section .div-form form .form textarea {
-  height: 3rem;
+  height: 5rem;
   overflow-y: scroll;
   overflow-x: hidden;
   resize: none;
 }
 @media screen and (min-width: 770px) {
   .contact-section .div-form form .form {
+    height: 5rem;
     margin: 0.5rem 0;
   }
 }

@@ -75,13 +75,14 @@
                 }
 
                 textarea {
-                    height: 3rem;
+                    height: 5rem;
                     overflow-y: scroll;
                     overflow-x: hidden;
                     resize: none;
                 }
 
                 @include media-queries.desktop {
+                    height: 5rem;
                     margin: 0.5rem 0;
                 }
             }
