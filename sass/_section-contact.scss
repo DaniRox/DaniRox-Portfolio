@@ -132,9 +132,13 @@
             width: 75%;
         }
 
-        @include media-queries.desktop {
+        @include media-queries.desktop-s {
             margin: 11em 0 0 0;
             justify-content: flex-end;
+        }
+
+        @include media-queries.desktop {
+            height: 70%;
         }
     }
 
@@ -191,7 +195,7 @@
     }
 
 
-    @include media-queries.desktop {
+    @include media-queries.desktop-s {
         width: 80%;
         margin: 0 10%;
         min-height: 87vh;
@@ -199,5 +203,10 @@
         flex-wrap: nowrap;
         align-items: flex-start;
         justify-content: space-evenly;
+    }
+
+    @include media-queries.desktop {
+        height: 60vh;
+        align-items: center;
     }
 }
