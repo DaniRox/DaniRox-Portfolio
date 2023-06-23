@@ -1070,7 +1070,7 @@ body {
 
 .sobre-mi-section {
   width: 100vw;
-  min-height: 85vh;
+  min-height: 70vh;
   display: flex;
   justify-content: center;
   align-items: flex-start;
