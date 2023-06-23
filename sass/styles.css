@@ -1136,7 +1136,8 @@ body {
 }
 @media screen and (min-width: 770px) {
   .sobre-mi-section .sobre-mi .sobre-mi__txt .txt__parraf {
-    font-size: 1.8rem;
+    font-weight: 300;
+    font-size: 1.7rem;
     overflow: auto;
   }
 }

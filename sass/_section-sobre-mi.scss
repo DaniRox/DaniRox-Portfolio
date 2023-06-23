@@ -68,7 +68,8 @@
                 font-weight: 400;
 
                 @include media-queries.desktop {
-                    font-size: 1.8rem;
+                    font-weight: 300;
+                    font-size: 1.7rem;
                     overflow: auto;
                 }
             }
