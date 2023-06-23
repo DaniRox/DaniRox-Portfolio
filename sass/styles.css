@@ -1060,7 +1060,7 @@ body {
 
 .skills-section {
   width: 100vw;
-  min-height: 8vh;
+  min-height: 85vh;
   padding-top: 12rem;
   display: flex;
   flex-direction: row;
@@ -1078,6 +1078,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  align-content: flex-start;
 }
 .skills-section .skill .skill__icon {
   width: 3rem;
@@ -1105,7 +1106,14 @@ body {
 @media screen and (min-width: 480px) {
   .skills-section {
     min-height: 87vh;
+    padding-top: 11rem;
     justify-content: space-evenly;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .skills-section {
+    min-height: 87vh;
+    padding-top: 10rem;
   }
 }
 
