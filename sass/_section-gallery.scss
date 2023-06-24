@@ -64,7 +64,11 @@
         @include media-queries.desktop-s {
             width: 27rem;
             height: 350px;
-            margin: 3rem 2.5rem;
+            margin: 3rem;
+        }
+
+        @include media-queries.desktop-s {
+            margin: 3rem 3.5rem;
         }
     }
 
