@@ -13,6 +13,7 @@
         margin: 10rem 0 2rem 0;
         display: flex;
         width: 80%;
+        transition: all 130ms;
 
         form {
             background-color: globals.$atomic-tangerine;
@@ -127,6 +128,10 @@
                 width: 650px;
             }
         } 
+
+        &:hover {
+            scale: 1.04;
+        }
 
         @include media-queries.tablet {
             width: 75%;

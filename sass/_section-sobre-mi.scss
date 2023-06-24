@@ -19,7 +19,12 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        transition: all 130ms;
 
+        &:hover {
+            scale: 1.04;
+        }
+        
         .sobre-mi__div-img {
             width: 0%;
             border-radius: 20px 0 0 20px;
