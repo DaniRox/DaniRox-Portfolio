@@ -42,18 +42,18 @@
 
                 <div class="form">
                     <label for="nombre">Nombre:</label>
-                    <input id="nombre" type="text" name="nombre" autocomplete="on">
+                    <input name="nombre" id="nombre" type="text" autocomplete="on" required>
                 </div>
                 <div class="form">
                     <label for="email">Email:</label>
-                    <input id="email" type="email" name="email" autocomplete="on">
+                    <input name="email" id="email" type="email" autocomplete="on" required>
                 </div>
                 <div class="form">
                     <p>Mensaje:</p>
-                    <textarea id="textarea"></textarea>
+                    <textarea name="message" id="textarea" required></textarea>
                 </div>
                 <div class="form form-boton">
-                    <button class="form-boton__btn"><a href="">enviar</a></button>
+                    <input type="submit" value="Enviar" class="form-boton__btn"></button>
                 </div>
 
             </form>
@@ -62,7 +62,6 @@
 
         <div class="div-icons__icons-contact">
             <div class="icons-contact">
-
                 <a href="https://goo.gl/maps/vva7xrKjXtkTiEDv7" target="_blank"><img src="../assets/icons/geo.svg" class="icons-contact__icon"></a>
 
                 <a href="mailto:" target="_blank"><img src="../assets/icons/mail.svg" class="icons-contact__icon"></a>
