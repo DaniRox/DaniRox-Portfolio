@@ -15,7 +15,7 @@ body {
   z-index: 2;
   top: 0;
 }
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 770px) {
   .navbar {
     align-items: flex-start;
   }
@@ -28,7 +28,7 @@ body {
   padding: 1.5rem;
   border: none;
 }
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 770px) {
   .navbar .nav-button {
     display: none;
   }
@@ -40,7 +40,7 @@ body {
   justify-content: center;
   align-items: flex-end;
 }
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 770px) {
   .navbar .nav-menu {
     display: flex;
     flex-direction: row;
@@ -60,7 +60,7 @@ body {
   font-weight: 600;
   text-shadow: 0px 0px 6px #5C9EAD, 0px 0px 1px #5C9EAD;
 }
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 770px) {
   .navbar .nav-menu .nav-menu__menu-item {
     font-size: 1.6rem;
     padding: 0.7rem 1.3rem;
