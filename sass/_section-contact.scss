@@ -3,7 +3,7 @@
 
 .contact-section {
     width: 100vw;
-    min-height: 85vh;
+    min-height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,16 +18,20 @@
         form {
             background-color: globals.$atomic-tangerine;
             width: 100%;
+            height: 90%;
             border-radius: 20px;
             display: flex;
             flex-direction: column;
             flex-wrap: nowrap;
             justify-content: space-between;
             align-items: center;
+            padding: 1rem 0;
 
             .form {
-                margin: 0.7rem 0;
+                padding: 0.8rem 0;
                 width: 90%;
+                display: flex;
+                flex-direction: column;
 
                 label, p {
                     color: globals.$mint-cream;
@@ -36,7 +40,6 @@
                     font-weight: 600;
                     width: 100%;
                     display: block;
-                    margin: 0.6rem 0;
 
                     @include media-queries.tablet {
                         font-size: 1.2rem;
@@ -44,7 +47,6 @@
             
                     @include media-queries.desktop {
                         font-size: 1.3rem;
-                        margin: 0.5rem 0;
                     }
                 }
 
@@ -54,7 +56,7 @@
                     font-size: 1.1rem;
                     font-weight: 400;
                     background-color: globals.$mint-cream;
-                    border-radius: 16px;
+                    border-radius: 12px;
                     padding: 0.8rem;
                     border: none;
                     width: calc(100% - 2rem);
@@ -66,12 +68,11 @@
 
                     @include media-queries.tablet {
                         font-size: 1.2rem;
-                        height: 1.2rem;
                     }
             
                     @include media-queries.desktop {
-                        font-size: 1.4rem;
-                        height: 1.3rem;
+                        font-size: 1.3rem;
+                        height: 1.1rem;
                     }
                 }
 
@@ -81,17 +82,13 @@
                     overflow-x: hidden;
                     resize: none;
                 }
-
-                @include media-queries.desktop {
-                    margin: 0.5rem 0;
-                }
             }
 
             .form-boton {
                 width: 86%;
                 display: flex;
                 justify-content: flex-end;
-                margin-bottom: 1rem;
+                align-items: flex-end;
 
                 .form-boton__btn {
                     color: globals.$paynes-gray;
@@ -142,17 +139,19 @@
         }
 
         @include media-queries.desktop {
-            width: 60%;
+            width: 100%;
             height: 70%;
         }
     }
 
     .div-icons__icons-contact {
         width: 80%;
+        height: 50vh;
         display: flex;
 
         .icons-contact {
             width: 100%;
+            height: 90%;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
@@ -168,12 +167,13 @@
                 }
         
                 @include media-queries.desktop-s {
-                    padding: 1.1rem 3.5rem;
+                    height: 2.9rem;
+                    padding: 1.1rem 3rem;
                 }
 
                 @include media-queries.desktop {
-                    height: 3.6rem;
-                    padding: 1.6rem 3.5rem;
+                    height: 3rem;
+                    padding: 1.3rem 3.1rem;
                 }
 
                 &:hover {
@@ -184,7 +184,8 @@
             @include media-queries.desktop-s {
                 align-content: space-around;
                 flex-direction: column;
-                justify-content: center;
+                justify-content: flex-start;
+                flex-wrap: nowrap;
                 max-width: 450px;
                 height: 90%;
                 align-items: center;
@@ -200,16 +201,16 @@
         }
 
         @include media-queries.desktop-s {
-            width: 50%;
+            width: 20%;
             margin: 11em 0 0;
-            height: 50vh;
+            min-height: 450px;
             align-content: space-between;
             justify-content: center;
             align-items: flex-start;
         }
 
         @include media-queries.desktop {
-            width: 60%;
+            width: 50%;
             height: 60vh;
         }
     }

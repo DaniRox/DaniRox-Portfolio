@@ -1432,7 +1432,7 @@ body {
 
 .contact-section {
   width: 100vw;
-  min-height: 85vh;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1447,16 +1447,20 @@ body {
 .contact-section .div-form form {
   background-color: #E39774;
   width: 100%;
+  height: 90%;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem 0;
 }
 .contact-section .div-form form .form {
-  margin: 0.7rem 0;
+  padding: 0.8rem 0;
   width: 90%;
+  display: flex;
+  flex-direction: column;
 }
 .contact-section .div-form form .form label, .contact-section .div-form form .form p {
   color: #F7FFF7;
@@ -1465,7 +1469,6 @@ body {
   font-weight: 600;
   width: 100%;
   display: block;
-  margin: 0.6rem 0;
 }
 @media screen and (min-width: 480px) {
   .contact-section .div-form form .form label, .contact-section .div-form form .form p {
@@ -1475,7 +1478,6 @@ body {
 @media screen and (min-width: 1100px) {
   .contact-section .div-form form .form label, .contact-section .div-form form .form p {
     font-size: 1.3rem;
-    margin: 0.5rem 0;
   }
 }
 .contact-section .div-form form .form input, .contact-section .div-form form .form textarea {
@@ -1484,7 +1486,7 @@ body {
   font-size: 1.1rem;
   font-weight: 400;
   background-color: #F7FFF7;
-  border-radius: 16px;
+  border-radius: 12px;
   padding: 0.8rem;
   border: none;
   width: calc(100% - 2rem);
@@ -1496,13 +1498,12 @@ body {
 @media screen and (min-width: 480px) {
   .contact-section .div-form form .form input, .contact-section .div-form form .form textarea {
     font-size: 1.2rem;
-    height: 1.2rem;
   }
 }
 @media screen and (min-width: 1100px) {
   .contact-section .div-form form .form input, .contact-section .div-form form .form textarea {
-    font-size: 1.4rem;
-    height: 1.3rem;
+    font-size: 1.3rem;
+    height: 1.1rem;
   }
 }
 .contact-section .div-form form .form textarea {
@@ -1511,16 +1512,11 @@ body {
   overflow-x: hidden;
   resize: none;
 }
-@media screen and (min-width: 1100px) {
-  .contact-section .div-form form .form {
-    margin: 0.5rem 0;
-  }
-}
 .contact-section .div-form form .form-boton {
   width: 86%;
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 1rem;
+  align-items: flex-end;
 }
 .contact-section .div-form form .form-boton .form-boton__btn {
   color: #326273;
@@ -1572,16 +1568,18 @@ body {
 }
 @media screen and (min-width: 1100px) {
   .contact-section .div-form {
-    width: 60%;
+    width: 100%;
     height: 70%;
   }
 }
 .contact-section .div-icons__icons-contact {
   width: 80%;
+  height: 50vh;
   display: flex;
 }
 .contact-section .div-icons__icons-contact .icons-contact {
   width: 100%;
+  height: 90%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -1599,13 +1597,14 @@ body {
 }
 @media screen and (min-width: 770px) {
   .contact-section .div-icons__icons-contact .icons-contact .icons-contact__icon {
-    padding: 1.1rem 3.5rem;
+    height: 2.9rem;
+    padding: 1.1rem 3rem;
   }
 }
 @media screen and (min-width: 1100px) {
   .contact-section .div-icons__icons-contact .icons-contact .icons-contact__icon {
-    height: 3.6rem;
-    padding: 1.6rem 3.5rem;
+    height: 3rem;
+    padding: 1.3rem 3.1rem;
   }
 }
 .contact-section .div-icons__icons-contact .icons-contact .icons-contact__icon:hover {
@@ -1615,7 +1614,8 @@ body {
   .contact-section .div-icons__icons-contact .icons-contact {
     align-content: space-around;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
     max-width: 450px;
     height: 90%;
     align-items: center;
@@ -1633,9 +1633,9 @@ body {
 }
 @media screen and (min-width: 770px) {
   .contact-section .div-icons__icons-contact {
-    width: 50%;
+    width: 20%;
     margin: 11em 0 0;
-    height: 50vh;
+    min-height: 450px;
     align-content: space-between;
     justify-content: center;
     align-items: flex-start;
@@ -1643,7 +1643,7 @@ body {
 }
 @media screen and (min-width: 1100px) {
   .contact-section .div-icons__icons-contact {
-    width: 60%;
+    width: 50%;
     height: 60vh;
   }
 }
