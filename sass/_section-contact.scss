@@ -82,6 +82,9 @@
                     overflow-x: hidden;
                     resize: none;
                 }
+                @include media-queries.desktop {
+                    padding: 0.4rem 0;
+                }
             }
 
             .form-boton {
@@ -140,7 +143,7 @@
 
         @include media-queries.desktop {
             width: 100%;
-            height: 70%;
+            height: 60%;
         }
     }
 
@@ -228,6 +231,6 @@
 
     @include media-queries.desktop {
         height: 60vh;
-        align-items: center;
+        align-items: flex-start;
     }
 }
