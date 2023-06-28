@@ -27,12 +27,12 @@
             margin-left: 0.5rem;
 
             @include media-queries.desktop {
-                width: 7rem;
+                width: 8rem;
             }
         }
 
         @include media-queries.desktop {
-            font-size: 1.2rem;
+            font-size: 1.3rem;
         }
     }
 
