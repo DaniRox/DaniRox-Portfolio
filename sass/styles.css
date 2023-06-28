@@ -1153,7 +1153,7 @@ body {
 @media screen and (min-width: 1100px) {
   .skills-section .div-skills .div-skills__skill-soft {
     width: 60%;
-    margin: 0 20%;
+    margin: 2% 20%;
   }
 }
 .skills-section .div-skills .div-skills__skill {
@@ -1215,6 +1215,11 @@ body {
 @media screen and (min-width: 770px) {
   .skills-section .div-skills {
     width: 90%;
+  }
+}
+@media screen and (min-width: 770px) {
+  .skills-section .div-skills {
+    width: 80%;
   }
 }
 @media screen and (min-width: 480px) {

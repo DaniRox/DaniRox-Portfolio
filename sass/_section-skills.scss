@@ -82,7 +82,7 @@
 
             @media screen and (min-width: 1100px) {
                 width: 60%;
-                margin: 0 20%
+                margin: 2% 20%
             }
         }
 
@@ -143,6 +143,10 @@
 
         @include media-queries.desktop-s {
             width: 90%;
+        }
+
+        @include media-queries.desktop-s {
+            width: 80%;
         }
     }
 
