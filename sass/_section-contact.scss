@@ -160,11 +160,11 @@
 
             .icons-contact__icon {
                 height: 2.6rem;
-                padding: 3rem 0.6rem;
+                padding: 2.8rem 0.6rem;
 
                 @include media-queries.tablet {
                     height: 2.8rem;
-                    padding: 3rem 1rem;
+                    padding: 2.8rem 1rem;
                 }
         
                 @include media-queries.desktop-s {

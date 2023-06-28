@@ -1513,12 +1513,12 @@ body {
 }
 .contact-section .div-icons__icons-contact .icons-contact .icons-contact__icon {
   height: 2.6rem;
-  padding: 3rem 0.6rem;
+  padding: 2.8rem 0.6rem;
 }
 @media screen and (min-width: 480px) {
   .contact-section .div-icons__icons-contact .icons-contact .icons-contact__icon {
     height: 2.8rem;
-    padding: 3rem 1rem;
+    padding: 2.8rem 1rem;
   }
 }
 @media screen and (min-width: 770px) {
