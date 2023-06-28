@@ -1437,9 +1437,9 @@ body {
   flex-direction: column;
   align-items: center;
   position: relative;
+  margin: 10rem 0 2rem 0;
 }
 .contact-section .div-form {
-  margin: 10rem 0 2rem 0;
   display: flex;
   width: 80%;
   transition: all 130ms;
@@ -1565,8 +1565,7 @@ body {
 }
 @media screen and (min-width: 770px) {
   .contact-section .div-form {
-    width: 75%;
-    margin: 11em 0 0 0;
+    width: 70%;
     justify-content: flex-end;
     min-height: 450px;
   }
@@ -1638,8 +1637,7 @@ body {
 }
 @media screen and (min-width: 770px) {
   .contact-section .div-icons__icons-contact {
-    width: 20%;
-    margin: 11em 0 0;
+    width: 10%;
     min-height: 450px;
     align-content: space-between;
     justify-content: center;
@@ -1648,24 +1646,22 @@ body {
 }
 @media screen and (min-width: 1100px) {
   .contact-section .div-icons__icons-contact {
-    width: 50%;
+    width: 60%;
     height: 60vh;
   }
 }
 @media screen and (min-width: 770px) {
   .contact-section {
-    width: 80%;
-    margin: 0 10%;
-    min-height: 87vh;
+    min-height: 65vh;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: flex-start;
     justify-content: space-evenly;
+    margin: 11em 0 0 0;
   }
 }
 @media screen and (min-width: 1100px) {
   .contact-section {
-    height: 60vh;
     align-items: center;
   }
 }/*# sourceMappingURL=styles.css.map */
