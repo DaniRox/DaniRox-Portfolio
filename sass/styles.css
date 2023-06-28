@@ -1437,7 +1437,7 @@ body {
   flex-direction: column;
   align-items: center;
   position: relative;
-  margin: 10rem 0 2rem 0;
+  margin: 10rem 0 0 0;
 }
 .contact-section .div-form {
   display: flex;
@@ -1457,7 +1457,7 @@ body {
   padding: 1rem 0;
 }
 .contact-section .div-form form .form {
-  padding: 0.8rem 0;
+  padding: 0.4rem 0;
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -1578,7 +1578,6 @@ body {
 }
 .contact-section .div-icons__icons-contact {
   width: 80%;
-  height: 50vh;
   display: flex;
 }
 .contact-section .div-icons__icons-contact .icons-contact {
