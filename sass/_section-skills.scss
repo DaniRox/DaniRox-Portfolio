@@ -140,6 +140,10 @@
                 height: 3.3rem;
             }
         }
+
+        @include media-queries.desktop-s {
+            width: 90%;
+        }
     }
 
     @include media-queries.tablet {
@@ -148,7 +152,7 @@
     }
 
     @include media-queries.desktop-s {
-        width: 90%;
+        width: 100%;
         padding-top: 9rem;
         min-height: 70vh;
         justify-content: center;
