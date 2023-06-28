@@ -1263,7 +1263,7 @@ body {
   transition: all 130ms;
 }
 .sobre-mi-section .sobre-mi:hover {
-  scale: 1.04;
+  scale: 1.02;
 }
 .sobre-mi-section .sobre-mi .sobre-mi__div-img {
   width: 0%;
@@ -1479,7 +1479,7 @@ body {
   }
 }
 .contact-section .div-form:hover {
-  scale: 1.04;
+  scale: 1.02;
 }
 @media screen and (min-width: 480px) {
   .contact-section .div-form {
