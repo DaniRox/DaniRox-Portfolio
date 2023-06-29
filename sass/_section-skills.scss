@@ -4,7 +4,7 @@
 .skills-section {
     width: 100vw;
     min-height: 70vh;
-    padding-top: 11rem;
+    padding-top: 8rem;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -148,7 +148,6 @@
     }
 
     @include media-queries.tablet {
-        padding-top: 11rem;
         min-height: 76vh;
     }
 
