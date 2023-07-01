@@ -948,7 +948,7 @@ body {
     margin: 3rem;
   }
 }
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 1100px) {
   .gallery-section .project {
     margin: 3rem 3.5rem;
   }
@@ -1589,35 +1589,99 @@ body {
 }
 
 .container__form-msj-de-envio {
-  display: none;
+  background-color: #1E2A33;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  position: absolute;
+  align-items: center;
 }
 .container__form-msj-de-envio .form-msj-de-envio {
-  background-color: #5C9EAD;
-  width: 18rem;
-  height: 11rem;
-  display: none;
+  display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  border-radius: 20px;
   margin: 1rem;
 }
-.container__form-msj-de-envio .form-msj-de-envio .form-msj-de-envio__div-btn-close {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-}
-.container__form-msj-de-envio .form-msj-de-envio .form-msj-de-envio__div-btn-close .btn-close {
-  width: 2rem;
-  font-weight: 800;
-  padding: 1rem 1rem 0 1rem;
-  cursor: pointer;
-}
 .container__form-msj-de-envio .form-msj-de-envio .form-msj-de-envio__txt {
-  color: #326273;
+  color: #F7FFF7;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 600;
+  margin-bottom: 6rem;
+  text-align: center;
+  line-height: 2rem;
+}
+@media screen and (min-width: 480px) {
+  .container__form-msj-de-envio .form-msj-de-envio .form-msj-de-envio__txt {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+}
+@media screen and (min-width: 770px) {
+  .container__form-msj-de-envio .form-msj-de-envio .form-msj-de-envio__txt {
+    font-size: 1.9rem;
+    line-height: 2.6rem;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .container__form-msj-de-envio .form-msj-de-envio .form-msj-de-envio__txt {
+    font-size: 2.2rem;
+    line-height: 3rem;
+  }
+}
+.container__form-msj-de-envio .btn-volver {
+  background-color: rgba(92, 158, 173, 0.6235294118);
+  width: 10rem;
+  height: 4rem;
+  border-radius: 20px;
   margin: 2rem;
+  border: none;
+  cursor: pointer;
+  transition: all 100ms;
+}
+.container__form-msj-de-envio .btn-volver:hover {
+  scale: 1.15;
+}
+@media screen and (min-width: 480px) {
+  .container__form-msj-de-envio .btn-volver {
+    width: 12rem;
+    height: 4.2rem;
+  }
+}
+@media screen and (min-width: 770px) {
+  .container__form-msj-de-envio .btn-volver {
+    width: 14rem;
+    height: 4.5rem;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .container__form-msj-de-envio .btn-volver {
+    width: 14.5rem;
+    height: 5rem;
+  }
+}
+.container__form-msj-de-envio .btn-volver .btn-volver__link {
+  color: #1E2A33;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.3rem;
+  text-align: center;
+  text-decoration: none;
+}
+@media screen and (min-width: 480px) {
+  .container__form-msj-de-envio .btn-volver .btn-volver__link {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (min-width: 770px) {
+  .container__form-msj-de-envio .btn-volver .btn-volver__link {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .container__form-msj-de-envio .btn-volver .btn-volver__link {
+    font-size: 1.3rem;
+  }
 }/*# sourceMappingURL=styles.css.map */
