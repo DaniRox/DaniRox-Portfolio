@@ -1,0 +1,41 @@
+@use "media-queries";
+@use "globals";
+
+.container__form-msj-de-envio {
+    display: none;
+    justify-content: center;
+    position: absolute;
+
+    .form-msj-de-envio {
+        background-color: globals.$moonstone;
+        width: 18rem;
+        height: 11rem;
+        display: none;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        border-radius: 20px;
+        margin: 1rem;
+
+        .form-msj-de-envio__div-btn-close {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+
+            .btn-close {
+                width: 2rem;
+                font-weight: 800;
+                padding: 1rem 1rem 0 1rem;
+                cursor: pointer;
+
+            }
+        }
+
+        .form-msj-de-envio__txt {
+            color: globals.$paynes-gray;
+            font-family: globals.$josefin;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin: 2rem;
+        }
+    }
+}

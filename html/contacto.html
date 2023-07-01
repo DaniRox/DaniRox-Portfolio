@@ -35,7 +35,7 @@
     <section class="contact-section">
 
         <div class="div-form">
-            <form>
+            <form action="https://formsubmit.co/daniroxescobar@gmail.com" method="POST">
                 <div class="form">
                     <label for="nombre">Nombre:</label>
                     <input name="nombre" id="nombre" type="text" autocomplete="on" required>
@@ -45,11 +45,11 @@
                     <input name="email" id="email" type="email" autocomplete="on" required>
                 </div>
                 <div class="form">
-                    <p>Mensaje:</p>
-                    <textarea name="message" id="textarea" required></textarea>
+                    <label for="mensaje">Mensaje:</p>
+                    <textarea name="mensaje" id="mensaje" required></textarea>
                 </div>
                 <div class="form form-boton">
-                    <input type="submit" value="Enviar" class="form-boton__btn"></button>
+                    <input type="submit" value="Enviar" class="form-boton__btn" onclick="displayEnvioDeForm()"></button>
                 </div>
             </form>
         </div>
@@ -68,6 +68,14 @@
             </div>
         </div>
 
+        <!--<div class="container__form-msj-de-envio" id="container__form-msj-de-envio">
+            <div class="form-msj-de-envio">
+                <div class="form-msj-de-envio__div-btn-close"><img src="../assets/icons/circle-close.svg" class="btn-close" onclick="displayEnvioDeForm()"></div>
+                <p class="form-msj-de-envio__txt">Gracias por tu mensaje. Te responderé pronto.</p>
+            </div>
+        </div>-->
+        
+
     </section>
 
     <footer class="footer">
@@ -75,6 +83,7 @@
     </footer>
 
     <script src="../displayMenu.js"></script>
+    <!--<script src="../display-evio-de-form.js"></script>-->
 
 </body>
 </html>
