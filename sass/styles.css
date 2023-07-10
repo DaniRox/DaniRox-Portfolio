@@ -5,7 +5,7 @@ body {
 }
 
 .navbar {
-  background-color: rgba(92, 158, 173, 0.6235294118);
+  background-color: rgba(150, 188, 196, 0.862745098);
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -54,10 +54,11 @@ body {
   font-weight: 500;
   text-decoration: none;
   padding: 0.7rem;
+  transition: all 1s;
 }
 .navbar .nav-menu .nav-menu__menu-item:hover {
   color: #E39774;
-  font-weight: 600;
+  transform: scale(1.15);
   text-shadow: 0px 0px 6px #5C9EAD, 0px 0px 1px #5C9EAD;
 }
 @media screen and (min-width: 770px) {
@@ -954,7 +955,7 @@ body {
   }
 }
 .gallery-section .div-info-project {
-  background-color: rgba(92, 158, 173, 0.6235294118);
+  background-color: rgba(150, 188, 196, 0.862745098);
   width: 100vw;
   height: 100vh;
   top: 0;
@@ -1631,7 +1632,7 @@ body {
   }
 }
 .container__form-msj-de-envio .btn-volver {
-  background-color: rgba(92, 158, 173, 0.6235294118);
+  background-color: rgba(150, 188, 196, 0.862745098);
   width: 10rem;
   height: 4rem;
   border-radius: 20px;

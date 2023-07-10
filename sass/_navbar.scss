@@ -49,10 +49,11 @@
             font-weight: 500;
             text-decoration: none;
             padding: 0.7rem;
+            transition: all 1s;
 
             &:hover {
                 color: globals.$atomic-tangerine;
-                font-weight: 600;
+                transform: scale(1.15);
                 text-shadow: 0px 0px 6px globals.$moonstone,  0px 0px 1px globals.$moonstone;
             }
 
