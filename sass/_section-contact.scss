@@ -193,6 +193,7 @@
             }
 
             @include media-queries.desktop {
+                height: 90%;
                 justify-content: center;
             }
         }
