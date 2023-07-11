@@ -8,7 +8,7 @@
 Este proyecto es mi portfolio personal de desarrollador front-end, herramienta indispensable para mostrar mi trabajo.
 
 
-### Enlace: [Enlace al portfolio]([https://your-solution-url.com](https://danirox.github.io/DaniRox-Portfolio/))
+### Enlace: [DaniRox-Portfolio](https://danirox.github.io/DaniRox-Portfolio/)
 
 
 ***
@@ -58,5 +58,5 @@ Aún continúo mejorando detalles estéticos del proyecto.
 
 ## Autor
 
-- LiinkedIn - [DaniRox LinkedIn](https://www.linkedin.com/in/daniroxescobar/)
+- LiinkedIn - [DaniRox](https://www.linkedin.com/in/daniroxescobar/)
 
