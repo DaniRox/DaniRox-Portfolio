@@ -3,15 +3,15 @@
 ### Captura de pantalla
 ![inicio_danirox-portfolio](https://user-images.githubusercontent.com/108234679/252532204-56f2f31c-c3fe-4080-b484-f5b941277cd9.png)
 
-descripcion
+## Descripción: descripcion
 
-### Enlace: [Add solution URL here](https://your-solution-url.com)
+### Enlace: [Enlace al portfolio]([https://your-solution-url.com](https://danirox.github.io/DaniRox-Portfolio/))
 
 ## Tabla de contenido
 
 - [Descripción](#descripción)
-  - [DaniRox-Portfolio](#DaniRox-Portfolio)
   - [Captura de pantalla](#captura-de-pantalla)
+  - [DaniRox-Portfolio](#DaniRox-Portfolio)
   - [Enlace](#enlace)
 - [Mi proceso](#mi-proceso)
   - [Tecnologías](#tecnologías)
@@ -20,21 +20,6 @@ descripcion
   - [Otros recursos](#otros-recursos)
 - [Autor](#autor)
 - [Agradecimientos](#agradecimientos)
-
-
-## Descripción
-
-### El proyecto
-
-Users should be able to:
-
-- Add their email and submit the form
-- See a success message with their email after successfully submitting the form
-- See form validation messages if:
-  - The field is left empty
-  - The email address is not formatted correctly
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
 
 
 ## Mi proceso
