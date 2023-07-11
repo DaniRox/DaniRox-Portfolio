@@ -58,7 +58,7 @@ Aún continúo mejorando detalles estéticos del proyecto.
 
 ## Autor
 
-- LiinkedIn - [DaniRox LinkedIn]([https://www.your-site.com](https://www.linkedin.com/in/daniroxescobar/))
+- LiinkedIn - [DaniRox LinkedIn](https://www.linkedin.com/in/daniroxescobar/)
 
 
 ***
