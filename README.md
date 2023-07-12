@@ -25,7 +25,6 @@ Este proyecto es mi portfolio personal de desarrollador front-end, herramienta i
   - [Continúo desarrollando](#continúo-desarrollando)
   - [Otros recursos](#otros-recursos)
 - [Autor](#autor)
-- [Agradecimientos](#agradecimientos)
 
 
 ***
