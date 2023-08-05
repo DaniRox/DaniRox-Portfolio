@@ -1,0 +1,27 @@
+@import url(../styles.css);
+
+.nav {
+    width: 90%;
+    padding: 1rem 5%;
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media only screen and (min-width: 770px) {
+    .nav {
+        width: 86%;
+        padding: 1rem 7%;
+        flex-direction: row;
+        justify-content: space-between;
+    }  
+}
+
+@media only screen and (min-width: 1100px) {
+    .nav {
+        width: 80%;
+        padding: 1rem 10%;
+    }  
+}

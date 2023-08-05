@@ -11,6 +11,19 @@
         <link rel="stylesheet" href="./styles/reset.css">
         <!-- global styles -->
         <link rel="stylesheet" href="./styles/styles.css">
+        <!-- atoms -->
+        <link rel="stylesheet" href="./styles/atoms/icons.css">
+        <link rel="stylesheet" href="./styles/atoms/buttons.css">
+        <link rel="stylesheet" href="./styles/atoms/div-icons.css">
+        <!-- molecules -->
+        <link rel="stylesheet" href="./styles/molecules/menu-nav.css">
+        <link rel="stylesheet" href="./styles/molecules/menu.css">
+        <link rel="stylesheet" href="./styles/molecules/txts-start.css">
+        <link rel="stylesheet" href="./styles/molecules/icons-header.css">
+        <!-- organisms -->
+        <link rel="stylesheet" href="./styles/organisms/nav.css">
+        <link rel="stylesheet" href="./styles/organisms/section-start.css">
+        <link rel="stylesheet" href="./styles/organisms/footer.css">
 
 
         <link rel="icon" href="./assets/icons/favicon-danirox.png">
@@ -18,51 +31,94 @@
     </head>
 <body>
 
-    <header>
+    <nav class="nav">
+   
+        <div class="menu">
 
-        <nav>
+            <img src="./assets/icons/logo-dr.png" alt="logo dr" class="logo-header">
+    
+            <button class="btn" id="btn-menu-nav"><img src="./assets/icons/menu-dark.svg" alt="icono menú" class="btn-icon icon--clear"></button>
+            
+        </div>
 
-            <img src="" alt="">
+        <div class="menu-nav" id="menu-nav">
+            <a href="#start" class="txt-diff txt-diff--s txt--dark">inicio</a>
+            <a href="#galery" class="txt-diff txt-diff--s txt--dark">galería</a>
+            <a href="#profile" class="txt-diff txt-diff--s txt--dark">sobre mi</a>
+            <a href="#skills" class="txt-diff txt-diff--s txt--dark">habiadades</a>
+            <a href="#contact" class="txt-diff txt-diff--s txt--dark">contacto</a>
+        </div>
+    
+    </nav>
 
-            <ul class="navbar">
-                <li class="txt-nav txt-nav--dark"></li>
-                <li class="txt-nav txt-nav--dark"></li>
-                <li class="txt-nav txt-nav--dark"></li>
-                <li class="txt-nav txt-nav--dark"></li>
-                <li class="txt-nav txt-nav--dark"></li>
-            </ul>
-
-        </nav>
-
-    </header>
 
     <main>
 
-        <section class="start">
+        <section class="section--tertiary" id="start">
 
-            <h1 class="title-pag"></h1>
+            <img src="" alt="">
 
-            <h2 class="subtitle-pag"></h2>
+            <div class="txts-start">
 
-            <div class="div-icons">
-                <img src="" alt="" class="icon icon--secondary">
-                <img src="" alt="" class="icon icon--secondary">
-                <img src="" alt="" class="icon icon--secondary">
+                <h1 class="title-pag txt--dark">DaniRox</h1>
+                <h2 class="subtitle-pag txt--dark">Desarrollo front-end</h2>
+
+            </div>
+            
+            <div class="icons-header">
+                <div class="div-icons">
+                    <img src="./assets/icons/linkedin-secondary.svg" alt="icono linkedin" class="icon icon--secondary">
+                    <img src="./assets/icons/github-secondary.svg" alt="icono github" class="icon icon--secondary">
+                    <img src="./assets/icons/email-secondary.svg" alt="icono email" class="icon icon--secondary">
+                </div>
             </div>
 
         </section>
+<!--
+        <section class="section--tertiary" id="banner">
 
-        <section class="banner">
-
-            <span class="txt-banner"></span>
+            <span class="txt-diff txt--clear">Conectando a través del Diseño Web;
+                tecnología, estilo y accesibilidad.</span>
 
         </section>
 
-        <section class="galery">
+        <section class="section--clear" id="galery">
 
-            <h1 class="title title--dark"></h1>
+            <h1 class="title title--dark">Proyectos y Trabajos</h1>
 
             <div class="projects-container">
+
+                <div class="project">
+                    <img src="" alt="" class="project__img">
+                    <div class="project__txt">
+                        <h1 class="title">Alurageek</h1>
+                        <p class="txt-primary txt-primary--dark">E-commerce de la industria de los videojuegos. Proyecto realizado a modo de desafío durante mi formación en Alura Latam.</p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="" alt="" class="project__img">
+                    <div class="project__txt">
+                        <h1 class="title">Encriptador de textos</h1>
+                        <p class="txt-primary txt-primary--dark"></p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="" alt="" class="project__img">
+                    <div class="project__txt">
+                        <h1 class="title">Portafolio</h1>
+                        <p class="txt-primary txt-primary--dark"></p>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <img src="" alt="" class="project__img">
+                    <div class="project__txt">
+                        <h1 class="title"></h1>
+                        <p class="txt-primary txt-primary--dark"></p>
+                    </div>
+                </div>
 
                 <div class="project">
                     <img src="" alt="" class="project__img">
@@ -76,32 +132,32 @@
 
         </section>
 
-        <section class="profile">
+        <section class="section--secondary" id="profile">
 
             <div>
                 <img src="" alt="imagen de perfil" class="img-profile">
             </div>
 
-            <h1 class="title title--clear"></h1>
+            <h1 class="title title--clear">Hola Munda! Soy Dani!</h1>
 
-            <p class="txt-primary txt-primary--clear"></p>
+            <p class="txt-primary txt-primary--clear">Me dedico al desarrollo y diseño de páginas web, enfocándome especialmente en la experiencia del usuario. Creo firmemente en la inclusión de todos al navegar en una aplicación o página web. Mi pasión por el diseño y la tecnología hacen que el trabajo de desarrollo front-end sea sumamente gratificante para mí. Mi principal objetivo es crear soluciones tecnológicas que sean útiles, funcionales, divertidas y estéticamente atractivas. Disfruto tanto creando como aprendiendo, lo que me impulsa a seguir mejorando y evolucionando en mi profesión.</p>
 
         </section>
 
-        <section class="skills">
+        <section class="section--clear" id="skills">
 
-            <h1 class="title title--dark"></h1>
+            <h1 class="title title--dark">Habilidades y Tecnologías</h1>
 
             <div class="cards-container">
 
                 <div class="card">
                     <ul class="list">
-                        <li class="txt-secondary txt-secondary--clear"></li>
-                        <li class="txt-secondary txt-secondary--clear"></li>
-                        <li class="txt-secondary txt-secondary--clear"></li>
-                        <li class="txt-secondary txt-secondary--clear"></li>
-                        <li class="txt-secondary txt-secondary--clear"></li>
-                        <li class="txt-secondary txt-secondary--clear"></li>
+                        <li class="txt-secondary txt-secondary--clear">Perseverancia</li>
+                        <li class="txt-secondary txt-secondary--clear">Capacidad analítica</li>
+                        <li class="txt-secondary txt-secondary--clear">Orientación al detalle</li>
+                        <li class="txt-secondary txt-secondary--clear"> Comunicación asertiva</li>
+                        <li class="txt-secondary txt-secondary--clear">Resolución de problemas</li>
+                        <li class="txt-secondary txt-secondary--clear">Gestión efectiva del tiempo</li>
                     </ul>
                 </div>
 
@@ -116,12 +172,11 @@
 
                 <div class="card">
                     <ul class="list">
-                        <li class="txt-secondary txt-secondary--secondary"></li>
-                        <li class="txt-secondary txt-secondary--secondary"></li>
-                        <li class="txt-secondary txt-secondary--secondary"></li>
-                        <li class="txt-secondary txt-secondary--secondary"></li>
-                        <li class="txt-secondary txt-secondary--secondary"></li>
-                        <li class="txt-secondary txt-secondary--secondary"></li>
+                        <li class="txt-secondary txt-secondary--secondary">Diseño web responsivo</li>
+                        <li class="txt-secondary txt-secondary--secondary">Enfoque Mobil First</li>
+                        <li class="txt-secondary txt-secondary--secondary">Diseño y maquetación</li>
+                        <li class="txt-secondary txt-secondary--secondary">Metodologías BEM/ACCSS</li>
+                        <li class="txt-secondary txt-secondary--secondary">Accesibilidad web</li>
                     </ul>
                 </div>
 
@@ -129,14 +184,14 @@
 
         </section>
 
-        <section class="contact">
+        <section class="section--primary" id="contact">
 
-            <h1 class="title title--dark"></h1>
+            <h1 class="title title--dark">Contáctame</h1>
 
             <div>
-                <span class="txt-primary txt-primary--secondary"></span>
-                <span class="txt-primary txt-primary--secondary"><img src="" alt=""></span>
-                <img src="" alt="">
+                <span class="txt-primary txt-primary--secondary txt-primary--em">Me encantaría que trabajemos juntos.</span>
+                <span class="txt-primary txt-primary--secondary txt-primary--em">Descarga mi CV<img src="./assets/icons/arrow.svg" alt=""></span>
+                <img src="./assets/icons/logo-danirox.png" alt="logo danirox">
             </div>
 
             <div>
@@ -151,29 +206,30 @@
             </div>
 
         </section>
-
+-->  
     </main>
 
-    <footer>
+    <footer class="section--secondary">
 
-        <ul class="navbar">
-            <li class="txt-nav txt-nav--clear"></li>
-            <li class="txt-nav txt-nav--clear"></li>
-            <li class="txt-nav txt-nav--clear"></li>
-            <li class="txt-nav txt-nav--clear"></li>
-            <li class="txt-nav txt-nav--clear"></li>
-        </ul>
-
-        <div class="div-icons">
-            <img src="" alt="" class="icon icon--clear">
-            <img src="" alt="" class="icon icon--clear">
-            <img src="" alt="" class="icon icon--clear">
+        <div class="menu-nav-footer">
+            <a href="#start" class="txt-diff txt-diff--s txt--clear">inicio</a>
+            <a href="#galery" class="txt-diff txt-diff--s txt--clear">galería</a>
+            <a href="#profile" class="txt-diff txt-diff--s txt--clear">sobre mi</a>
+            <a href="#skills" class="txt-diff txt-diff--s txt--clear">habiadades</a>
+            <a href="#contact" class="txt-diff txt-diff--s txt--clear">contacto</a>
         </div>
 
-        <span class="txt-nav txt-nav--dark"><a class=""></a></span>
+        <div class="div-icons">
+            <img src="./assets/icons/linkedin-clear.svg" alt="icon linkedin" class="icon icon--clear">
+            <img src="./assets/icons/github-clear.svg" alt="icon github" class="icon icon--clear">
+            <img src="./assets/icons/email-clear.svg" alt="icon email" class="icon icon--clear">
+        </div>
 
+        <span class="txt-diff txt--dark">Diseño y desarrollo por<a class="">DaniRox</a></span>
 
     </footer>
-    
+  
+    <script src="./js/display-menu.js"></script>
+
 </body>
 </html>

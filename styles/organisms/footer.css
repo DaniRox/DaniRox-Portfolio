@@ -1,0 +1,11 @@
+@import url(../styles.css);
+
+.section--secondary{
+    width: 100%;
+    height: 8rem;
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
