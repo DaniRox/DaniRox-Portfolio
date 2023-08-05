@@ -74,16 +74,29 @@ html {
     html {
         font-size: 20px;
     }
+
+    .title-pag{
+        font-family: 'Elsie', cursive;
+        font-size: 5.4rem;
+    }
 }
 
 @media only screen and (min-width: 770px) {
     html {
         font-size: 22px;
     }
+
+    .title-pag{
+        font-size: 6rem;
+    }
 }
 
 @media only screen and (min-width: 1100px) {
     html {
         font-size: 24px;
+    }
+
+    .title-pag{
+        font-size: 8rem;
     }
 }
