@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie&family=Montserrat:wght@300;400;500&family=Playfair+Display:wght@600&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+:root {
+    --color-primary: #F0D9D1;
+    --color-secondary: #979F89;
+    --color-tertiary: #DDB7AC;
+    --color-clear: #F4EFEC;
+    --color-dark: #232538;
+}
+
+.title-pag{
+    font-family: 'Elsie', cursive;
+    font-size: 3rem;
+    color: var(--color-dark);
+}
+
+.subtitle-pag{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: var(--color-dark);
+}
+
+.txt-banner{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5rem;
+    color: var(--color-clear);
+}
+
+.title{
+    font-family: 'Playfair Display', serif;
+}
+
+.title--dark{
+    color: var(--color-dark);
+}
+
+.title-clear{
+    color: var(--color-clear);
+}
+
+.txt-primary{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.txt-primary--dark{
+    color: var(--color-dark);
+}
+
+.txt-primary--clear{
+    color: var(--color-clear);
+}
+
+.txt-primary--secondary{
+    color: var(--color-clear);
+}
+
+.txt-secondary{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1rem;
+}
+
+.txt-secondary--clear{
+    color: var(--color-clear);
+}
+
+.txt-secondary--secondary{
+    color: var(--color-tertiary);
+}
+
+.txt-nav{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+.txt-nav--clear{
+    color: var(--color-clear);
+}
+
+.txt-nav--dark{
+    color: var(--color-dark);
+}
