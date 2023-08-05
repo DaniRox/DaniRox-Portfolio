@@ -1,7 +1,6 @@
 @import url(../styles.css);
 
-.section--tertiary {
-    background-color: var(--color-tertiary);
+.section-start {
     height: 40rem;
     display: flex;
     flex-direction: column;

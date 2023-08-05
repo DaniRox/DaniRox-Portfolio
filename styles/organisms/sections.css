@@ -5,6 +5,21 @@
     padding: 0rem 5%;
 }
 
+.section--primary {
+    background-color: var(--color-primary);
+}
+
+.section--secondary {
+    background-color: var(--color-secondary);
+}
+
+.section--tertiary {
+    background-color: var(--color-tertiary);
+}
+
+.section--clear {
+    background-color: var(--color-clear);
+}
 
 @media only screen and (min-width: 770px) {
     .section {
