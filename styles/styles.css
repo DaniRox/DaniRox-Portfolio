@@ -9,17 +9,17 @@
 }
 
 html {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .title-pag{
     font-family: 'Elsie', cursive;
-    font-size: 5rem;
+    font-size: 5.3rem;
 }
 
 .subtitle-pag{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 300;
 }
 
@@ -72,18 +72,18 @@ html {
 
 @media only screen and (min-width: 470px) {
     html {
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 
 @media only screen and (min-width: 770px) {
     html {
-        font-size: 20px;
+        font-size: 22px;
     }
 }
 
 @media only screen and (min-width: 1100px) {
     html {
-        font-size: 22px;
+        font-size: 24px;
     }
 }
