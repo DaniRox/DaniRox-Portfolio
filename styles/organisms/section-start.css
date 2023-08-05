@@ -1,6 +1,7 @@
 @import url(../styles.css);
 
 .section-start {
+    background-color: #ddb7ac88;
     height: 40rem;
     display: flex;
     flex-direction: column;

@@ -1,0 +1,8 @@
+@import url(../styles.css);
+
+.img-start{
+    width: auto;
+    height: 72%;
+    position: absolute;
+    z-index: -1;
+}

@@ -1,0 +1,7 @@
+@import url(../styles.css);
+
+.div-img-start {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
