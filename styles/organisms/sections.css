@@ -1,0 +1,21 @@
+@import url(../styles.css);
+
+.section {
+    width: 90%;
+    padding: 0rem 5%;
+}
+
+
+@media only screen and (min-width: 770px) {
+    .section {
+        width: 86%;
+        padding: 1rem 7%;
+    }  
+}
+
+@media only screen and (min-width: 1100px) {
+    .section {
+        width: 80%;
+        padding: 1rem 10%;
+    }  
+}

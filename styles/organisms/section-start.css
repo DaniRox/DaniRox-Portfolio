@@ -1,28 +1,10 @@
 @import url(../styles.css);
 
 .section--tertiary {
-    width: 90%;
     background-color: var(--color-tertiary);
-    height: 38rem;
-    padding: 0rem 5%;
+    height: 40rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-}
-
-
-
-@media only screen and (min-width: 770px) {
-    .section--tertiary {
-        width: 86%;
-        padding: 1rem 7%;
-    }  
-}
-
-@media only screen and (min-width: 1100px) {
-    .section--tertiary {
-        width: 80%;
-        padding: 1rem 10%;
-    }  
 }
