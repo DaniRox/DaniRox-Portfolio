@@ -58,13 +58,19 @@ html {
 }
 
 .txt-diff--l{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 300;
     color: var(--color-clear);
 }
 
+.txt-diff--m{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--color-dark);
+}
+
 .txt-diff--s{
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 400;
 }
 
