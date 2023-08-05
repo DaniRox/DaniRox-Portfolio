@@ -68,6 +68,11 @@ html {
     font-weight: 400;
 }
 
+.txt-mention{
+    font-family: 'Elsie', cursive;
+    font-size: 1.6rem;
+    margin: 0 0.3rem;
+}
 
 
 @media only screen and (min-width: 470px) {
