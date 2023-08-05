@@ -1,7 +1,11 @@
 @import url(../styles.css);
 
 .div-img-start {
+    width: 100vw;
+    height: 90vh;
+    left: 0;
     overflow: hidden;
+    position: absolute;
     display: flex;
     justify-content: center;
 }
