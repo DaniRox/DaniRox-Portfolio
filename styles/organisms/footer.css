@@ -3,7 +3,7 @@
 .section-footer{
     width: 90%;
     padding: 1rem 5%;
-    height: 8rem;
+    height: 7rem;
     background-color: var(--color-secondary);
     display: flex;
     flex-direction: column;
