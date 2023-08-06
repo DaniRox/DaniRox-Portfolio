@@ -1,10 +1,10 @@
 @import url(../styles.css);
 
 .project__txt{
-    width: 14rem;
+    width: 15rem;
     height: auto;
     background-color: var(--color-tertiary);
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .project__txt > * {

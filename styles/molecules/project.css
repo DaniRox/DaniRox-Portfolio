@@ -1,6 +1,9 @@
 @import url(../styles.css);
 
 .project {
+    width: auto;
+    height: auto;
+    margin: 2rem 1rem;
     display: flex;
     flex-direction: column;
 }
