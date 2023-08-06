@@ -2,7 +2,7 @@
 
 .section-start {
     background-color: #ddb7ac88;
-    height: 40rem;
+    height: 38rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,6 +12,6 @@
 
 @media only screen and (min-width: 770px) {
     .section-start{
-        height: 100vh;
+        height: 90vh;
     }
 }

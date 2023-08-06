@@ -2,10 +2,23 @@
 
 .div-img-start {
     width: 100vw;
-    height: 125vh;
+    height: 110%;
     left: 0;
     overflow: hidden;
     position: absolute;
     display: flex;
     justify-content: center;
+}
+
+
+@media only screen and (min-width: 770px) {
+    .div-img-start{
+        height: 120%;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .div-img-start{
+        height: 130%;
+    }
 }

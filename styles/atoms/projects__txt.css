@@ -1,7 +1,7 @@
 @import url(../styles.css);
 
 .project__txt{
-    width: 12rem;
+    width: 14rem;
     height: auto;
     background-color: var(--color-tertiary);
     padding: 1rem;
