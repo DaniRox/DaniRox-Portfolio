@@ -1,7 +1,7 @@
 @import url(../styles.css);
 
 .section-banner {
-    height: 8rem;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
