@@ -4,9 +4,6 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Elsie&family=Lato:wght@300;400;700&family=Montserrat:wght@200;300;400;500;600&display=swap" rel="stylesheet">
         <!-- styles reset -->
         <link rel="stylesheet" href="./styles/reset.css">
         <!-- global styles -->
@@ -16,17 +13,22 @@
         <link rel="stylesheet" href="./styles/atoms/buttons.css">
         <link rel="stylesheet" href="./styles/atoms/div-icons.css">
         <link rel="stylesheet" href="./styles/atoms/images.css">
+        <link rel="stylesheet" href="./styles/atoms/projects__txt.css">
+        <link rel="stylesheet" href="./styles/atoms/project__div-img.css">
         <!-- molecules -->
         <link rel="stylesheet" href="./styles/molecules/menu-nav.css">
         <link rel="stylesheet" href="./styles/molecules/menu.css">
         <link rel="stylesheet" href="./styles/molecules/txts-start.css">
         <link rel="stylesheet" href="./styles/molecules/icons-header.css">
         <link rel="stylesheet" href="./styles/molecules/div-img-start.css">
+        <link rel="stylesheet" href="./styles/molecules/project.css">
         <!-- organisms -->
         <link rel="stylesheet" href="./styles/organisms/nav.css">
         <link rel="stylesheet" href="./styles/organisms/section-start.css">
         <link rel="stylesheet" href="./styles/organisms/footer.css">
         <link rel="stylesheet" href="./styles/organisms/sections.css">
+        <link rel="stylesheet" href="./styles/organisms/section-banner.css">
+        <link rel="stylesheet" href="./styles/organisms/section-galery.css">
 
 
         <link rel="icon" href="./assets/icons/logo-dr.png">
@@ -82,25 +84,28 @@
 
         <section class="section section-banner section--tertiary" id="banner">
 
-            <span class="txt-diff txt--clear">Conectando a través del Diseño Web;
+            <span class="txt-diff txt-diff--l txt--clear">Conectando a través del Diseño Web;
                 tecnología, estilo y accesibilidad.</span>
 
         </section>
-<!--
-        <section class="section--clear" id="galery">
+
+        <section class="section-galery section--clear" id="galery">
 
             <h1 class="title title--dark">Proyectos y Trabajos</h1>
 
             <div class="projects-container">
 
                 <div class="project">
-                    <img src="" alt="" class="project__img">
+                    <div class="project__div-img">
+                        <img src="./assets/img/captura-encriptador.png" alt="captura de pantalla del proyecto" class="project__img">
+                    </div>
+                    
                     <div class="project__txt">
-                        <h1 class="title">Alurageek</h1>
-                        <p class="txt-primary txt-primary--dark">E-commerce de la industria de los videojuegos. Proyecto realizado a modo de desafío durante mi formación en Alura Latam.</p>
+                        <h1 class="txt-diff txt-diff--m-clear txt--clear">Alurageek</h1>
+                        <p class="txt txt--dark">E-commerce de la industria de los videojuegos. Proyecto realizado a modo de desafío durante mi formación en Alura Latam.</p>
                     </div>
                 </div>
-
+<!--
                 <div class="project">
                     <img src="" alt="" class="project__img">
                     <div class="project__txt">
@@ -132,11 +137,11 @@
                         <p class="txt-primary txt-primary--dark"></p>
                     </div>
                 </div>
-
+-->
             </div>
 
         </section>
-
+<!--
         <section class="section section--secondary" id="profile">
 
             <div>

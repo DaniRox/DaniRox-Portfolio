@@ -1,0 +1,12 @@
+@import url(../styles.css);
+
+.project__txt{
+    width: 12rem;
+    height: auto;
+    background-color: var(--color-tertiary);
+    padding: 1rem;
+}
+
+.project__txt > * {
+    margin: 0.6rem;
+}

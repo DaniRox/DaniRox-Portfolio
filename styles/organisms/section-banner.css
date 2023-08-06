@@ -1,0 +1,9 @@
+@import url(../styles.css);
+
+.section-banner {
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -31,7 +31,7 @@ html {
 
 .txt{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 300;
 }
 
@@ -61,12 +61,19 @@ html {
     font-size: 1.6rem;
     font-weight: 300;
     color: var(--color-clear);
+    text-align: center;
 }
 
 .txt-diff--m{
     font-size: 1.1rem;
     font-weight: 500;
     color: var(--color-dark);
+}
+
+.txt-diff--m-clear{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--color-clear);
 }
 
 .txt-diff--s{

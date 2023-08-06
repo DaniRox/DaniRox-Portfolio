@@ -1,0 +1,6 @@
+@import url(../styles.css);
+
+.project {
+    display: flex;
+    flex-direction: column;
+}

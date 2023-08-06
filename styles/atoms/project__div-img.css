@@ -1,0 +1,11 @@
+@import url(../styles.css);
+
+.project__div-img{
+    width: 14rem;
+    height: 12rem;
+    background-color: var(--color-tertiary);
+    border-radius: 50% 50% 0 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
