@@ -9,6 +9,7 @@
 #btn-menu-nav {
     padding: 1rem;
     display: flex;
+    z-index: 1;
 }
 
 
