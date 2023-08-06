@@ -6,19 +6,23 @@
     left: 0;
     overflow: hidden;
     position: absolute;
+    z-index: -1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 
 @media only screen and (min-width: 770px) {
     .div-img-start{
-        height: 120%;
+        height: 170%;
+        width: 100%;
     }
 }
 
 @media only screen and (min-width: 1100px) {
     .div-img-start{
-        height: 130%;
+        height: 170%;
     }
 }

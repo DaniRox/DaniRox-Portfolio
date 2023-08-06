@@ -1,12 +1,19 @@
 @import url(../styles.css);
 
 .img-start{
+    height: 110%;
     width: auto;
-    height: 100%;
-    z-index: -1;
 }
 
 .project-img{
     height: 100%;
     width: auto;
+}
+
+
+@media only screen and (min-width: 1400px) {
+    .img-start{
+        height: auto;
+        width: 150%;
+    }
 }
