@@ -1,11 +1,12 @@
 @import url(../styles.css);
 
 .card{
-    width: 13rem;
-    height: 15rem;
+    width: 11rem;
+    height: 13rem;
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .card--primary{
