@@ -3,10 +3,21 @@
 .card{
     width: 12rem;
     height: 13rem;
-    padding: 1.5rem;
+    padding: 1.5rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+.card-icons{
+    width: 12rem;
+    height: 13rem;
+    padding: 1.5rem 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .card--primary{

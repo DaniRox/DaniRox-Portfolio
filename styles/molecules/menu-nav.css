@@ -2,7 +2,9 @@
 
 .menu-nav {
     height: 9rem;
-    margin-right: 1rem;
+    right: 2rem;
+    top: 3.5rem;
+    position: fixed;
     display: none;
     flex-direction: column;
     justify-content: space-around;
@@ -23,6 +25,7 @@
         width: 25rem;
         height: 3rem;
         margin-right: 0rem;
+        position: revert;
         display: flex;
         flex-direction: row;
         align-items: center;
