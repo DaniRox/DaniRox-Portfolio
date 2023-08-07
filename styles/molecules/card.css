@@ -1,0 +1,21 @@
+@import url(../styles.css);
+
+.card{
+    width: 13rem;
+    height: 15rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card--primary{
+    background-color: var(--color-primary);
+}
+
+.card--secondary{
+    background-color: var(--color-secondary);
+}
+
+.card--tertiary{
+    background-color: var(--color-tertiary);
+}

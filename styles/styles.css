@@ -19,24 +19,45 @@ html {
 
 .subtitle-pag{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.8rem;
     font-weight: 300;
 }
 
 .title{
     font-family: 'Playfair Display', serif;
-    font-size: 1.8rem;
     font-weight: 600;
 }
 
 .txt{
     font-family: 'Montserrat', sans-serif;
     font-size: 0.9rem;
-    font-weight: 400;
     text-decoration: none;
 }
 
-.txt--em{
+.txt--s{
+    font-size: 0.8rem;
+}
+
+.txt--m{
+    font-size: 1rem;
+}
+
+.txt--l{
+    font-size: 1.3rem;
+}
+
+.txt--xl{
+    font-size: 1.8rem;
+}
+
+.txt--light{
+    font-weight: 300;
+}
+
+.txt--regular{
+    font-weight: 400;
+}
+
+.txt--bold{
     font-weight: 500;
 }
 
@@ -49,42 +70,17 @@ html {
 }
 
 .txt--secondary{
-    color: var(--color-tertiary);
+    color: var(--color-secondary);
 }
 
 .txt-diff{
     font-family: 'Barlow Semi Condensed', sans-serif;
-    font-size: 1rem;
     text-decoration: none;
-}
-
-.txt-diff--l{
-    font-size: 1.7rem;
-    font-weight: 300;
-    text-align: center;
-}
-
-.txt-diff--m{
-    font-size: 1.1rem;
-    font-weight: 500;
-}
-
-.txt-diff--m-clear{
-    font-size: 1.1rem;
-    font-weight: 500;
-    color: var(--color-clear);
-}
-
-.txt-diff--s{
-    font-size: 0.8rem;
-    font-weight: 500;
-    color: var(--color-dark);
 }
 
 .txt-mention{
     font-family: 'Elsie', cursive;
     font-size: 1.6rem;
-    margin: 0 0.3rem;
 }
 
 
