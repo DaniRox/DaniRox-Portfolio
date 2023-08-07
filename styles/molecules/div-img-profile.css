@@ -1,0 +1,15 @@
+@import url(../styles.css);
+
+.div-img-profile {
+    width: 13rem;
+    height: 16rem;
+    background-color: var(--color-tertiary);
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 50% 50%;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
