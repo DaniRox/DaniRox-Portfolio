@@ -5,9 +5,10 @@
     width: auto;
 }
 
-.project-img{
+.project__img{
     height: 100%;
     width: auto;
+    opacity: 0.6;
 }
 
 

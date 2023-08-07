@@ -33,6 +33,7 @@ html {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.9rem;
     font-weight: 300;
+    text-decoration: none;
 }
 
 .txt--em{
@@ -79,6 +80,7 @@ html {
 .txt-diff--s{
     font-size: 0.9rem;
     font-weight: 500;
+    color: var(--color-dark);
 }
 
 .txt-mention{
