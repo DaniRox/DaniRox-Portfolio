@@ -1,7 +1,7 @@
 @import url(../styles.css);
 
 .cards-container {
-    margin: 1.5rem 0;
+    margin: 3rem 0 2rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
