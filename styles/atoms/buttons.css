@@ -10,6 +10,8 @@
     padding: 1rem;
     display: flex;
     z-index: 1;
+    position: fixed;
+    right: 1rem;
 }
 
 
