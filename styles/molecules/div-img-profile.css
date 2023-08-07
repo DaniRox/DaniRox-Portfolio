@@ -1,7 +1,7 @@
 @import url(../styles.css);
 
 .div-img-profile {
-    width: 13rem;
+    width: 13.5rem;
     height: 16rem;
     background-color: var(--color-tertiary);
     position: relative;
@@ -12,4 +12,21 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+}
+
+
+@media only screen and (min-width: 770px) {
+    .div-img-profile {
+        width: 14rem;
+        height: 17rem;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .div-img-profile {
+        width: 18rem;
+        height: 19rem;
+        margin-bottom: 0rem;
+        position: absolute;
+    }
 }

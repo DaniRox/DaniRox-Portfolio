@@ -9,3 +9,10 @@
     display: flex;
     justify-content: center;
 }
+
+
+@media only screen and (min-width: 770px) {
+    .project__div-img{
+        width: 14rem;
+    }
+}

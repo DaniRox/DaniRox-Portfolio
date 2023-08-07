@@ -92,7 +92,7 @@ html {
 
 @media only screen and (min-width: 470px) {
     html {
-        font-size: 20px;
+        font-size: 19px;
     }
 
     .title-pag{
@@ -103,7 +103,7 @@ html {
 
 @media only screen and (min-width: 770px) {
     html {
-        font-size: 23px;
+        font-size: 20px;
     }
 
     .title-pag{
@@ -113,7 +113,7 @@ html {
 
 @media only screen and (min-width: 1100px) {
     html {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .title-pag{

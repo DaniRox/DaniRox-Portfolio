@@ -10,3 +10,10 @@
 .project__txt > * {
     margin: 0.6rem;
 }
+
+
+@media only screen and (min-width: 770px) {
+    .project__txt{
+        width: 13rem;
+    }
+}
