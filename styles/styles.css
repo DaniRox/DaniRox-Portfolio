@@ -32,12 +32,12 @@ html {
 .txt{
     font-family: 'Montserrat', sans-serif;
     font-size: 0.9rem;
-    font-weight: 300;
+    font-weight: 400;
     text-decoration: none;
 }
 
 .txt--em{
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .txt--clear{
@@ -59,26 +59,24 @@ html {
 }
 
 .txt-diff--l{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 300;
-    color: var(--color-clear);
     text-align: center;
 }
 
 .txt-diff--m{
     font-size: 1.1rem;
     font-weight: 500;
-    color: var(--color-dark);
 }
 
 .txt-diff--m-clear{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     font-weight: 500;
     color: var(--color-clear);
 }
 
 .txt-diff--s{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 500;
     color: var(--color-dark);
 }
