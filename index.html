@@ -15,6 +15,8 @@
         <link rel="stylesheet" href="./styles/atoms/images.css">
         <link rel="stylesheet" href="./styles/atoms/projects__txt.css">
         <link rel="stylesheet" href="./styles/atoms/project__div-img.css">
+        <link rel="stylesheet" href="./styles/atoms/input-group.css">
+        <link rel="stylesheet" href="./styles/atoms/inpus-labels.css">
         <!-- molecules -->
         <link rel="stylesheet" href="./styles/molecules/menu-nav.css">
         <link rel="stylesheet" href="./styles/molecules/menu.css">
@@ -27,6 +29,9 @@
         <link rel="stylesheet" href="./styles/molecules/div-txts-profile.css">
         <link rel="stylesheet" href="./styles/molecules/card.css">
         <link rel="stylesheet" href="./styles/molecules/cards-container.css">
+        <link rel="stylesheet" href="./styles/molecules/contact-container.css">
+        <link rel="stylesheet" href="./styles/molecules/form.css">
+        <link rel="stylesheet" href="./styles/molecules/div-txt-contact.css">
         <!-- organisms -->
         <link rel="stylesheet" href="./styles/organisms/nav.css">
         <link rel="stylesheet" href="./styles/organisms/section-start.css">
@@ -36,6 +41,7 @@
         <link rel="stylesheet" href="./styles/organisms/section-galery.css">
         <link rel="stylesheet" href="./styles/organisms/section-profile.css">
         <link rel="stylesheet" href="./styles/organisms/section-skills.css">
+        <link rel="stylesheet" href="./styles/organisms/section-contact.css">
 
 
         <link rel="icon" href="./assets/icons/favicon-dr.png">
@@ -238,30 +244,40 @@
             </div>
 
         </section>
-<!--
-        <section class="section section--primary" id="contact">
+
+        <section class="section section-contact section--primary" id="contact">
 
             <h1 class="title txt--dark txt--xl">Contáctame</h1>
 
-            <div>
-                <span class="txt-primary txt-primary--secondary txt-primary--em">Me encantaría que trabajemos juntos.</span>
-                <span class="txt-primary txt-primary--secondary txt-primary--em">Descarga mi CV<img src="./assets/icons/arrow.svg" alt=""></span>
-                <img src="./assets/icons/logo-danirox.png" alt="logo danirox">
-            </div>
+            <div class="contact-container">
+                <div class="div-txt-contact">
+                    <span class="txt txt--secondary txt--m txt--regular">Me encantaría que trabajemos juntos.</span>
+                    <span class="txt txt--secondary txt--m txt--regular">Descarga mi CV  <img src="./assets/icons/arrow-secondary.svg" class="icon-arrow" alt="icono flecha"></span>
+                    <img src="./assets/icons/logo-danirox.png" class="logo-danirox" alt="logo danirox">
+                </div>
 
-            <div>
-                <form action="">
-                    <label for=""></label>
-                    <input type="text">
-                    <label for=""></label>
-                    <input type="email">
-                    <label for=""></label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                <form class="form" action="https://formsubmit.co/ daniroxescobar@gmail.com method="POST">
+                    <div class="input-group">
+                        <label for="nombre" class="txt-diff txt--m txt--secondary txt--bold">Nombre</label>
+                        <input name="nombre" id="nombre" type="text" autocomplete="on" required maxlength="50"  class="txt-diff txt--l txt--secondary txt--regular">
+                    </div>
+                    <div class="input-group">
+                        <label for="email" class="txt-diff txt--m txt--secondary txt--bold">E-mail</label>
+                        <input name="email" id="email" type="email" autocomplete="on" required  class="txt-diff txt--l txt--secondary txt--regular">
+                    </div>
+                    <div class="input-group">
+                        <label for="mensaje" class="txt-diff txt--m txt--secondary txt--bold">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" required  maxlength="30"  class="txt-diff txt--l txt--secondary txt--regular"></textarea>
+                    </div>
+                    <input type="submit" class="txt-diff txt--m txt--secondary txt--bold form-btn" id="form-btn" value="Enviar mensaje">
+
+                    <input type="hidden" name="_next" value="">
+                    <input type="hidden" name="_captcha" value="false">
                 </form>
             </div>
 
         </section>
--->  
+  
     </main>
 
     <footer class="section-footer section--secondary">

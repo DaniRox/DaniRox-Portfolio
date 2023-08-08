@@ -1,0 +1,7 @@
+@import url(../styles.css);
+
+.section-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

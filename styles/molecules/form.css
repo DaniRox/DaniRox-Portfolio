@@ -1,0 +1,13 @@
+@import url(../styles.css);
+
+.form {
+    width: 16rem;
+    height: 15rem;
+    background-color: var(--color-clear);
+    border-radius: 50% 0 0 50%;
+    padding: 1.5rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

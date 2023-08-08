@@ -1,0 +1,15 @@
+@import url(../styles.css);
+
+.contact-container{
+    margin: 3rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 770px) {
+    .contact-container{
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+}

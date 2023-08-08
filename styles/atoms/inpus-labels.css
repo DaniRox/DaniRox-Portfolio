@@ -1,0 +1,13 @@
+@import url(../styles.css);
+
+input, textarea {
+    width: 100%;
+    height: 2rem;
+    resize: none;
+    background-color: transparent;
+    border: none;
+}
+
+input, textarea:focus-visible{
+    outline: 0;
+}
