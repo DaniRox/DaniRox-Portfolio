@@ -2,8 +2,8 @@
 
 .card{
     width: 14rem;
-    height: 13rem;
-    padding: 1.5rem 1.5rem;
+    height: 16rem;
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -11,7 +11,7 @@
 
 .card-icons{
     width: 14rem;
-    height: 13rem;
+    height: 16rem;
     padding: 1.5rem;
     display: flex;
     flex-direction: row;
@@ -34,17 +34,15 @@
 
 
 @media only screen and (min-width: 770px) {
-    .card-icons{
-        width: 12rem;
-        height: 13rem;
-        padding: 1.5rem 1rem;
+    .card, .card-icons{
+        padding: 1.5rem;
+        width: 13rem;
+        height: 15rem;
     }
 }
 
 @media only screen and (min-width: 1100px) {
-    .card-icons{
-        width: 12rem;
-        height: 13rem;
+    .card, .card-icons{
         padding: 1.5rem 1rem;
     }
 }
