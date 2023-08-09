@@ -27,11 +27,34 @@
     align-items: center;
 }
 
-.btn-icon{
-    width: 1.9rem;
-    filter: drop-shadow(1px 2px 50px var(--color-dark));
+
+.form-btn:hover{
+    filter: drop-shadow(1px 1px 4px var(--color-secondary)) ;
 }
 
+.form-btn:active{
+    filter: drop-shadow(1px 1px 3px #232538b0) ;
+}
+
+.btn-icon{
+    width: 1.9rem;
+}
+
+.icon--secondary:hover{
+    filter: drop-shadow(1px 1px 4px var(--color-tertiary)) ;
+}
+
+.icon--secondary:active{
+    filter: drop-shadow(1px 1px 3px #23253888) ;
+}
+
+.icon--clear:hover{
+    filter: drop-shadow(1px 1px 4px var(--color-primary)) ;
+}
+
+.icon--clear:active{
+    filter: drop-shadow(1px 1px 3px #23253888) ;
+}
 
 .btn-arrow{
     width: 1.3rem;
