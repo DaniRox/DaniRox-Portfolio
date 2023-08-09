@@ -3,8 +3,9 @@
 .menu-nav {
     height: 9rem;
     right: 2rem;
-    top: 3.5rem;
+    top: 4.5rem;
     position: fixed;
+    z-index: 3;
     display: none;
     flex-direction: column;
     justify-content: space-around;
