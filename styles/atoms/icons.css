@@ -1,13 +1,5 @@
 @import url(../styles.css);
 
-.icon {
-    width: 1.9rem;
-}
-
-.btn-icon {
-    height: 1.4rem;
-}
-
 .logo-header {
     height: 3rem;
 }
@@ -19,9 +11,4 @@
 
 .logo-danirox{
     width: 9rem;
-}
-
-.icon-arrow{
-    width: 0.8rem;
-    height: auto;
 }

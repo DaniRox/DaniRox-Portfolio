@@ -27,6 +27,22 @@
     align-items: center;
 }
 
+.btn-icon{
+    width: 1.9rem;
+    filter: drop-shadow(1px 2px 50px var(--color-dark));
+}
+
+
+.btn-arrow{
+    width: 1.3rem;
+    margin-bottom: -0.2rem;
+    height: auto;
+}
+
+.btn-menu {
+    height: 1.4rem;
+}
+
 
 @media only screen and (min-width: 770px) {
     #btn-menu-nav {
