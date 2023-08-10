@@ -4,6 +4,7 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
+    transition: all 0.2s;
 }
 
 #btn-menu-nav {
@@ -25,6 +26,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: all 0.2s;
 }
 
 
@@ -41,6 +43,7 @@
 }
 
 .icon--secondary:hover{
+    transform: scale(1.1, 1.1);
     filter: drop-shadow(1px 1px 4px var(--color-tertiary)) ;
 }
 
@@ -49,6 +52,7 @@
 }
 
 .icon--clear:hover{
+    transform: scale(1.1, 1.1);
     filter: drop-shadow(1px 1px 4px var(--color-primary)) ;
 }
 
