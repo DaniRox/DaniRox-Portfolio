@@ -17,18 +17,19 @@
 
 .form-btn{
     width: 8rem;
-    height: 4rem;
+    height: 2.5rem;
     padding: 0.5rem;
     background-color: var(--color-primary);
     border-radius: 0.3rem;
-    margin: 0.6rem 0;
+    margin-top: 0.6rem;
+    border: none;
+    box-shadow: 0px 0px 10px #2325384b;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     transition: all 0.2s;
 }
-
 
 .form-btn:hover{
     filter: drop-shadow(1px 1px 4px var(--color-secondary)) ;

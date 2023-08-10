@@ -1,0 +1,11 @@
+@import url(../styles.css);
+
+.section-form-submit{
+    width: 100%;
+    height: 100vh;
+    background-color: #f0d9d1c0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
