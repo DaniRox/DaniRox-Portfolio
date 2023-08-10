@@ -1,11 +1,11 @@
-const description = document.getElementById("project-description");
-const title = document.getElementById("project-title");
+const description = document.querySelector("#project-description");
+const title = document.querySelector("#project-title");
 
 
 function displayDescription(){
     if(description.style.display === "flex"){
         description.style.display = "none";
+    } else {
+        description.style.display = "flex";
     }
 }
-
-title.addEventListener("onmousedown", displayDescription);

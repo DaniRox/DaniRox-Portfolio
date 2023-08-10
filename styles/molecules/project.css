@@ -9,6 +9,6 @@
 }
 
 #project-description{
-    display: flex;
+    display: none;
     flex-direction: column;
 }
