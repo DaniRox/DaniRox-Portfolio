@@ -11,3 +11,9 @@ function displayMenu(){
 }
 
 btnMenu.addEventListener("click", displayMenu);
+
+function displayMenuDesktop(){
+    if(menuNav.style.display === "flex"){
+        menuNav.style.display = "none";
+    }
+}
