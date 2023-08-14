@@ -43,7 +43,7 @@ html {
 }
 
 .txt--l{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 .txt--xl{
@@ -86,6 +86,10 @@ html {
 
 .txt-menu{
     transition: all 0.3s;
+}
+
+.text-center{
+    text-align: center;
 }
 
 .txt-menu:hover{

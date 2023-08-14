@@ -3,7 +3,6 @@
 .div-txt-contact {
     width: 12rem;
     height: 15rem;
-    padding: 1.5rem 0;
     margin: 1rem;
     display: flex;
     flex-direction: column;
@@ -11,3 +10,10 @@
     justify-content: space-around;
 }
 
+
+
+@media only screen and (min-width: 770px) {
+    .div-txt-contact {
+        padding: 1.5rem 0;
+    }
+}

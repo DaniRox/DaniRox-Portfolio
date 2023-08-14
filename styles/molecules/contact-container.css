@@ -1,7 +1,7 @@
 @import url(../styles.css);
 
 .contact-container{
-    margin: 3rem 0 2rem;
+    margin: 0 0 2rem 0;
     display: flex;
     flex-direction: column;
 }
@@ -9,6 +9,7 @@
 @media only screen and (min-width: 770px) {
     .contact-container{
         width: 100%;
+        margin: 3rem 0 2rem;
         flex-direction: row-reverse;
         justify-content: space-evenly;
     }

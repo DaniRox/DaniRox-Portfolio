@@ -3,8 +3,14 @@
 .projects-container{
     margin: 1.5rem 0;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
 }
 
+
+@media only screen and (min-width: 770px) {
+    .projects-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

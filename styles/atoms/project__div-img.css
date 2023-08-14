@@ -2,7 +2,7 @@
 
 .project__div-img{
     width: 16rem;
-    height: 14rem;
+    height: 15rem;
     background-color: var(--color-tertiary);
     border-radius: 50% 50% 0 0;
     overflow: hidden;
@@ -13,6 +13,7 @@
 
 @media only screen and (min-width: 770px) {
     .project__div-img{
-        width: 14rem;
+        width: 16rem;
+        height: 15rem;
     }
 }
