@@ -2,7 +2,7 @@
 
 .project__txt{
     width: 15rem;
-    max-height: 3rem;
+    max-height: 17rem;
     background-color: var(--color-tertiary);
     padding: 0.2rem 0.5rem;
     overflow: hidden;
@@ -14,9 +14,6 @@
     flex-direction: column;
 }
 
-.project__txt:hover{
-    max-height: 16rem;
-}
 
 .project__txt > * {
     margin: 0.7rem;
@@ -27,5 +24,10 @@
 @media only screen and (min-width: 770px) {
     .project__txt{
         width: 15rem;
+        max-height: 3rem;
+    }
+
+    .project__txt:hover{
+        max-height: 16rem;
     }
 }
