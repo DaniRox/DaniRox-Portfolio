@@ -5,7 +5,7 @@
 
 ## Descripción
 
-Este proyecto es mi portfolio personal de desarrollador front-end, herramienta indispensable para mostrar mi trabajo.
+Bienvenido a mi portfolio: Explora Mi Mundo como Desarrollador Front-End
 
 
 ### Enlace: [DaniRox-Portfolio](https://danirox.github.io/DaniRox-Portfolio/)
