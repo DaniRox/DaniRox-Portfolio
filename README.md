@@ -1,7 +1,7 @@
 # **DaniRox-Portfolio**
 
 ### Captura de pantalla
-![inicio_danirox-portfolio](https://user-images.githubusercontent.com/108234679/252532204-56f2f31c-c3fe-4080-b484-f5b941277cd9.png)
+![inicio_danirox-portfolio](https://user-images.githubusercontent.com/108234679/261074795-e79ec220-454f-4bf0-90fb-f3cf9d09875b.png)
 
 ## Descripción
 
@@ -57,5 +57,5 @@ Aún continúo mejorando detalles estéticos del proyecto.
 
 ## Autor
 
-- LiinkedIn - [DaniRox](https://www.linkedin.com/in/daniroxescobar/)
+- LinkedIn - [DaniRox](https://www.linkedin.com/in/daniroxescobar/)
 
