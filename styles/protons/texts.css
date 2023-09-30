@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;500&family=Elsie&family=Montserrat:wght@300;400;500&family=Playfair+Display:wght@600&display=swap');
+
+.txt{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    text-decoration: none;
+    line-height: 1.15;
+}
+
+.txt--s{
+    font-size: 0.8rem;
+}
+
+.txt--m{
+    font-size: 1rem;
+}
+
+.txt--l{
+    font-size: 1.4rem;
+}
+
+.txt--xl{
+    font-size: 2.1rem;
+}
+
+.txt--light{
+    font-weight: 300;
+}
+
+.txt--regular{
+    font-weight: 400;
+}
+
+.txt--bold{
+    font-weight: 500;
+}
+
+.txt--clear{
+    color: var(--color-clear);
+}
+
+.txt--dark{
+    color: var(--color-dark);
+}
+
+.txt--secondary{
+    color: var(--color-secondary);
+}
+
+.txt-diff{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-decoration: none;
+}
+
+.txt-mention{
+    font-family: 'Elsie', cursive;
+    font-size: 1.1rem;
+}
+
+.txt-menu{
+    transition: all 0.3s;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.txt-menu:hover{
+    transform: scale(1.1, 1.1);
+}
