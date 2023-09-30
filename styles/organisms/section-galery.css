@@ -13,10 +13,3 @@
         margin-bottom: 5rem;
     }
 }
-
-@media only screen and (min-width: 1024px) {
-    .section-galery{
-        min-height: 36rem;
-        margin-bottom: 10rem;
-    }
-}
